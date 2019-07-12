@@ -1,4 +1,32 @@
-theme: jekyll-theme-minimal
+# Site settings
 title: Foundry VTT Community
-description: A community of dedicated fans to Foundry VTT
-logo: https://avatars0.githubusercontent.com/u/52731005?s=200&v=4
+description: >
+  A community effort to collect and organize information about Foundry Virtual Tabletop
+lang: en-US
+
+baseurl: "" # the subpath of the site, e.g. /blog/
+url: / # the base hostname & protocol for the site
+git_address: https://github.com/foundry-vtt-community/foundry-vtt-community.github.io
+git_edit_address: https://github.com/foundry-vtt-community/foundry-vtt-community.github.io/
+
+# Theme options from https://bootswatch.com/
+# Comment out this to use default Bootstrap
+bootwatch: superhero
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-titles-from-headings
+  - jekyll-default-layout
+  - jekyll-optional-front-matter
+
+# Files to exclude
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .idea/
+  - .gitignore
+  - README.md
