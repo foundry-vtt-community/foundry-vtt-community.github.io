@@ -37,11 +37,11 @@ docker run -p 8080:80 foundry-vtt-community.github.io
 
 ### Jekyll Theme
 
-Go to [jekyll doc theme's website](https://github.com/aksakalli/jekyll-doc-theme) for more detailed information about the Jekyll theme.
+Go to [jekyll doc theme website](https://github.com/aksakalli/jekyll-doc-theme) for more detailed information about the Jekyll theme.
 
 ### Bootstrap Theme
 
-Go to [the superhero theme](https://bootswatch.com/superhero/) for more detailed information about the Bootstrap theme.
+Go to [the superhero theme website](https://bootswatch.com/superhero/) for more detailed information about the Bootstrap theme.
 
 ## License
 
