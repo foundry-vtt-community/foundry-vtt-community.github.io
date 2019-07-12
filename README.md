@@ -1,7 +1,5 @@
 # Foundry Community Website
 
-Go to [the website](https://aksakalli.github.io/jekyll-doc-theme/) for more detailed information.
-
 ## Running Locally
 
 You need Ruby and gem before starting, then:
@@ -34,6 +32,16 @@ docker build --build-arg JEKYLL_BASEURL="/your-base/url" -t foundry-vtt-communit
 ```
 docker run -p 8080:80 foundry-vtt-community.github.io
 ```
+
+## Themes Used
+
+### Jekyll Theme
+
+Go to [jekyll doc theme's website](https://github.com/aksakalli/jekyll-doc-theme) for more detailed information about the Jekyll theme.
+
+### Bootstrap Theme
+
+Go to [the superhero theme](https://bootswatch.com/superhero/) for more detailed information about the Bootstrap theme.
 
 ## License
 
