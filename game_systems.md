@@ -2,5 +2,6 @@
 layout: redirected
 sitemap: false
 permalink: /game_systems/
-redirect_to: /wiki/Community-Game-Systems/
+redirect_to:
+  - https://foundry-vtt-community.github.io/wiki/Community-Game-Systems/
 ---
