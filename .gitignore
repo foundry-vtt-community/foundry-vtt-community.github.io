@@ -8,5 +8,6 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 *.gem
+Gemfile.lock
 .bundle
 vendor/bundle
