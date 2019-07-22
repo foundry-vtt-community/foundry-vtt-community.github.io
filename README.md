@@ -16,23 +16,6 @@ cd foundry-vtt-community.github.io
 bundle exec jekyll serve
 ```
 
-## Docker
-
-Alternatively, you can deploy it using the multi-stage [Dockerfile](Dockerfile)
-that serves files from Nginx for better performance in production.
-
-Build the image for your site's `JEKYLL_BASEURL`:
-
-```
-docker build --build-arg JEKYLL_BASEURL="/your-base/url" -t foundry-vtt-community.github.io .
-```
-
-(or leave it empty for root: `JEKYLL_BASEURL=""`) and serve it:
-
-```
-docker run -p 8080:80 foundry-vtt-community.github.io
-```
-
 ## Themes Used
 
 ### Jekyll Theme

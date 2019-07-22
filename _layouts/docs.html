@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-4">
+			<!-- [iFrame Resizer](https://davidjbradshaw.github.io/iframe-resizer/)
+				Has issue with not rendering the iframe 100% of the time
+			<script type="text/javascript" src="/js/iframeResizer.js"></script>
+			<style>
+				iframe {
+					width: 1px;
+					min-width: 100%;
+					border: 0px;
+				}
+			</style>
+			<iframe id="sidebarIframe" src="/wiki/wiki-nav.html"></iframe>
+			<script type="text/javascript">
+				iFrameResize({ log: false }, '#sidebarIframe')
+			</script>--->
+			<iframe height="2000px" width="100%" frameborder="0" scrolling="no" src="/wiki/wiki-nav.html" ></iframe>
+		</div>
+
+		<div class="col-md-8">
+			<h1>{{ page.title }}</h1>
+			<div id="markdown-content-container">
+				{{ content }}
+			</div>
+
+			<div style="clear:both;">
+				{% if page.title contains 'Welcome to the FVTT Community Wiki!' %}
+				{% else %}
+					<p class="text-center">
+						<br />
+						<a target="_blank" href="{{site.git_edit_address}}/{{ page.title }}/_edit" class="btn btn-default githubEditButton" role="button"><i class="fas fa-edit"></i> Improve This Page!</a>
+					</p>
+				{% endif %}
+			</div>
+		</div>
+	</div>
+</div>
