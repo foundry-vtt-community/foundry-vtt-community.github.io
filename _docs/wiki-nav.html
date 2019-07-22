@@ -1,0 +1,70 @@
+<base target="_parent">
+
+<!-- Import jquery from Google -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+<!-- Lightweight client-side loader that feature-detects and load polyfills only when necessary -->
+<script defer src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
+
+<!-- Load the element definition -->
+<script type="module">
+	WebComponents.waitFor(() => {
+		let el = document.createElement('script');
+		el.src = 'https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js';
+		document.head.appendChild(el);
+	});
+</script>
+
+<!-- Load https://github .com/davidjbradshaw/iframe-resizer
+	Has issue with not rendering the iframe 100% of the time
+<script type="text/javascript" src="/js/iframeResizer.contentWindow.js"></script>
+
+<!-- Set the `src` attribute to MD file -->
+<zero-md src="/wiki/Home.md">
+	<!-- Declare `<template>` element as a child of `<zero-md>` -->
+	<template>
+		<style>
+			.markdown-body a {
+				color: #ebebeb;
+				text-decoration: none;
+				background-color: transparent;
+			}
+			.markdown-body a:hover{
+				color: #ebebeb;
+				text-decoration: none;
+			}
+			.markdown-body * {
+				box-sizing: border-box;
+			}
+			.markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4, .markdown-body h5, .markdown-body h6 {
+				font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+				font-weight: 400;
+				line-height: 1.25;
+			}
+			.markdown-body h1 {
+				border-bottom: 1px dotted #ebebeb;
+				font-size: 20px;
+			}
+			.markdown-body h2 {
+				font-size: 18px;
+				padding-left: 10px;
+			}
+			.markdown-body h3 {
+				font-size: 16px;
+				padding-left: 20px;
+			}
+			.markdown-body h4 {
+				font-size: 14px;
+				padding-left: 20px;
+			}
+			.markdown-body h5 {
+				font-size: 12px;
+				padding-left: 20px;
+			}
+			.markdown-body h6 {
+				font-size: 10px;
+				padding-left: 20px;
+			}
+		</style>
+	</template>
+</zero-md>
