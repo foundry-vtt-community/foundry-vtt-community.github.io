@@ -7,6 +7,7 @@
       * [Display mode](#display-mode)
       * [Entity Order](#entity-order)
       * [Popout!](#popout)
+      * [GM Roll Message](#gm-roll-message)
       * [Grid Scaler](#grid-scaler)
       * [Infinite Folders](#infinite-folders)
       * [Journal Enhancer](#journal-enhancer)
@@ -104,6 +105,21 @@ This Foundry VTT module allows you to re-order entities (Actors, Scenes, Items a
 
 ### Description
 This Foundry VTT module lets you pop out journal entries into their own windows. It is currently acting as a proof of concept.
+
+## GM Roll Message
+
+* **Author**: Hydroxi#0366 on Discord.
+* **Version**: WIP
+* **Foundry VTT Compatibility**: 0.3+
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
+
+### Link(s) to Module
+* [https://github.com/Hydroxi/gmrollmessage](https://github.com/Hydroxi/gmrollmessage) 
+
+### Description
+Sends an extra public message/hint when rolling a `gmroll` or `blindroll`.
 
 ## Grid Scaler
 
