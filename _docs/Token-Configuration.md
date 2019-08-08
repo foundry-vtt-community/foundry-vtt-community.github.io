@@ -9,7 +9,7 @@ In the token configuration screen, multiple tabs at the top let you access diffe
 The first field in the character tab is the Nameplate field, which lets you edit the name of the token. It can differ from it’s actor name, and can be shown or not with various behaviours in the Show Nameplate drop down menu. The actor the token represents can also be changed in the Represented Actor field (no clue what use case to use as example here, if anyone has an idea).
 
 ## Link Actor Data
-This option should only be selected for unique actors, such as PCs and important unique NPCs. They tie the token data to the actor sheet. By default, a ressources tracked on the token is tracked independently from the parent actor, since the same actor could spawn multiple tokens, such as a horde of goblins which all have the same “stat block” but will take different amounts of damage in a combat.
+This option should only be selected for unique actors, such as PCs and important unique NPCs. They tie the token data to the actor sheet. By default, a resources tracked on the token is tracked independently from the parent actor, since the same actor could spawn multiple tokens, such as a horde of goblins which all have the same “stat block” but will take different amounts of damage in a combat.
 
 ## Token Disposition
 This section has three settings to visually represent the token’s feelings towards the PCs with a colored border around the token: green for friendly, yellow for neutral, and red for hostile.
@@ -41,10 +41,10 @@ You should rarely need to use this tab, as all of these settings are generally u
 Pretty self explanatory, these are the coordinates of the token in pixels and are updated as you move the tokens around the map. You cannot manually update them with numbers. Do note that the coordinates cover a broader area than the actual map size, as there is a bit of padding around the edges to act as a "side table" area. As such, a token set to (0,0) won't actually be in the top left corner of the map, but rather some distance beyond that.
 
 ## Elevation
-This does not have an incidence on the appearane of the token, but it does set how far "above" the map the token is (such as with flying creatures of ledges) and that number appears above the token if it is different from 0. It can be quickly adjusted via the [Token HUD](Token-HUD), but it can be useful to set a default elevation for flying creatures.
+This does not have an incidence on the appearance of the token, but it does set how far "above" the map the token is (such as with flying creatures of ledges) and that number appears above the token if it is different from 0. It can be quickly adjusted via the [Token HUD](Token-HUD), but it can be useful to set a default elevation for flying creatures.
 
 ## Rotation Controls
-Again, the rotation field is greyed out and can only be changed on the map, using `Shift` (faster), or `Ctrl` (slower), + mousewheel to rotate the token, or by using `Shift` + `WASD` to make the token face the correct direction directly. The _Lock Rotation_ option is mainly useful for "portrait" style tokens that should not face a direction be instead stay upright.
+Again, the rotation field is grayed out and can only be changed on the map, using `Shift` (faster), or `Ctrl` (slower), + mousewheel to rotate the token, or by using `Shift` + `WASD` to make the token face the correct direction directly. The _Lock Rotation_ option is mainly useful for "portrait" style tokens that should not face a direction be instead stay upright.
 
 A possible workaround, or **issue**, regarding the inability to manually change the token's rotation, lies with the default's configuration ability to "Assign" a token. If a default token is set in such a way, it will remember the rotation setting for future uses, which is not an issue with the coordinates since those are the ones you drag the token to when you put them on the map.
 
@@ -54,13 +54,13 @@ This tab is mainly useful for maps that do not use _Global Illumination_, and ar
 ## Vision Fields
 The vision fields determine how far a token can see (as bright or dim light) in **the absence of a light source**. There is currently no support for the overlap of dim vision and dim light to result in bright vision as with Darkvision in the D&D 5e system.
 
-The distance in this section is set using the scale you specified for the scene and not in a number of squares. As such, if you set the scene to be 1 square = 5 ft., you wouldn't enter 12 (squares) to have 60 ft. of vision or light, but instead simply put 60. The units are not taken into account, so if vision is set to 60 and your world map is set to squares of 1 mile, your token would have 60 _miles_ of vision. Since all four values are set as a radius starting from the token, if a token sees in darness as in bright light for 30 feet, and 30 more as dim light, the _Dim Vision_ should be set to 60 to account for the first 30 feet covered by the bright vision. The same logic applies to the light fields.
+The distance in this section is set using the scale you specified for the scene and not in a number of squares. As such, if you set the scene to be 1 square = 5 ft., you wouldn't enter 12 (squares) to have 60 ft. of vision or light, but instead simply put 60. The units are not taken into account, so if vision is set to 60 and your world map is set to squares of 1 mile, your token would have 60 _miles_ of vision. Since all four values are set as a radius starting from the token, if a token sees in darkness as in bright light for 30 feet, and 30 more as dim light, the _Dim Vision_ should be set to 60 to account for the first 30 feet covered by the bright vision. The same logic applies to the light fields.
 
 ## Light Fields
 This section let's you set if a token is emitting light, like in the instance of a character carrying a torch illuminating the surroundings. The setup follows the same rules as the vision fields.
 
-# Ressources Tab
-This is where you can setup which ressources to track for a token. This is where you can track the attributes of tokens that are not linked to a character sheet individually. Note that these can also be edited in the [Token HUD](Token-HUD) once set to be tracked.
+# Resources Tab
+This is where you can setup which resources to track for a token. This is where you can track the attributes of tokens that are not linked to a character sheet individually. Note that these can also be edited in the [Token HUD](Token-HUD) once set to be tracked.
 
 ## Display Bars
 The choices here are pretty self explanatory. You do not need to make a bar visible at all to track an attribute, though it can be useful at a glance. The first tracked attribute's bar will appear bellow the token in green, while the second (if it exists) will appear above in pale blue.
