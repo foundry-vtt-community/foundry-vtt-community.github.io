@@ -38,6 +38,8 @@
       * [Roll20 NPC Importer, for 5e](#roll20-npc-importer-for-5e)
       * [Spell Browser](#spell-browser)
       * [SRD Bestiary Module](#srd-bestiary-module)
+   * [Foundry VTT Modules for WFRP 4E](#foundry-vtt-modules-for-wfrp-4e)
+      * [Arcane Marks &amp; Careers](#arcane-marks--careers)
    * [Foundry VTT Modules (Defunct)](#foundry-vtt-modules-defunct)
       * [aDnD5e](#adnd5e)
    * [Appendix](#appendix)
@@ -593,6 +595,31 @@ This module includes each SRD NPC in 5th edition, imported into Foundry VTT. Thi
 Future updates will include edits to the imports to bring them in line with “good practice” for Foundry NPCs.
 
 To install, simply extract the zip file into `/public/modules`, enable the module in Foundry, and then do a full restart in order to display the compendium.
+
+# Foundry VTT Modules for WFRP 4E
+
+Foundry modules that work within Warhammer Fantasy Roleplay 4th Edition are noted here. These may include NPC compendiums that may be legally shared, world saves, character sheet mods, changes to roll tables, etc.
+
+## Arcane Marks & Careers
+
+* **Author**: Moo Man#7518 on Discord
+* **Version**: 1.2.1
+* **Foundry VTT Compatibility**: 0.3+
+* **System Compatibility**: Warhammer Fantasy Roleplay 4th Edition.
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
+
+### Link(s) to Module
+* https://github.com/moo-man/Arcane-Marks-Careers-FVTT
+
+### Description
+[This homebrew](https://drive.google.com/file/d/1uTy2r0EDMdcISFqqyxeIOSadtzz-OTAg/view) supplement I made adds Lore specific careers and marks for WFRP4e. 
+
+This module for FVTT adds these careers and tables to the [WFRP4e system](https://github.com/CatoThe1stElder/WFRP-4th-Edition-FoundryVTT/tree/stable)
+
+To install, simply add `arcane-marks-careers` into the modules folder in the `public` directory of Foundry. Enable the module in your world, then restart Foundry.
+
+Once installed, you'll find the careers in the Arcane Careers Compendium, and you can roll on any Arcane Mark table with the chat command `/table <wind-name>`, e.g. `/table aqshy`.
 
 # Foundry VTT Modules (Defunct)
 
