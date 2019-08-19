@@ -4,6 +4,7 @@
 <!--ts-->
    * [Foundry VTT Modules (Universal)](#foundry-vtt-modules-universal)
       * [Chat Autoloader](#chat-autoloader)
+      * [Dice Calculator](#dice-calculator)
       * [Display mode](#display-mode)
       * [Entity Order](#entity-order)
       * [Popout!](#popout)
