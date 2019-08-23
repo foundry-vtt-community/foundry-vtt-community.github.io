@@ -11,6 +11,7 @@
       * [Popout!](#popout)
       * [GM Roll Message](#gm-roll-message)
       * [Grid Scaler](#grid-scaler)
+      * [Image Previewer](#image-previewer)
       * [Infinite Folders](#infinite-folders)
       * [Journal Enhancer](#journal-enhancer)
       * [Layer Hotkeys](#layer-hotkeys)
@@ -27,6 +28,7 @@
       * [Better NPC Sheet 5e](#better-npc-sheet-5e)
       * [Beyond 20](#beyond-20)
       * [Chat Damage Buttons](#chat-damage-buttons)
+      * [DDB Popper](#ddb-popper)
       * [DnD Beyond Character Importer](#dnd-beyond-character-importer)
       * [Encumbrance Variant](#encumbrance-variant)
       * [Favourite Item Tab](#favourite-item-tab)
@@ -440,6 +442,22 @@ This module allows you to use and roll sheets in DnD Beyond, and have those resu
 This module replaces the right-click context menu with buttons on the dice-roll chat message. This allows for quicker application of damage/healing.
 
 To install the module, download the zip file included in the Github module directory. Extract the zip file to `/public/modules`. Restart Foundry Virtual Tabletop.
+
+## DDB Popper
+
+* **Author**: errational#2007 on discord
+* **Version**: 0.1
+* **Foundry VTT Compatibility**: 0.3.4
+* **System Compatibility (If applicable)**: dnd5e
+* **Module Requirement(s)**: N/A
+* **Module Conflicts**: N/A
+
+### Link(s) to Module
+* https://github.com/eclarke12/fvtt-modules/tree/master/ddb-popper
+* [Download](https://github.com/eclarke12/fvtt-modules/raw/master/ddb-popper.zip)
+
+### Description
+Opens a D&D Beyond popup for a linked actor. More info here: https://github.com/eclarke12/fvtt-modules/tree/master/ddb-popper
 
 ## DnD Beyond Character Importer
 
