@@ -3,6 +3,7 @@
 <!--tl=2-->
 <!--ts-->
    * [Foundry VTT Modules (Universal)](#foundry-vtt-modules-universal)
+      * [Always Show Notes](#always-show-notes)
       * [Chat Autoloader](#chat-autoloader)
       * [Deselection](#deselection)
       * [Dice Calculator](#dice-calculator)
@@ -22,8 +23,9 @@
       * [Permission Viewer](#permission-viewer)
       * [Pointer](#pointer)
       * [SVG Loader](#svg-loader)
-      * [Token Randomizer](#token-randomizer)
+      * [Tiles Browser](#tiles-browser)
       * [VTTA Tokenizer](#vtta-tokenizer)
+      * [Token Randomizer](#token-randomizer)
       * [Z Order](#z-order)
    * [Foundry VTT Modules for DnD 5E](#foundry-vtt-modules-for-dnd-5e)
       * [Better NPC Sheet 5e](#better-npc-sheet-5e)
@@ -47,6 +49,7 @@
    * [Foundry VTT Modules (Defunct)](#foundry-vtt-modules-defunct)
       * [aDnD5e](#adnd5e)
       * [Encumbrance Variant](#encumbrance-variant)
+      * [FVTT-Party (Discontinued, see VTTA-Party for an successor)](#fvtt-party-discontinued-see-vtta-party-for-an-successor)
    * [Appendix](#appendix)
       * [Appendix A: Adding a Module](#appendix-a-adding-a-module)
       * [Appendix B: Best Editing Practices](#appendix-b-best-editing-practices)
@@ -56,6 +59,20 @@
 
 Foundry modules that work across all or most systems are noted here. These may include reskins, general improvement mods, and more.
 
+## Always Show Notes
+
+* **Author**: Pin#8969
+* **Version**: 0.1
+* **Foundry VTT Compatibility**: 0.3.5
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: N/A
+* **Module Conflicts**: No known conflicts
+
+### Link(s) to Module
+* https://github.com/Pingar5/alwaysshownotes
+
+### Description
+Sets the Display Notes toggle to true by default
 
 ## Chat Autoloader
 
@@ -361,6 +378,18 @@ This module adds the ability for each user to show a cursor following his mouse 
 ### Description
 This module allows to load walls, lights and sources through .svg files, provided e.g. by DungeonFog.
 
+## Tiles Browser
+
+* **Author**: Moerill#7205 on Discord. He accepts donations at his [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYZ294SP2JBGS&source=url).
+* **Version**: 0.2
+* **Foundry VTT Compatibility**: 0.3.5
+
+### Link(s) to Module
+* https://gitlab.com/moerills-fvtt-modules/tiles-browser/
+
+### Description
+Adds a browser to the tiles layer to conveniently preview and then drag and drop tiles onto the scene. Providing additional features to manipulate tile rotation and size while dragging.
+
 ## VTTA Tokenizer
 
 * **Author**: solfolango77#0880 on Discord. His Patreon can be found here: [https://www.patreon.com/vttassets](https://www.patreon.com/vttassets) 
@@ -382,20 +411,26 @@ Tokenizer provides the user with:
 - automatic generation of a mask using the marching squares algorithm
 - automatic upload of the created tokens to the Foundry VTT server (requires 'Trusted Player' permission level)
 
-## Token Randomizer
+## Token Mold
 
 * **Author**: Moerill#7205 on Discord. He accepts donations at his [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYZ294SP2JBGS&source=url).
-* **Version**: (Note current version of module here.)
-* **Foundry VTT Compatibility**: 
-* **System Compatibility (If applicable)**:
-* **Module Requirement(s)**: 
-* **Module Conflicts**:
+* **Version**: 1.0
+* **Foundry VTT Compatibility**: 0.3.5
+* **System Compatibility (If applicable)**: All, though extra option to roll hp for DnD5e
+* **Module Conflicts**: This module replaces the *Token Randomizer*, hence it is not compatible with it.
 
 ### Link(s) to Module
-* [https://gitlab.com/moerills-fvtt-modules/token-randomizer](https://gitlab.com/moerills-fvtt-modules/token-randomizer) 
+* [https://gitlab.com/moerills-fvtt-modules/token-mold](https://gitlab.com/moerills-fvtt-modules/token-mold) 
 
 ### Description
-Module adding options to randomise token properties on creation.
+What is a foundry without its molds? This module provides you with a customizable mold for your Tokens.  
+On creation each unlinked Token will fit snuggly into the pattern of your mold.  
+**Features**
+- Automatic indexing
+- Random adjective prefixes (e.g. angry, calm, bloodthirsty, ...)
+- Hit Point rolling by formula (currently dnd5e only)
+- Overriding default token template config
+- Providing a customizable overlay to quickly  check some stats on Token hover
 
 ## Z Order
 
