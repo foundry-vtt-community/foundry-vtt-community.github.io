@@ -5,7 +5,7 @@ description: >
 lang: en-US
 
 baseurl: "" # The subpath of the site, e.g. /blog/
-url: / # The base hostname & protocol for the site
+url: "https://foundry-vtt-community.github.io/" # The base hostname & protocol for the site
 git_address: https://github.com/foundry-vtt-community/wiki
 git_edit_address: https://github.com/foundry-vtt-community/wiki/wiki
 
