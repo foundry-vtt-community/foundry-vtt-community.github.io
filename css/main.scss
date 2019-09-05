@@ -51,6 +51,21 @@ body {
 	margin-top: -37px;
 }
 
+.body-container {
+	background: url('../img/incarnatesystem.png') no-repeat 50% 0;
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.5);
+	background-blend-mode: darken;
+
+	h1 {
+		color: #fff;
+	}
+	// background-attachment: fixed;
+	background-size: cover;
+	background-position: center 36%;
+	margin-top: -37px;
+}
+
 .navbar-container {
 	font-size: 16px;
 }
