@@ -147,20 +147,19 @@ This module makes it so that when you click the anvil in the top left of the scr
 ### Description
 This Foundry VTT module allows you to re-order entities (Actors, Scenes, Items and Journal entries).
 
-## Popout!
-
+## Furnace
 * **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto) 
-* **Version**: 0.1
-* **Foundry VTT Compatibility**: 0.3+
+* **Version**: 0.5
+* **Foundry VTT Compatibility**: 0.3.5+
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
 
 ### Link(s) to Module
-* [https://github.com/kakaroto/fvtt-module-popout](https://github.com/kakaroto/fvtt-module-popout) 
+* [https://github.com/kakaroto/fvtt-module-furnace](https://github.com/kakaroto/fvtt-module-furnace) 
 
 ### Description
-This Foundry VTT module lets you pop out journal entries into their own windows. It is currently acting as a proof of concept.
+The Furnace is an essential part of every Foundry. This module adds Quality of Life improvements to Foundry VTT, such as advanced Drawing Tools.
 
 ## GM Roll Message
 
@@ -211,21 +210,6 @@ A little app to preview images on hover in the file picker menu.
 2. Unzip it into FoundryVTT/resources/app/public/modules
 3. Restart Foundry if it was running.
 4. Enable the module in the Module Configuration
-
-## Infinite Folders
-
-* **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto) 
-* **Version**: 0.1
-* **Foundry VTT Compatibility**: 0.3.1
-* **System Compatibility (If applicable)**: Universal
-* **Module Requirement(s)**: None
-* **Module Conflicts**: This module creates folders and allows you to create data where it shouldn't be. If a future FVTT update enforces the 2-depth limit on the server side, then all of the deeper folders and their content may be lost.
-
-### Link(s) to Module
-* [https://github.com/kakaroto/fvtt-module-infinite-folders](https://github.com/kakaroto/fvtt-module-infinite-folders) 
-
-### Description
-This Foundry VTT module allows you to create infinite depth of folders for Scenes, Actors, Items and Journals. No more limit to a depth of 2 folders (or none for Journal entries). This will also add a `New entity` button on folders so you can create it directly in the folder (does not work for Scenes though).
 
 ## Journal Enhancer
 
@@ -362,6 +346,21 @@ This Foundry VTT module displays colored diamonds/squares/circles to represent t
 
 ### Description
 This module adds the ability for each user to show a cursor following his mouse as well as adding the option to ping a certain location.
+
+## Popout!
+
+* **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto) 
+* **Version**: 0.1
+* **Foundry VTT Compatibility**: 0.3+
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
+
+### Link(s) to Module
+* [https://github.com/kakaroto/fvtt-module-popout](https://github.com/kakaroto/fvtt-module-popout) 
+
+### Description
+This Foundry VTT module lets you pop out journal entries into their own windows. It is currently acting as a proof of concept.
 
 ## SVG Loader
 
@@ -503,15 +502,15 @@ To install the module, download the zip file included in the Github module direc
 ## DDB Popper
 
 * **Author**: errational#2007 on discord
-* **Version**: 0.1
+* **Version**: 1.1
 * **Foundry VTT Compatibility**: 0.3.4
 * **System Compatibility (If applicable)**: dnd5e
 * **Module Requirement(s)**: N/A
 * **Module Conflicts**: N/A
 
 ### Link(s) to Module
-* https://github.com/eclarke12/fvtt-modules/tree/master/ddb-popper
-* [Download](https://github.com/eclarke12/fvtt-modules/raw/master/ddb-popper.zip)
+* https://github.com/death-save/ddb-popper/
+* [Download](https://github.com/death-save/ddb-popper/raw/master/ddb-popper.zip)
 
 ### Description
 Opens a D&D Beyond popup for a linked actor. More info here: https://github.com/eclarke12/fvtt-modules/tree/master/ddb-popper
