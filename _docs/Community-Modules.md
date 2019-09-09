@@ -9,6 +9,7 @@
       * [Dice Calculator](#dice-calculator)
       * [Display mode](#display-mode)
       * [Entity Order](#entity-order)
+      * [The Furnace](#the-furnace)
       * [Popout!](#popout)
       * [GM Roll Message](#gm-roll-message)
       * [Grid Scaler](#grid-scaler)
@@ -69,7 +70,7 @@ Foundry modules that work across all or most systems are noted here. These may i
 * **Module Conflicts**: No known conflicts
 
 ### Link(s) to Module
-* https://github.com/Pingar5/alwaysshownotes
+* [https://github.com/Pingar5/alwaysshownotes](https://github.com/Pingar5/alwaysshownotes)
 
 ### Description
 Sets the Display Notes toggle to true by default
@@ -159,6 +160,26 @@ This Foundry VTT module allows you to re-order entities (Actors, Scenes, Items a
 
 ---
 
+## The Furnace
+
+* **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto) 
+* **Version**: 1.0
+* **Foundry VTT Compatibility**: 0.3.5+
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
+
+### Link(s) to Module
+* [https://github.com/kakaroto/fvtt-module-furnace](https://github.com/kakaroto/fvtt-module-furnace) 
+
+### Description
+The Furnace is an essential part of every Foundry.
+
+This Foundry VTT module brings Quality of Life Improvements to the VTT.
+It started by adding Drawing Tools, and then an experiemntal Macros system and now it also adds a 'Split Journal' feature. More QoL improvements are planned.
+
+---
+
 ## Popout!
 
 * **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto) 
@@ -220,7 +241,7 @@ This mod allows you to resize a grid more easily within Foundry, allowing easier
 * **Module Conflicts**: none
 
 ### Link(s) to Module
-* https://github.com/syl3r86/image-previewer
+* [https://github.com/syl3r86/image-previewer](https://github.com/syl3r86/image-previewer)
 
 ### Description
 A little app to preview images on hover in the file picker menu.
@@ -425,7 +446,7 @@ This module allows to load walls, lights and sources through .svg files, provide
 * **Foundry VTT Compatibility**: 0.3.5
 
 ### Link(s) to Module
-* https://gitlab.com/moerills-fvtt-modules/tiles-browser/
+* [https://gitlab.com/moerills-fvtt-modules/tiles-browser/](https://gitlab.com/moerills-fvtt-modules/tiles-browser/)
 
 ### Description
 Adds a browser to the tiles layer to conveniently preview and then drag and drop tiles onto the scene. Providing additional features to manipulate tile rotation and size while dragging.
@@ -492,6 +513,8 @@ On creation each unlinked Token will fit snuggly into the pattern of your mold.
 
 ### Description
 This Foundry VTT module lets you send tiles to the front or the back of the scene.
+
+---
 
 # Foundry VTT Modules for DnD 5E
 
@@ -783,6 +806,7 @@ To install, simply extract the zip file into `/public/modules`, enable the modul
 Successor to fvtt-party, which is discontinued as of now. Provides both an overview about the party in regards to AC, HP, and passive perception/investigation/insight and adds tooltips for the actors of the currently active scene.
 Configurable options for granting players access to both features, or to use it for GMs only.
 
+---
 
 # Foundry VTT Modules for WFRP 4E
 
@@ -808,6 +832,8 @@ This module for FVTT adds these careers and tables to the [WFRP4e system](https:
 To install, simply add `arcane-marks-careers` into the modules folder in the `public` directory of Foundry. Enable the module in your world, then restart Foundry.
 
 Once installed, you'll find the careers in the Arcane Careers Compendium, and you can roll on any Arcane Mark table with the chat command `/table <wind-name>`, e.g. `/table aqshy`.
+
+---
 
 # Foundry VTT Modules (Defunct)
 
@@ -863,6 +889,8 @@ This module modifies how the encumbrance bar in the actor sheet is displayed to 
 This module adds a convenient button to the actor’s tab, which will track the HP, AC, and Passive Perception, Investigation, and Insight of tokens on the Canvas. Currently a WIP, and may exhibit some bugs.
 
 To install the module, download the zip file included in the Github module directory. Extract the zip file to `/public/modules`. Restart Foundry Virtual Tabletop.
+
+---
 
 # Appendix
 
