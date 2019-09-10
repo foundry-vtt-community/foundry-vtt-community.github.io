@@ -27,6 +27,8 @@
 ### Description
 An implementation of the Dungeons & Dragons 5th Edition ruleset under the OGL. This system currently comes bundled with Foundry VTT, but in the future may be distributed separately. Please feel free to post issues or pull requests to the GitLab repo for my consideration.
 
+---
+
 # Pathfinder
 
 Foundry systems for the various Pathfinder editions.
@@ -57,6 +59,8 @@ To install the system, follow these instructions:
 1. Extract the included folder to public/systems in your Foundry Virtual Tabletop installation folder.
 1. Restart Foundry Virtual Tabletop.
 
+---
+
 # Warhammer Fantasy
 
 Foundry systems for the various Warhammer Fantasy Roleplay editions.
@@ -76,6 +80,8 @@ Installing this system allows you to create campaigns in the grim and perilous w
 To install, place the wfrp4e download in your `public/systems` folder.  
 (Optional, highly recommended) Place `wfrp4e-starter-world` in `public/worlds`.
 
+---
+
 # Appendix
 
 ## Appendix A: Adding a Game System
@@ -93,6 +99,8 @@ To install, place the wfrp4e download in your `public/systems` folder.
 
 ### Description
 (Describe the game system here. This should include the game system’s function, installation instructions, and anything important to note. Due to the particular oddities of some archiving programs (WinRar, 7zip), and GitHub zip folders, including a screenshot of what the module should look like file-wise in the “public/systems/examplesystem” is appreciated, though not required.)
+
+---
 ```
 
 ## Appendix B: Best Editing Practices
