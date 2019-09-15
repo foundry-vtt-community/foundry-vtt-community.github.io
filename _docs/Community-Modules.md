@@ -592,6 +592,24 @@ To install the module, download the zip file included in the Github module direc
 
 ---
 
+## Chat Damage Buttons - Better Rolls Edition
+
+* **Author**: Felix#6196 and hooking#0492
+* **Version**: 0.1
+* **Foundry VTT Compatibility**: written for and tested on v0.3.6
+* **Module Requirement(s)**: [Better Rolls for 5e](https://github.com/RedReign/FoundryVTT-BetterRolls5e) by RedReign
+* **Module Conflicts**: none known.
+
+### Link(s) to Module
+* [https://github.com/syl3r86/chatdamagebuttons-betterrolls](https://github.com/syl3r86/chatdamagebuttons-betterrolls)
+
+### Description
+A small module to add "Apply Damage" buttons to Red Reigns Better Rolls 5e Module, based on hookings Chat Damage Buttons.
+To install use the following link in Foundrys Module Setup
+* https://raw.githubusercontent.com/syl3r86/chatdamagebuttons-betterrolls/master/chatdamagebuttons-betterrolls5e/module.json
+
+---
+
 ## DDB Popper
 
 * **Author**: errational#2007 on discord
@@ -832,7 +850,7 @@ Foundry modules that work within Warhammer Fantasy Roleplay 4th Edition are note
 ## Arcane Marks & Careers
 
 * **Author**: Moo Man#7518 on Discord
-* **Version**: 1.2.1
+* **Version**: 1.2.2
 * **Foundry VTT Compatibility**: 0.3+
 * **System Compatibility**: Warhammer Fantasy Roleplay 4th Edition.
 * **Module Requirement(s)**: None
