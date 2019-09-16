@@ -2,6 +2,9 @@
 ---
 <!--tl=2-->
 <!--ts-->
+   * [Appendix](#appendix)
+      * [Appendix A: Adding an Adventure](#appendix-a-adding-an-adventure)
+      * [Appendix B: Best Editing Practices](#appendix-b-best-editing-practices)
 <!--te-->
 
 
@@ -19,6 +22,7 @@
 * **Version**: (Note current version of the adventure here.)
 * **System Compatibility**: (Note which system(s) of Foundry Virtual Tabletop the adventure is compatible with.)
 * **Foundry VTT Compatibility**: (Note which versions of Foundry Virtual Tabletop the adventure is compatible with.)
+* **Translation Support**: (Note which languages are supported, and if they have (full) or (partial) translations.
 
 ### Link(s) to Adventure
 * (Put a web URL here to find the adventure.)
