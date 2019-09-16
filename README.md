@@ -1,5 +1,7 @@
 # Foundry Community Website Repository
 
+[![Build Status](https://travis-ci.org/foundry-vtt-community/foundry-vtt-community.github.io.svg?branch=master)](https://travis-ci.org/foundry-vtt-community/foundry-vtt-community.github.io)
+
 ## Running Locally
 
 You need Ruby and gem before starting, then:
