@@ -251,6 +251,25 @@ It started by adding Drawing Tools, and then an experimental Macros system and n
 
 ---
 
+## Playlist Import
+
+* **Author**: JacobMcAuley#3461 on Discord
+* **Version**: 1.0
+* **Foundry VTT Compatibility**: 0.3.7+
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
+* **Translation Support**: EN (full)
+
+### Link(s) to Module
+* [https://github.com/JacobMcAuley/playlist_import](https://github.com/JacobMcAuley/playlist_import)
+* [https://raw.githubusercontent.com/JacobMcAuley/playlist_import/master/module.json](https://raw.githubusercontent.com/JacobMcAuley/playlist_import/master/module.json)
+
+### Description
+This module aims to simplify the process of adding multiple music tracks to Foundry VTT, doing so in a timely manner.
+
+---
+
 ## Popout!
 
 * **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto)
@@ -324,7 +343,7 @@ This mod allows you to resize a grid more easily within Foundry, allowing easier
 ### Description
 A little app to preview images on hover in the file picker menu.
 #### Installation
-1. Download the [image-previewer.zip](https://github.com/syl3r86/image-previewer/raw/master/image-previewer.zip)
+1. Download the image-previewer.zip
 2. Unzip it into FoundryVTT/resources/app/public/modules
 3. Restart Foundry if it was running.
 4. Enable the module in the Module Configuration
@@ -701,8 +720,7 @@ To install the module, download the zip file included in the Github module direc
 
 ### Description
 A small module to add "Apply Damage" buttons to Red Reigns Better Rolls 5e Module, based on hookings Chat Damage Buttons.
-To install use the following link in Foundrys Module Setup
-* https://raw.githubusercontent.com/syl3r86/chatdamagebuttons-betterrolls/master/chatdamagebuttons-betterrolls5e/module.json
+To install use the following link in Foundrys Module Setup https://raw.githubusercontent.com/syl3r86/chatdamagebuttons-betterrolls/master/chatdamagebuttons-betterrolls5e/module.json
 
 ---
 
@@ -1116,7 +1134,7 @@ To install the module, download the zip file included in the Github module direc
 
 ### Link(s) to Module
 * (Put a web URL here to find the module.)
-* (Put the manifest url here to update/install module.)
+* (Put the manifest url here to update/install the module.)
 
 ### Description
 (Describe the module here. This should include the module’s function, installation instructions, and anything important to note. Due to the particular oddities of some archiving programs (WinRar, 7zip), and GitHub zip folders, including a screenshot of what the module should look like file-wise in the “public/modules/examplemodule” is appreciated, though not required.)
