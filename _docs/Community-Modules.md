@@ -36,6 +36,7 @@
       * [Z Order](#z-order)
    * [Foundry VTT Modules for DnD 5E](#foundry-vtt-modules-for-dnd-5e)
       * [Better NPC Sheet 5e](#better-npc-sheet-5e)
+      * [Better Rolls for 5e](#better-rolls-for-5e)
       * [Beyond 20](#beyond-20)
       * [Chat Damage Buttons](#chat-damage-buttons)
       * [Chat Damage Buttons - Better Rolls Edition](#chat-damage-buttons---better-rolls-edition)
@@ -137,6 +138,31 @@ configured for 3m, but this can be changed in the settings. When the bar
 reaches 3m, or the custom value, an 'expired' sound will play, but it does not
 automatically advance the turn. Shame is good enough in my opinion. If you need
 to pause the timer, it responds to FVTT's pause mechanic.
+
+---
+
+## Combat Utility Belt (Beta)
+
+* **Author**: errational#2007 on discord
+* **Version**: 0.5
+* **Foundry VTT Compatibility**: 0.3.7
+* **System Compatibility (If applicable)**: N/A
+* **Module Requirement(s)**: N/A
+* **Module Conflicts**: N/A
+* **Translation Support**: EN (full)
+
+### Link(s) to Module
+* [https://github.com/death-save/combat-utility-belt/tree/beta](https://github.com/death-save/combat-utility-belt/tree/beta)
+* [https://raw.githubusercontent.com/death-save/combat-utility-belt/beta/module.json](https://github.com/death-save/combat-utility-belt/tree/beta)
+
+### Description
+You can read more about the module in the README @ (https://github.com/death-save/combat-utility-belt/tree/beta).
+
+Some highlights for this version include:
+- [X] Hiding NPC Names for players
+- [X] Rerolling initiative each combat round
+- [X] Enhanced Conditions including the Condition Lab
+- [X] Marking injured and dead tokens
 
 ---
 
@@ -604,13 +630,13 @@ This module allows to load walls, lights and sources through .svg files, provide
 
 ## Theatre
 
-* **Author**: ayan#2758 on Discord
+* **Author**: Ken L. (ayan)
 * **Version**: 1.0.1
-* **Foundry VTT Compatibility**: 0.3.6+
+* **Foundry VTT Compatibility**: 0.3.7+
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
-* **Translation Support**: EN, JA, KO, PT-BR, FR, TH
+* **Translation Support**: EN/JA/KO/PT-BR/FR/TH (full)
 
 ### Link(s) to Module
 * [https://gitlab.com/Ayanzo/theatre](https://gitlab.com/Ayanzo/theatre)
@@ -725,6 +751,26 @@ Foundry modules that work within Dungeons and Dragons 5th Edition are noted here
 
 ### Description
 This module overwrites the default NPC sheet that comes shipped with the dnd5e system and brings it closer to the well known official template. It also includes functionality supporting separation of action categories (legendary actions, actions, reactions, etc.), and features the ability to expand and view the description of the ability/action in-sheet.
+
+---
+
+## Better Rolls for 5e
+
+* **Author**: Red Reign#5128 on Discord, RedReign on Github.
+* **Version**: 0.2.6
+* **Foundry VTT Compatibility**: 0.3.5+
+* **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
+* **Module Requirement(s)**: N/A
+* **Module Conflicts**: None known.
+* **Translation Support**: English, localization not yet supported.
+
+### Links to Module
+* [https://github.com/RedReign/FoundryVTT-BetterRolls5e](https://github.com/RedReign/FoundryVTT-BetterRolls5e)
+* [https://raw.githubusercontent.com/RedReign/FoundryVTT-BetterRolls5e/master/betterrolls5e/module.json](https://raw.githubusercontent.com/RedReign/FoundryVTT-BetterRolls5e/master/betterrolls5e/module.json)
+
+### Description
+This module modifies certain sheet functions on Foundry VTT Character sheets for D&D 5th Edition. Currently, it adds compound rolls (for attack rolls and damage rolls combined), as well as "dual rolls" for all attacks, ability checks, and saving throws, rolling 2 d20s side-by-side in a single chat message. On top of this are a few options to customize layout and enable/disable certain features of the module. 
+It currently supports the DnD5e Character and NPC sheets, Better NPC Sheet 5e, and Sky5e sheets, though adding support for other sheets can be done.
 
 ---
 
