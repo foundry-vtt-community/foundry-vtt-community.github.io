@@ -46,6 +46,7 @@
       * [Favourite Item Tab](#favourite-item-tab)
       * [Group Roll](#group-roll)
       * [Item Sheet Buttons](#item-sheet-buttons)
+      * [Item Collection](#item-collection)
       * [Minor QOL Improvements](#minor-qol-improvements)
       * [Loot Sheet NPC (5e)](#loot-sheet-npc-5e)
       * [NPC Browser](#npc-browser)
@@ -939,6 +940,28 @@ This module adds item card buttons into the description of items, so that the it
 To install, download the zip file included in the Github module directory. Extract the zip folder to `/public/modules`. Restart Foundry Virtual Tabletop.
 
 ---
+
+## Item Collection
+
+* **Author**: @tposney#1462 on Discord
+* **Version**: 1.0.5
+* **Foundry VTT Compatibility**: 0.3.7
+* **System Compatibility (If applicable)**: dn5e, because of currency.
+* **Module Requirement(s)**: none.
+* **Module Conflicts**: none that I know of.
+* **Translation Support**: english, but others can be added via a suitable json.
+
+### Link(s) to Module
+* https://gitlab.com/tposney/itemcollection
+* https://dl.dropboxusercontent.com/s/bdh5pgpdcgkzkem/module.json
+
+### Description
+This module allows the creation of bags which can contain other items, think backpack or bag of holding. These items can be put anywhere an item can.
+
+See the link for more details.
+
+---
+
 ## Minor QOL Improvements
 
 * **Author**: @tposney#1462 on Discord
@@ -954,9 +977,9 @@ To install, download the zip file included in the Github module directory. Extra
 * [https://dl.dropboxusercontent.com/s/yt34vrukyakkwqq/module.json](https://dl.dropboxusercontent.com/s/yt34vrukyakkwqq/module.json)
 
 ### Description
-Add item deletion confirmation, accelerated dice rolls with attack and damage in one click and item info hiding. All features can be enabled/disabled from the in-game module settings. If enabling/disabling speed-item-rolls should should reload the browser window.
+Adds item deletion confirmation, accelerated dice rolls with attack and damage in one click and item info hiding. All features can be enabled/disabled from the in-game module settings. If enabling/disabling speed-item-rolls you should reload the browser window.
 
-To install past the mainfest link into the foundry "add a module" or download the zip and unzip in your module directory.
+To install paste the manifest link into the foundry "add a module" or download the zip and unzip in your module directory.
 
 Many thanks to @Red Rein @Hooking for allowing me to pillage their code.
 
