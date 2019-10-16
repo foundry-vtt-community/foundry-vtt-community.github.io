@@ -104,6 +104,17 @@ body {
 
 // Custom CSS
 
+// h1
+.page-content h1 {
+	text-transform: uppercase;
+}
+.header-container h1 {
+	text-transform: capitalize;
+}
+.body-container h1 {
+	text-transform: capitalize;
+}
+
 // col4
 .col-sm-4 a {
 	color:#fff;
