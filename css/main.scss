@@ -111,6 +111,7 @@ body {
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
 	color:#EEE;
 	background-color: #323232;
+	text-shadow: 0 0 5px #c7254e;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
 	color: #EEE;
@@ -134,6 +135,22 @@ a {
 }
 a:hover, a:focus {
 	color: #c7254e;
+}
+.col-sm-4 a:hover {
+	text-shadow: 0 0 5px #c7254e;
+	text-decoration: none !important;
+}
+.col-sm-6 a:hover {
+	text-shadow: 0 0 5px #c7254e;
+	text-decoration: none !important;
+}
+footer a{
+	color: #333;
+}
+footer a:hover{
+	color: #333;
+	text-shadow: 0 0 5px #c7254e;
+	text-decoration: none;
 }
 
 // h1
