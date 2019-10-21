@@ -107,6 +107,7 @@ body {
 // nav
 .navbar-default {
 	background-color: rgba(39, 39, 39, 0.95);
+	border-bottom:2px solid rgba(#c7254e, .5);
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
 	color:#EEE;
@@ -126,7 +127,7 @@ hr {
 	border-top: 1px solid#EEE;
 }
 blockquote {
-	border-left-color:rgba(255, 255, 255, 0.75)
+	border-left-color:rgba(255, 255, 255, 0.75);
 }
 
 // links
