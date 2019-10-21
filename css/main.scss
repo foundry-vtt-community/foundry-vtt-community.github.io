@@ -38,12 +38,12 @@ body {
 
 .header-container {
 	background: url('../img/background-min.png') no-repeat 50% 0;
-	color: #fff;
+	color: #EEE;
 	background-color: rgba(0, 0, 0, 0.5);
 	background-blend-mode: darken;
 
 	h1 {
-		color: #fff;
+		color: #EEE;
 	}
 	// background-attachment: fixed;
 	background-size: cover;
@@ -53,12 +53,12 @@ body {
 
 .body-container {
 	background: url('../img/incarnatesystem-min.png') no-repeat 50% 0;
-	color: #fff;
+	color: #EEE;
 	background-color: rgba(0, 0, 0, 0.5);
 	background-blend-mode: darken;
 
 	h1 {
-		color: #fff;
+		color: #EEE;
 	}
 	// background-attachment: fixed;
 	background-size: cover;
@@ -104,6 +104,34 @@ body {
 
 // Custom CSS
 
+// nav
+.navbar-default {
+	background-color: rgba(39, 39, 39, 0.95);
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color:#EEE;
+	background-color: #323232;
+}
+
+// body
+body {
+	background-color: rgba(39, 39, 39, 0.95);
+}
+hr {
+	border-top: 1px solid#EEE;
+}
+blockquote {
+	border-left-color:rgba(255, 255, 255, 0.75)
+}
+
+// links
+a {
+	color: #c7254e;
+}
+a:hover, a:focus {
+	color: #c7254e;
+}
+
 // h1
 .page-content h1 {
 	text-transform: uppercase;
@@ -141,4 +169,15 @@ body {
 .col-sm-6 a:visited {
 	color:#fff;
 	text-decoration: none;
+}
+
+// button
+.btn-default {
+	color: #111;
+	background-color:rgba(255, 255, 255, 0.75);
+}
+.btn-default:hover {
+	color: #111;
+	background-color:rgba(255, 255, 255, 0.75);
+	box-shadow: 0 0 5px #c7254e;
 }
