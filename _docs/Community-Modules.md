@@ -15,7 +15,6 @@
       * [Entity Order](#entity-order)
       * [FFG Roller](#ffg-roller)
       * [The Furnace](#the-furnace)
-      * [GM Roll Message](#gm-roll-message)
       * [Grid Scaler](#grid-scaler)
       * [Hype Track](#hype-track)
       * [Image Previewer](#image-previewer)
@@ -44,12 +43,13 @@
       * [Chat Damage Buttons - Better Rolls Edition](#chat-damage-buttons---better-rolls-edition)
       * [DDB Popper](#ddb-popper)
       * [DnD Beyond Character Importer](#dnd-beyond-character-importer)
+      * [Dynamic Items](#dynamic-items)
       * [Favourite Item Tab](#favourite-item-tab)
       * [Group Roll](#group-roll)
       * [Item Sheet Buttons](#item-sheet-buttons)
       * [Item Collection](#item-collection)
-      * [Minor QOL Improvements](#minor-qol-improvements)
       * [Loot Sheet NPC (5e)](#loot-sheet-npc-5e)
+      * [Minor QOL Improvements](#minor-qol-improvements)
       * [NPC Browser](#npc-browser)
       * [Polymorpher](#polymorpher)
       * [R20 Converter](#r20-converter)
@@ -64,6 +64,7 @@
       * [aDnD5e](#adnd5e)
       * [Encumbrance Variant](#encumbrance-variant)
       * [FVTT-Party (Discontinued, see VTTA-Party for an successor)](#fvtt-party-discontinued-see-vtta-party-for-an-successor)
+      * [GM Roll Message (similiar function is integrated in fvtt 3.9.0)](#gm-roll-message)
    * [Appendix](#appendix)
       * [Appendix A: Adding a Module](#appendix-a-adding-a-module)
       * [Appendix B: Best Editing Practices](#appendix-b-best-editing-practices)
@@ -324,24 +325,6 @@ The Furnace is an essential part of every Foundry. This Foundry VTT module bring
 
 It started by adding Drawing Tools, and then an experimental Macros system and now it also adds a 'Split Journal' feature. More QoL improvements are planned.
 
----
-
-## GM Roll Message
-
-* **Author**: Hydroxi#0366 on Discord.
-* **Version**: WIP
-* **Foundry VTT Compatibility**: 0.3+
-* **System Compatibility (If applicable)**: Universal
-* **Module Requirement(s)**: None
-* **Module Conflicts**: None
-* **Translation Support**: EN (full)
-
-### Link(s) to Module
-* [https://github.com/Hydroxi/gmrollmessage](https://github.com/Hydroxi/gmrollmessage)
-* [https://github.com/Hydroxi/gmrollmessage/raw/master/module.json](https://github.com/Hydroxi/gmrollmessage/raw/master/module.json)
-
-### Description
-Sends an extra public message/hint when rolling a `gmroll` or `blindroll`.
 
 ---
 
@@ -1185,6 +1168,30 @@ Successor to fvtt-party, which is discontinued as of now. Provides both an overv
 Configurable options for granting players access to both features, or to use it for GMs only.
 
 ---
+## Dynamic Items
+
+* **Author**: @tposney discord
+* **Version**: 0.0.7
+* **Foundry VTT Compatibility**: 0.3.8 dnd 5e.
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None that I know of
+* **Translation Support**: English.
+
+### Link(s) to Module
+* https://gitlab.com/tposney/dynamicitems
+*  manifest https://dl.dropboxusercontent.com/s/oy384qwu0i17864/module.json
+*  download "https://dl.dropboxusercontent.com/s/lxcsyjx4pm8jf6f/dynamicitems.zip"
+
+
+### Description
+Dynamic items are ones that makes changes to your stats/modifiers when they are active in your inventory. This module is really intended for player characters and NPCs that have linked tokens.
+
+* Armor and shields now update your armor class when equipped and reverse the change when unequipped. (this happens automatically once the module is turned on and the items are equipped). Armor can have dynamic properties, e.g. ac+2 which can require attunement.
+* Rings of protection can increase saves or armor class when active, again changes are reversed when unequiped or unattuned (if that is a word).
+* There is a straightforward ui to make changes/create items For more complex changes (e.g. AC based on dex mod, you need to know the attribute specification, e.g. data.avilities.dex.mod)
+* Dynamic effects can be applied to any item, weapons/backpacks/armor/feats, in addition to its normal properties.
+
+---
 
 # Foundry VTT Modules for WFRP 4E
 
@@ -1277,6 +1284,26 @@ This module adds a convenient button to the actor’s tab, which will track the 
 To install the module, download the zip file included in the Github module directory. Extract the zip file to `/public/modules`. Restart Foundry Virtual Tabletop.
 
 ---
+
+## GM Roll Message
+
+* **Author**: Hydroxi#0366 on Discord.
+* **Version**: WIP
+* **Foundry VTT Compatibility**: 0.3+
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
+* **Translation Support**: EN (full)
+
+### Link(s) to Module
+* [https://github.com/Hydroxi/gmrollmessage](https://github.com/Hydroxi/gmrollmessage)
+* [https://github.com/Hydroxi/gmrollmessage/raw/master/module.json](https://github.com/Hydroxi/gmrollmessage/raw/master/module.json)
+
+### Description
+Sends an extra public message/hint when rolling a `gmroll` or `blindroll`.
+
+---
+
 
 # Appendix
 
