@@ -950,8 +950,8 @@ To install, download the zip file included in the Github module directory. Extra
 ## Item Collection
 
 * **Author**: @tposney#1462 on Discord
-* **Version**: 1.0.5
-* **Foundry VTT Compatibility**: 0.3.7
+* **Version**: 1.0.12
+* **Foundry VTT Compatibility**: 0.3.9
 * **System Compatibility (If applicable)**: dn5e, because of currency.
 * **Module Requirement(s)**: none.
 * **Module Conflicts**: none that I know of.
@@ -959,7 +959,8 @@ To install, download the zip file included in the Github module directory. Extra
 
 ### Link(s) to Module
 * https://gitlab.com/tposney/itemcollection
-* https://dl.dropboxusercontent.com/s/bdh5pgpdcgkzkem/module.json
+* https://gitlab.com/tposney/itemcollection/raw/master/module.json
+https://gitlab.com/tposney/itemcollection/raw/master/itemcollection.zip
 
 ### Description
 This module allows the creation of bags which can contain other items, think backpack or bag of holding. These items can be put anywhere an item can.
@@ -971,7 +972,7 @@ See the link for more details.
 ## Minor QOL Improvements
 
 * **Author**: @tposney#1462 on Discord
-* **Version**: 0.1
+* **Version**: 0.11
 * **Foundry VTT Compatibility**: 0.3.6+
 * **System Compatibility (If applicable)**: All
 * **Module Requirement(s)**: None
@@ -979,8 +980,8 @@ See the link for more details.
 * **Translation Support**: English, but localization support is included.
 
 ### Link(s) to Module
-* [https://dl.dropboxusercontent.com/s/ocd7la6gjasdl6t/minor-qol.zip](https://dl.dropboxusercontent.com/s/ocd7la6gjasdl6t/minor-qol.zip)
-* [https://dl.dropboxusercontent.com/s/yt34vrukyakkwqq/module.json](https://dl.dropboxusercontent.com/s/yt34vrukyakkwqq/module.json)
+* [https://gitlab.com/tposney/minor-qol/raw/master/minor-qol.zip](https://gitlab.com/tposney/minor-qol/raw/master/minor-qol.zip)
+* [https://gitlab.com/tposney/minor-qol/raw/master/module.json](https://gitlab.com/tposney/minor-qol/raw/master/module.json)
 
 ### Description
 Adds item deletion confirmation, accelerated dice rolls with attack and damage in one click and item info hiding. All features can be enabled/disabled from the in-game module settings. If enabling/disabling speed-item-rolls you should reload the browser window.
@@ -1171,16 +1172,16 @@ Configurable options for granting players access to both features, or to use it 
 ## Dynamic Items
 
 * **Author**: @tposney discord
-* **Version**: 0.0.7
-* **Foundry VTT Compatibility**: 0.3.8 dnd 5e.
+* **Version**: 0.0.9
+* **Foundry VTT Compatibility**: 0.3.9 dnd 5e.
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None that I know of
 * **Translation Support**: English.
 
 ### Link(s) to Module
 * https://gitlab.com/tposney/dynamicitems
-*  manifest https://dl.dropboxusercontent.com/s/oy384qwu0i17864/module.json
-*  download "https://dl.dropboxusercontent.com/s/lxcsyjx4pm8jf6f/dynamicitems.zip"
+*  manifest https://gitlab.com/tposney/dynamicitems/raw/master/module.json
+*  download https://gitlab.com/tposney/dynamicitems/raw/master/dynamicitems.zip
 
 
 ### Description
