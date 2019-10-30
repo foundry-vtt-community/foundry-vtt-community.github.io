@@ -5,6 +5,7 @@
    * [Foundry VTT Modules (Universal)](#foundry-vtt-modules-universal)
       * [Always Show Notes](#always-show-notes)
       * [Anvil Menu](#anvil-menu)
+      * [Arcane Viewing](#arcane-viewing)
       * [Chat Autoloader](#chat-autoloader)
       * [Combat Utility Belt (Beta)](#combat-utility-belt-beta)
       * [Cursor Hider](#cursor-hider)
@@ -19,7 +20,6 @@
       * [Grid Scaler](#grid-scaler)
       * [Hype Track](#hype-track)
       * [Image Previewer](#image-previewer)
-      * [Infinite Folders](#infinite-folders)
       * [Journal Enhancer](#journal-enhancer)
       * [Layer Hotkeys](#layer-hotkeys)
       * [Less Fog](#less-fog)
@@ -31,11 +31,11 @@
       * [Playlist Import](#playlist-import)
       * [Popout!](#popout)
       * [Pointer](#pointer)
+      * [Search Anywhere](#search-anywhere)
       * [SVG Loader](#svg-loader)
       * [Tiles Browser](#tiles-browser)
       * [VTTA Tokenizer](#vtta-tokenizer)
       * [Token Mold](#token-mold)
-      * [Z Order](#z-order)
    * [Foundry VTT Modules for DnD 5E](#foundry-vtt-modules-for-dnd-5e)
       * [Better NPC Sheet 5e](#better-npc-sheet-5e)
       * [Better Rolls for 5e](#better-rolls-for-5e)
@@ -52,8 +52,9 @@
       * [Minor QOL Improvements](#minor-qol-improvements)
       * [Loot Sheet NPC (5e)](#loot-sheet-npc-5e)
       * [NPC Browser](#npc-browser)
+      * [Polyglot](#polyglot)
       * [Polymorpher](#polymorpher)
-      * [R20 Converter](#r20-converter)
+      * [Roll20 Converter](#roll20-converter)
       * [Roll20 NPC Importer, for 5e](#roll20-npc-importer-for-5e)
       * [Sky's 5th Edition Dungeons &amp; Dragons Sheet](#skys-5th-edition-dungeons--dragons-sheet)
       * [Spell Browser](#spell-browser)
@@ -67,6 +68,8 @@
       * [Encumbrance Variant](#encumbrance-variant)
       * [FVTT-Party (Discontinued, see VTTA-Party for an successor)](#fvtt-party-discontinued-see-vtta-party-for-an-successor)
       * [GM Roll Message](#gm-roll-message)
+      * [Infinite Folders](#infinite-folders)
+      * [Z Order (functionality integrated into core)](#z-order-functionality-integrated-into-core)
    * [Appendix](#appendix)
       * [Appendix A: Adding a Module](#appendix-a-adding-a-module)
       * [Appendix B: Best Editing Practices](#appendix-b-best-editing-practices)
@@ -113,6 +116,27 @@ Sets the Display Notes toggle to true by default
 Adds a context menu to Foundry's Anvil logo in the top left of the screen. This module adds entries to the menu to put the application into Fullscreen mode, as well as providing the ability to toggle the visibility of the main UI components.
 
 The Anvil Menu is also a library able to be used by other module developers without the need to include the anvil-menu module itself. See the README on GitLab for more information.
+
+---
+
+## Arcane Viewing
+
+* **Author**: KaKaRoTo#4756 (Discord). KaKaRoTo's Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto).
+* **Version**: 0.1
+* **Foundry VTT Compatibility**: 0.3.8
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
+* **Translation Support**: EN
+
+### Link(s) to Module
+* [The module is paywalled, and requires subscribing to KaKaRoTo’s Patreon.](https://www.patreon.com/posts/arcane-viewing-30918808)
+
+### Description
+Arcane Viewing adds Audio/Video conferencing support directly from within FVTT.
+
+Through the use of Arcane magic, you are able to see and hear your follow adventurers wherever they may hide! Peer through the looking glass and see the horror that grips them and hear their screams as they are attacked by a cute bunny. Huh?
+
 
 ---
 
@@ -403,25 +427,6 @@ A little app to preview images on hover in the file picker menu.
 
 ---
 
-## Infinite Folders
-
-* **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto)
-* **Version**: 0.1
-* **Foundry VTT Compatibility**: 0.3.1
-* **System Compatibility (If applicable)**: Universal
-* **Module Requirement(s)**: None
-* **Module Conflicts**: This module creates folders and allows you to create data where it shouldn't be. If a future FVTT update enforces the 2-depth limit on the server side, then all of the deeper folders and their content may be lost.
-* **Translation Support**: EN (full)
-
-### Link(s) to Module
-* [https://github.com/kakaroto/fvtt-module-infinite-folders](https://github.com/kakaroto/fvtt-module-infinite-folders)
-* [https://raw.githubusercontent.com/kakaroto/fvtt-module-infinite-folders/master/infinite_folders/module.json](https://raw.githubusercontent.com/kakaroto/fvtt-module-infinite-folders/master/infinite_folders/module.json)
-
-### Description
-This Foundry VTT module allows you to create infinite depth of folders for Scenes, Actors, Items and Journals. No more limit to a depth of 2 folders (or none for Journal entries). This will also add a `New entity` button on folders so you can create it directly in the folder (does not work for Scenes though).
-
----
-
 ## Journal Enhancer
 
 * **Author**: Moerill#7205 on Discord. He accepts donations at his [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYZ294SP2JBGS&source=url).
@@ -649,6 +654,25 @@ This module adds the ability for each user to show a cursor following his mouse 
 
 ---
 
+## Search Anywhere
+
+* **Author**: Simone#6710 on Discord
+* **Version**: 1.0.2
+* **Foundry VTT Compatibility**: 0.3.9+
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
+* **Translation Support**: EN (full)
+
+### Link(s) to Module
+* [https://gitlab.com/riccisi/foundryvtt-search-anywhere](https://gitlab.com/riccisi/foundryvtt-search-anywhere)
+* [https://gitlab.com/riccisi/foundryvtt-search-anywhere/raw/master/module/module.json](https://gitlab.com/riccisi/foundryvtt-search-anywhere/raw/master/module/module.json)
+
+### Description
+A FoundryVTT Module that adds a way to quickly search for any entity by name via a handy auto-complete widget.
+
+---
+
 ## SVG Loader
 
 * **Author**: Moerill#7205 on Discord. He accepts donations at his [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYZ294SP2JBGS&source=url).
@@ -730,25 +754,6 @@ On creation each unlinked Token will fit snugly into the pattern of your mold.
 - Hit Point rolling by formula (currently dnd5e only)
 - Overriding default token template config
 - Providing a customizable overlay to quickly  check some stats on Token hover
-
----
-
-## Z Order
-
-* **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto)
-* **Version**: 0.1
-* **Foundry VTT Compatibility**: 0.3+
-* **System Compatibility (If applicable)**: Universal
-* **Module Requirement(s)**: None
-* **Module Conflicts**: None
-* **Translation Support**: EN (full)
-
-### Link(s) to Module
-* [https://github.com/kakaroto/fvtt-module-zorder](https://github.com/kakaroto/fvtt-module-zorder)
-* [https://raw.githubusercontent.com/kakaroto/fvtt-module-zorder/master/zorder/module.json](https://raw.githubusercontent.com/kakaroto/fvtt-module-zorder/master/zorder/module.json)
-
-### Description
-This Foundry VTT module lets you send tiles to the front or the back of the scene.
 
 ---
 
@@ -1055,6 +1060,25 @@ This module adds a search interface for actors. This enables more comfortable br
 
 ---
 
+## Polyglot
+
+* **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto)
+* **Version**: 0.3
+* **Foundry VTT Compatibility**: 0.3.0
+* **System Compatibility (If applicable)**: D&D 5e
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
+* **Translation Support**: EN
+
+### Link(s) to Module
+* [https://github.com/kakaroto/fvtt-module-polyglot](https://github.com/kakaroto/fvtt-module-polyglot)
+* [https://raw.githubusercontent.com/kakaroto/fvtt-module-polyglot/master/module.json](https://raw.githubusercontent.com/kakaroto/fvtt-module-polyglot/master/module.json)
+
+### Description
+Talk to others using a language your selected character can understand and scrambles in-character text you can't understand.
+
+---
+
 ## Polymorpher
 
 * **Author**: Felix#6196 on Discord, syl3r31 on Github. He accepts donations on Paypal at felix.mueller.86@web.de
@@ -1074,13 +1098,13 @@ A module for Foundry VTT that lets you polymorph characters into any other chara
 
 ---
 
-## R20 Converter
+## Roll20 Converter
 
 * **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto)
 * **Version**: 0.3
-* **Foundry VTT Compatibility**: 0.3.3
+* **Foundry VTT Compatibility**: 0.3.5
 * **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
-* **Module Requirement(s)**: None in Foundry, though module requires a campaign exported from Roll20 using KakaRoTo’s export tool.
+* **Module Requirement(s)**: None in Foundry, though module requires a campaign exported from Roll20 using KaKaRoTo’s export tool.
 * **Module Conflicts**: None known.
 * **Translation Support**: EN (full)
 
@@ -1331,6 +1355,43 @@ Sends an extra public message/hint when rolling a `gmroll` or `blindroll`.
 
 ---
 
+## Infinite Folders
+
+* **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto)
+* **Version**: 0.1
+* **Foundry VTT Compatibility**: 0.3.1
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: None
+* **Module Conflicts**: This module creates folders and allows you to create data where it shouldn't be. If a future FVTT update enforces the 2-depth limit on the server side, then all of the deeper folders and their content may be lost.
+* **Translation Support**: EN (full)
+
+### Link(s) to Module
+* [https://github.com/kakaroto/fvtt-module-infinite-folders](https://github.com/kakaroto/fvtt-module-infinite-folders)
+* [https://raw.githubusercontent.com/kakaroto/fvtt-module-infinite-folders/master/infinite_folders/module.json](https://raw.githubusercontent.com/kakaroto/fvtt-module-infinite-folders/master/infinite_folders/module.json)
+
+### Description
+This Foundry VTT module allows you to create infinite depth of folders for Scenes, Actors, Items and Journals. No more limit to a depth of 2 folders (or none for Journal entries). This will also add a `New entity` button on folders so you can create it directly in the folder (does not work for Scenes though).
+
+---
+
+## Z Order (functionality integrated into core)
+
+* **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto)
+* **Version**: 0.1
+* **Foundry VTT Compatibility**: 0.3+
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
+* **Translation Support**: EN (full)
+
+### Link(s) to Module
+* [https://github.com/kakaroto/fvtt-module-zorder](https://github.com/kakaroto/fvtt-module-zorder)
+* [https://raw.githubusercontent.com/kakaroto/fvtt-module-zorder/master/zorder/module.json](https://raw.githubusercontent.com/kakaroto/fvtt-module-zorder/master/zorder/module.json)
+
+### Description
+This Foundry VTT module lets you send tiles to the front or the back of the scene.
+
+---
 
 # Appendix
 
