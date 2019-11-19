@@ -2,10 +2,30 @@
 ---
 <!--tl=2-->
 <!--ts-->
+   * [Foundry VTT Adventures for DnD 5E](#foundry-vtt-adventures-for-dnd-5e)
+      * [The Lost City of Barakus](#the-lost-city-of-barakus)
    * [Appendix](#appendix)
       * [Appendix A: Adding an Adventure](#appendix-a-adding-an-adventure)
       * [Appendix B: Best Editing Practices](#appendix-b-best-editing-practices)
 <!--te-->
+
+# Foundry VTT Adventures for DnD 5E
+
+Foundry adventures that work within Dungeons and Dragons 5th Edition are noted here.
+
+## The Lost City of Barakus
+
+* **Author**: u2mad#5354 on Discord
+* **Version**: 0.1a
+* **System Compatibility**: Dungeons and Dragons 5th Edition
+* **Foundry VTT Compatibility**: 0.3.9
+* **Translation Support**: EN (full)
+
+### Link(s) to Adventure
+* https://github.com/u2mad/The-Lost-City-of-Barakus
+* https://froggodgames.com/product/the-lost-lands-the-lost-city-of-barakus/
+
+### Description
 
 
 ---
