@@ -41,6 +41,7 @@
       * [SVG Loader](#svg-loader)
       * [Tiles Browser](#tiles-browser)
       * [Torch](#torch)
+      * [VTTA Iconizer](#vtta-iconizer)
       * [VTTA Tokenizer](#vtta-tokenizer)
       * [Token Mold](#token-mold)
    * [Foundry VTT Modules for DnD 5E](#foundry-vtt-modules-for-dnd-5e)
@@ -50,12 +51,12 @@
       * [Chat Damage Buttons](#chat-damage-buttons)
       * [Chat Damage Buttons - Better Rolls Edition](#chat-damage-buttons---better-rolls-edition)
       * [Chat Damage Buttons - Beyond20 Edition](#chat-damage-buttons---beyond20-edition)
-      * [DDB Popper](#ddb-popper)
       * [DnD Beyond Character Importer](#dnd-beyond-character-importer)
       * [Favourite Item Tab](#favourite-item-tab)
       * [Group Roll](#group-roll)
       * [Item Sheet Buttons](#item-sheet-buttons)
       * [Item Collection](#item-collection)
+      * [Kobold Press OGL](#kobold-press-ogl)
       * [Minor QOL Improvements](#minor-qol-improvements)
       * [Loot Sheet NPC (5e)](#loot-sheet-npc-5e)
       * [NPC Browser](#npc-browser)
@@ -66,11 +67,13 @@
       * [Sky's 5th Edition Dungeons &amp; Dragons Sheet](#skys-5th-edition-dungeons--dragons-sheet)
       * [Spell Browser](#spell-browser)
       * [SRD Bestiary Module](#srd-bestiary-module)
+      * [VTTA D&amp;D Beyond Integration](#vtta-dd-beyond-integration)
       * [VTTA Party](#vtta-party)
       * [Dynamic Items](#dynamic-items)
    * [Foundry VTT Modules for WFRP 4E](#foundry-vtt-modules-for-wfrp-4e)
       * [Arcane Marks &amp; Careers](#arcane-marks--careers)
    * [Foundry VTT Modules (Defunct)](#foundry-vtt-modules-defunct)
+      * [DDB Popper (use VTTA-DNDBEYOND instead)](#ddb-popper-use-vtta-dndbeyond-instead)
       * [Encumbrance Variant](#encumbrance-variant)
       * [FVTT-Party (Discontinued, see VTTA-Party for an successor)](#fvtt-party-discontinued-see-vtta-party-for-an-successor)
       * [GM Roll Message](#gm-roll-message)
@@ -185,8 +188,8 @@ This module improves loading times by only rendering the last few chat messages 
 ## Combat Utility Belt (Beta)
 
 * **Author**: errational#2007 on discord
-* **Version**: 0.5
-* **Foundry VTT Compatibility**: 0.3.7
+* **Version**: 0.7.1
+* **Foundry VTT Compatibility**: 0.4.0+
 * **System Compatibility (If applicable)**: N/A
 * **Module Requirement(s)**: N/A
 * **Module Conflicts**: N/A
@@ -242,23 +245,6 @@ Adds the ability to hide your cursor and ruler on the tabletop, see this [demons
 
 ### Description
 This module lets the GM deselect a token or tokens by clicking anywhere on the map.
-
-## Installation
-### Method 1
-* Open the Foundry application and click **"Install Module"** in the **"Add-On Modules"** tab.
-* Paste the following link: https://raw.githubusercontent.com/Sky-Captain-13/foundry/master/deselection/deselection/module.json
-* Click "Install"
-* Activate the module in your World using **Manage Modules** under the **Game Settings** tab.
-
-### Method 2
-Extract the deselection.zip file to the public/modules directory. Use the `Manage Modules` in your World on the Settings tab of the sidebar on the right and then enable the `Deselection` module.
-
-## Foundry 0.4.0 Update
-As of November 16th, 2019, the module.json includes a minimumCoreVersion 0.4.0 and will cease to work for earlier installs. If you update the module accidentally, just open module.json and change the minimumCoreVersion to 0.3.9 or delete that line. Either will work to restore usage of the Deselection module.
-
-## License
-This Foundry VTT module is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
-This work is licensed under Foundry Virtual Tabletop [EULA - Limited License Agreement for module development v 0.1.6](http://foundryvtt.com/pages/license.html).
 
 ---
 
@@ -557,7 +543,7 @@ Module to enhance visibility for the GM in Foundry VTT.
 
 * **Author**: Evan Clarke (errational#2007)
 * **Version**: 0.2.2
-* **Foundry VTT Compatibility**: 0.3.9+
+* **Foundry VTT Compatibility**: 0.4.0+
 * **System Compatibility (If applicable)**: N/A
 * **Module Requirement(s)**: N/A
 * **Module Conflicts**: Hype Track (deprecated by this module)
@@ -638,8 +624,8 @@ All patches rely on the `patchClass` utility function.
 ## Permission Viewer
 
 * **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto)
-* **Version**: 0.2
-* **Foundry VTT Compatibility**: 0.3+
+* **Version**: 0.4
+* **Foundry VTT Compatibility**: 0.4+
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
@@ -647,7 +633,7 @@ All patches rely on the `patchClass` utility function.
 
 ### Link(s) to Module
 * [https://github.com/kakaroto/fvtt-module-permission-viewer](https://github.com/kakaroto/fvtt-module-permission-viewer)
-* [https://raw.githubusercontent.com/kakaroto/fvtt-module-permission-viewer/master/permission_viewer/module.json](https://raw.githubusercontent.com/kakaroto/fvtt-module-permission-viewer/master/permission_viewer/module.json)
+* [https://raw.githubusercontent.com/kakaroto/fvtt-module-permission-viewer/master/module.json](https://raw.githubusercontent.com/kakaroto/fvtt-module-permission-viewer/master/module.json)
 
 ### Description
 This Foundry VTT module displays colored diamonds/squares/circles to represent the players who have limited/observer/owner permissions on Entities (Actors, Journal entries, Items, etc..)
@@ -735,8 +721,8 @@ This module adds the ability for each user to show a cursor following his mouse 
 ## Search Anywhere
 
 * **Author**: Simone#6710 on Discord
-* **Version**: 1.0.2
-* **Foundry VTT Compatibility**: 0.3.9+
+* **Version**: 1.0.3
+* **Foundry VTT Compatibility**: 0.4.0+
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
@@ -923,8 +909,8 @@ It currently supports the DnD5e Character and NPC sheets, Better NPC Sheet 5e, a
 ## Beyond 20
 
 * **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto)
-* **Version**: 0.2
-* **Foundry VTT Compatibility**: 0.3+
+* **Version**: 0.6
+* **Foundry VTT Compatibility**: 0.4+
 * **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
 * **Module Requirement(s)**: This module requires a concurrent browser plugin in either Firefox or Google Chrome.
 * **Module Conflicts**: None known
@@ -935,6 +921,9 @@ It currently supports the DnD5e Character and NPC sheets, Better NPC Sheet 5e, a
 * [https://raw.githubusercontent.com/kakaroto/Beyond20/master/FVTT-module/beyond20/module.json](https://raw.githubusercontent.com/kakaroto/Beyond20/master/FVTT-module/beyond20/module.json)
 
 The module is available under the 'FVTT-module' directory.
+
+If using FVTT 0.3.x, you can install this version : 
+* [https://raw.githubusercontent.com/kakaroto/Beyond20/0.3.x/FVTT-module/beyond20/module.json](https://raw.githubusercontent.com/kakaroto/Beyond20/0.3.x/FVTT-module/beyond20/module.json)
 
 ### Description
 This module allows you to use and roll sheets in DnD Beyond, and have those results displayed in Foundry VTT. For more details, see Kakaroto’s module page and readme files.
@@ -994,26 +983,6 @@ To install use the following link in Foundrys Module Setup https://raw.githubuse
 ### Link(s) to Module
 * [https://gitlab.com/Ionshard/foundry-vtt-chatdamagebuttons-beyond20](https://gitlab.com/Ionshard/foundry-vtt-chatdamagebuttons-beyond20#foundry-vtt-chat-damage-buttons-beyond20-edition)
 * [https://gitlab.com/Ionshard/foundry-vtt-chatdamagebuttons-beyond20/-/jobs/artifacts/master/raw/module.json?job=build-module](https://gitlab.com/Ionshard/foundry-vtt-chatdamagebuttons-beyond20/-/jobs/artifacts/master/raw/module.json?job=build-module)
-
----
-
-## DDB Popper
-
-* **Author**: errational#2007 on discord
-* **Version**: 1.1
-* **Foundry VTT Compatibility**: 0.3.7
-* **System Compatibility (If applicable)**: dnd5e
-* **Module Requirement(s)**: N/A
-* **Module Conflicts**: N/A
-* **Translation Support**: EN (full)
-
-### Link(s) to Module
-* [https://github.com/death-save/ddb-popper](https://github.com/death-save/ddb-popper)
-* [https://raw.githubusercontent.com/death-save/ddb-popper/master/module.json](https://raw.githubusercontent.com/death-save/ddb-popper/master/module.json)
-
-### Description
-Opens a D&D Beyond popup for a linked actor.    
-More info here: [https://github.com/death-save/ddb-popper](https://github.com/death-save/ddb-popper)
 
 ---
 
@@ -1117,6 +1086,26 @@ https://gitlab.com/tposney/itemcollection/raw/master/itemcollection.zip
 This module allows the creation of bags which can contain other items, think backpack or bag of holding. These items can be put anywhere an item can.
 
 See the link for more details.
+
+---
+
+## Kobold Press OGL
+
+* **Author**: @Deuce#8801 on Discord
+* **Version**: 0.7
+* **Foundry VTT Compatibility**: 0.4.0+
+* **System Compatibility (If applicable)**: dn5e.
+* **Module Requirement(s)**: none.
+* **Module Conflicts**: none that I know of.
+* **Translation Support**: english only, no i18n support.
+
+### Link(s) to Module
+* [Web site](http://kpogl.wikidot.com/)
+* [module.json](http://kpogl.wdfiles.com/local--files/home:home/module.json) automatic install.
+* [ZIP file](http://kpogl.wdfiles.com/local--files/home:home/koboldpressogl.zip) for manual install.
+
+### Description
+This module adds Kobold Press OGL content sourced from the KPOGL wiki. Currently there are two compendiums, one with over 800 monsters and the other with over 500 spells.
 
 ---
 
@@ -1428,6 +1417,26 @@ Once installed, you'll find the careers in the Arcane Careers Compendium, and yo
 # Foundry VTT Modules (Defunct)
 
 Foundry VTT modules that no longer work are noted here. Modules included here have been defunct for at least one month. This exists to help document previous work on Foundry Virtual Tabletop by the community, as well as to exist as a record for anyone who chooses to remain on a previous version of Foundry VTT.  
+
+## DDB Popper (use VTTA-DNDBEYOND instead)
+
+* **Author**: errational#2007 on discord
+* **Version**: 1.1
+* **Foundry VTT Compatibility**: 0.3.7
+* **System Compatibility (If applicable)**: dnd5e
+* **Module Requirement(s)**: N/A
+* **Module Conflicts**: N/A
+* **Translation Support**: EN (full)
+
+### Link(s) to Module
+* [https://github.com/death-save/ddb-popper](https://github.com/death-save/ddb-popper)
+* [https://raw.githubusercontent.com/death-save/ddb-popper/master/module.json](https://raw.githubusercontent.com/death-save/ddb-popper/master/module.json)
+
+### Description
+Opens a D&D Beyond popup for a linked actor.    
+More info here: [https://github.com/death-save/ddb-popper](https://github.com/death-save/ddb-popper)
+
+---
 
 ## Encumbrance Variant
 
