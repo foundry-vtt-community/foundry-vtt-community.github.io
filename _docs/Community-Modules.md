@@ -35,8 +35,8 @@
       * [Popout!](#popout)
       * [Pointer](#pointer)
       * [Search Anywhere](#search-anywhere)
+      * [Skycons](#skycons)
       * [SVG Loader](#svg-loader)
-      * [Theatre](#theatre)
       * [Tiles Browser](#tiles-browser)
       * [Token Mold](#token-mold)
       * [Torch](#torch)
@@ -60,6 +60,7 @@
       * [Minor QOL Improvements](#minor-qol-improvements)
       * [Loot Sheet NPC (5e)](#loot-sheet-npc-5e)
       * [NPC Browser](#npc-browser)
+      * [Obsidian Character Sheets](#obsidian-character-sheets)
       * [Polyglot](#polyglot)
       * [Polymorpher](#polymorpher)
       * [Roll20 Converter](#roll20-converter)
@@ -741,6 +742,22 @@ A FoundryVTT Module that adds a way to quickly search for any entity by name via
 
 ---
 
+## Skycons
+
+* **Author**: Deuce#8801 on Discord.
+* **Version**: 0.0.0
+* **Foundry VTT Compatibility**: 0.4.0+
+* **Translation Support**: None
+
+### Link(s) to Module
+* [https://github.com/RealDeuce/skycons/](https://github.com/RealDeuce/skycons/)
+* [https://raw.githubusercontent.com/RealDeuce/skycons/master/module.json](https://raw.githubusercontent.com/RealDeuce/skycons/master/module.json)
+
+### Description
+Save/restore window position whem minimizing/maximizing.
+
+---
+
 ## SVG Loader
 
 * **Author**: Moerill#7205 on Discord. He accepts donations at his [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYZ294SP2JBGS&source=url).
@@ -1039,6 +1056,7 @@ Dynamic items are ones that makes changes to your stats/modifiers when they are 
 * **Author**: Deuce#8801 on Discord.
 * **Version**: 0.0.2
 * **Foundry VTT Compatibility**: 0.4.0+
+* **Module Conflicts**: Better Rolls for 5e (when Better Rolls for 5e is in use, E-Z Roller has no effect)
 * **Translation Support**: EN (i18n support currently unimplemented)
 
 ### Link(s) to Module
@@ -1143,7 +1161,7 @@ See the link for more details.
 
 ### Link(s) to Module
 * [http://kpogl.wikidot.com/](http://kpogl.wikidot.com/)
-* http://kpogl.wdfiles.com/local--files/home:home/module.json](http://kpogl.wdfiles.com/local--files/home:home/module.json)
+* [http://kpogl.wdfiles.com/local--files/home:home/module.json](http://kpogl.wdfiles.com/local--files/home:home/module.json)
 * [http://kpogl.wdfiles.com/local--files/home:home/koboldpressogl.zip](http://kpogl.wdfiles.com/local--files/home:home/koboldpressogl.zip)
 
 ### Description
@@ -1208,6 +1226,24 @@ This module adds an additional NPC sheet which can be used for loot containers s
 
 ### Description
 This module adds a search interface for actors. This enables more comfortable browsing and searching via predefined filters like challenge rating, type or ability score.
+
+---
+
+## Obsidian Character Sheets
+
+* **Author**: [Fyorl#1292](https://kim.mantas.me.uk)
+* **Version**: 1.0.0
+* **Foundry VTT Compatibility**: 0.4.1+
+* **Translation Support**: EN, DE, JP
+
+### Link to Module
+
+* [https://bitbucket.org/Fyorl/obsidian](https://bitbucket.org/Fyorl/obsidian)
+* [https://bitbucket.org/Fyorl/obsidian/raw/1.0.0/module.json](https://bitbucket.org/Fyorl/obsidian/raw/1.0.0/module.json)
+
+### Description
+
+Allows the user to pin windows which will be re-opened automatically the next time you open foundry.
 
 ---
 
