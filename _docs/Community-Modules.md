@@ -1007,6 +1007,26 @@ To install use the following link in Foundrys Module Setup https://raw.githubuse
 
 ---
 
+## DnD Beyond Character Importer
+
+* **Author**: @Sillvva#2532 on Discord.
+* **Version**: 0.19
+* **Foundry VTT Compatibility**: 0.3+ (See Description)
+* **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
+* **Module Requirement(s)**: None.
+* **Module Conflicts**: None, but see description.
+* **Translation Support**: EN (full)
+
+### Link(s) to Module
+* [https://github.com/sillvva/foundry-vtt-modules/tree/master/ddb-importer](https://github.com/sillvva/foundry-vtt-modules/tree/master/ddb-importer) 
+
+### Description
+This module allows you to import character data from DnD Beyond into Foundry Virtual Tabletop.  
+
+The module has not been updated recently by its creator, but the community has produced a fix for this issue.  The fix is not included in the zip file for the module, but is instead contained within the Github repository, and must be retrieved there. Replace the file in the module folder with the fixed version.
+
+---
+
 ## Dynamic Items
 
 * **Author**: @tposney discord
@@ -1212,14 +1232,14 @@ This module adds a search interface for actors. This enables more comfortable br
 ## Obsidian Character Sheets
 
 * **Author**: [Fyorl#1292](https://kim.mantas.me.uk)
-* **Version**: 1.0.0
+* **Version**: 1.0.2
 * **Foundry VTT Compatibility**: 0.4.1+
 * **Translation Support**: EN, DE, JP
 
 ### Link to Module
 
 * [https://bitbucket.org/Fyorl/obsidian](https://bitbucket.org/Fyorl/obsidian)
-* [https://bitbucket.org/Fyorl/obsidian/raw/1.0.0/module.json](https://bitbucket.org/Fyorl/obsidian/raw/1.0.0/module.json)
+* [https://bitbucket.org/Fyorl/obsidian/raw/1.0.0/module.json](https://bitbucket.org/Fyorl/obsidian/raw/master/module.json)
 
 ### Description
 
@@ -1469,26 +1489,6 @@ Foundry VTT modules that no longer work are noted here. Modules included here ha
 ### Description
 Opens a D&D Beyond popup for a linked actor.    
 More info here: [https://github.com/death-save/ddb-popper](https://github.com/death-save/ddb-popper)
-
----
-
-## DnD Beyond Character Importer (use VTTA-DNDBEYOND instead)
-
-* **Author**: @Sillvva#2532 on Discord.
-* **Version**: 0.19
-* **Foundry VTT Compatibility**: 0.3+ (See Description)
-* **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
-* **Module Requirement(s)**: None.
-* **Module Conflicts**: None, but see description.
-* **Translation Support**: EN (full)
-
-### Link(s) to Module
-* [https://github.com/sillvva/foundry-vtt-modules/tree/master/ddb-importer](https://github.com/sillvva/foundry-vtt-modules/tree/master/ddb-importer) 
-
-### Description
-This module allows you to import character data from DnD Beyond into Foundry Virtual Tabletop.  
-
-The module has not been updated recently by its creator, but the community has produced a fix for this issue.  The fix is not included in the zip file for the module, but is instead contained within the Github repository, and must be retrieved there. Replace the file in the module folder with the fixed version.
 
 ---
 
