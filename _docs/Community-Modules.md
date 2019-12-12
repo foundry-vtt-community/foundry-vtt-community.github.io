@@ -14,7 +14,6 @@
       * [Dice Calculator](#dice-calculator)
       * [Discord Rich Presence](#discord-rich-presence)
       * [Display Mode](#display-mode)
-      * [Dynamic Items](#dynamic-items)
       * [Entity Order](#entity-order)
       * [FFG Roller](#ffg-roller)
       * [Foundry Patrol](#foundry-patrol)
@@ -50,7 +49,7 @@
       * [Chat Damage Buttons - Better Rolls Edition](#chat-damage-buttons---better-rolls-edition)
       * [Chat Damage Buttons - Beyond20 Edition](#chat-damage-buttons---beyond20-edition)
       * [DnD Beyond Character Importer](#dnd-beyond-character-importer)
-      * [Dynamic Items](#dynamic-items-1)
+      * [Dynamic Items](#dynamic-items)
       * [E-Z Roller](#e-z-roller)
       * [Favourite Item Tab](#favourite-item-tab)
       * [Group Roll](#group-roll)
@@ -308,30 +307,6 @@ This module makes it so that when you click the anvil in the top left of the scr
 
 ---
 
-## Dynamic Items
-
-* **Author**: @tposney discord
-* **Version**: 0.4.0
-* **Foundry VTT Compatibility**: 0.4+ dnd 5e.
-* **Module Requirement(s)**: None
-* **Module Conflicts**: None that I know of
-* **Translation Support**: English.
-
-### Link(s) to Module
-* [https://gitlab.com/tposney/dynamicitems](https://gitlab.com/tposney/dynamicitems)
-* [https://gitlab.com/tposney/dynamicitems/raw/master/module.json](https://gitlab.com/tposney/dynamicitems/raw/master/module.json)
-* [https://gitlab.com/tposney/dynamicitems/raw/master/dynamicitems.zip](https://gitlab.com/tposney/dynamicitems/raw/master/dynamicitems.zip)
-
-### Description
-Dynamic items are ones that makes changes to your stats/modifiers when they are active in your inventory. This module is really intended for player characters and NPCs that have linked tokens.
-
-* Armor and shields now update your armor class when equipped and reverse the change when unequipped. (this happens automatically once the module is turned on and the items are equipped). Armor can have dynamic properties, e.g. ac+2 which can require attunement.
-* Rings of protection can increase saves or armor class when active, again changes are reversed when unequiped or unattuned (if that is a word).
-* There is a straightforward ui to make changes/create items For more complex changes (e.g. AC based on dex mod, you need to know the attribute specification, e.g. data.avilities.dex.mod)
-* Dynamic effects can be applied to any item, weapons/backpacks/armor/feats, in addition to its normal properties.
-
----
-
 ## Entity Order
 
 * **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto)
@@ -476,19 +451,7 @@ A little app to preview images on hover in the file picker menu.
 * **Author**: @tposney - discord
 * **Version**: 0.4.1
 * **Foundry VTT Compatibility**: 0.4+
-* **Module Requirement(s)**: (If the module requires other modules to function, note them here.)
-* **Module Conflicts**: Not aware of any
-* **Translation Support**: english, but there are no strings to be localized
-* **Obsolete as of version 0.4.2. of core. Please uninstall the module once updated to 0.4.2**
-
-### Link(s) to Module
-* [https://gitlab.com/tposney/journal-drag](https://gitlab.com/tposney/journal-drag)
-* [https://gitlab.com/tposney/journal-drag/raw/master/module.json](https://gitlab.com/tposney/journal-drag/raw/master/module.json)
-
-### Description
-This module allows you to drag things into your journal entries (while they are being edited) and to drag journal links to the map (actors) or to characters (items) or to other journal entries.
-V0.3 allows dragging entities from compendia into the journal sheet. If no entity of the right type and with the same name exists it will be imported from the compendia.
-
+* **Obsolete as of version Foundry 0.4.2. of core. Please uninstall the module once updated to 0.4.2**
 ---
 
 ## Layer Hotkeys
@@ -1031,8 +994,8 @@ The module has not been updated recently by its creator, but the community has p
 ## Dynamic Items
 
 * **Author**: @tposney discord
-* **Version**: 0.0.30
-* **Foundry VTT Compatibility**: 0.4+ dnd 5e.
+* **Version**: 0.0.32
+* **Foundry VTT Compatibility**: 0.4.2+ dnd 5e. Requires 0.4.2+ and wont work with earlier versions.
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None that I know of
 * **Translation Support**: English.
@@ -1167,6 +1130,25 @@ See the link for more details.
 
 ### Description
 This module adds Kobold Press OGL content sourced from the KPOGL wiki. Currently there are two compendiums, one with over 800 monsters and the other with over 500 spells.
+
+---
+
+## Let Me Roll That For You! (LMRTFY)
+
+* **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto)
+* **Version**: 0.4.1
+* **Foundry VTT Compatibility**: 0.4.0
+* **System Compatibility (If applicable)**: D&D 5e
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
+* **Translation Support**: English
+
+### Link(s) to Module
+* [https://github.com/kakaroto/fvtt-module-lmrtfy](https://github.com/kakaroto/fvtt-module-lmrtfy)
+* [https://raw.githubusercontent.com/kakaroto/fvtt-module-lmrtfy/master/module.json](https://raw.githubusercontent.com/kakaroto/fvtt-module-lmrtfy/master/module.json)
+
+### Description
+LMRTFY is a module to let Game Masters request rolls from their players. This can help avoid questions like "where do I click again?" or maybe simply to request a roll without the other players knowing about it.
 
 ---
 
