@@ -49,7 +49,6 @@
       * [Chat Damage Buttons](#chat-damage-buttons)
       * [Chat Damage Buttons - Better Rolls Edition](#chat-damage-buttons---better-rolls-edition)
       * [Chat Damage Buttons - Beyond20 Edition](#chat-damage-buttons---beyond20-edition)
-      * [DnD Beyond Character Importer](#dnd-beyond-character-importer)
       * [Dynamic Items](#dynamic-items)
       * [E-Z Roller](#e-z-roller)
       * [Favourite Item Tab](#favourite-item-tab)
@@ -75,6 +74,7 @@
       * [Arcane Marks &amp; Careers](#arcane-marks--careers)
    * [Foundry VTT Modules (Defunct)](#foundry-vtt-modules-defunct)
       * [DDB Popper (use VTTA-DNDBEYOND instead)](#ddb-popper-use-vtta-dndbeyond-instead)
+      * [DnD Beyond Character Importer (non-functional -- use VTTA-D&amp;D Beyond Integration instead)](#dnd-beyond-character-importer-non-functional----use-vtta-dd-beyond-integration-instead)
       * [Encumbrance Variant](#encumbrance-variant)
       * [FVTT-Party (Discontinued, see VTTA-Party for an successor)](#fvtt-party-discontinued-see-vtta-party-for-an-successor)
       * [GM Roll Message](#gm-roll-message)
@@ -171,9 +171,6 @@ Through the use of Arcane magic, you are able to see and hear your follow advent
 ## Chat Autoloader
 
 * **Author**: Moerill#7205 on Discord. He accepts donations at his [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYZ294SP2JBGS&source=url).
-* **Version**: 0.1
-* **Foundry VTT Compatibility**: At least v0.3.2+, probably earlier versions as well.
-* **Module Conflicts**: Possible conflicts with *Message Age Restriction* by Felix@6196.
 * **Translation Support**: EN (full)
 
 ### Link(s) to Module
@@ -459,11 +456,6 @@ A little app to preview images on hover in the file picker menu.
 ## Layer Hotkeys
 
 * **Author**: Moerill#7205 on Discord. He accepts donations at his [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYZ294SP2JBGS&source=url).
-* **Version**: v1.0
-* **Foundry VTT Compatibility**: 0.3.0
-* **System Compatibility (If applicable)**: Universal
-* **Module Requirement(s)**: None
-* **Module Conflicts**: None
 * **Translation Support**: EN (full)
 
 ### Link(s) to Module
@@ -512,7 +504,7 @@ Module to enhance visibility for the GM in Foundry VTT.
 ## Maestro
 
 * **Author**: Evan Clarke (errational#2007)
-* **Version**: 0.2.2
+* **Version**: 0.3.5
 * **Foundry VTT Compatibility**: 0.4.0+
 * **System Compatibility (If applicable)**: N/A
 * **Module Requirement(s)**: N/A
@@ -530,6 +522,7 @@ Maestro adds the following features:
 
 * Scene Playlist - Select a playlist to play automatically when the Scene is activated.
 * Hype Track - Set a track to play each time that Actor has a turn in Combat
+* Item Track - Set a track/playlist to play each time that Item is rolled
 
 ---
 
@@ -694,11 +687,7 @@ This Foundry VTT module lets you pop out journal entries and actor sheets into t
 ## Pointer
 
 * **Author**: Moerill#7205 on Discord. He accepts donations at his [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYZ294SP2JBGS&source=url).
-* **Version**: 1.3
-* **Foundry VTT Compatibility**: 0.3+
 * **System Compatibility (If applicable)**: Universal
-* **Module Requirement(s)**: None
-* **Module Conflicts**: None
 * **Translation Support**: EN (full)
 
 ### Link(s) to Module
@@ -748,11 +737,6 @@ Save/restore window position whem minimizing/maximizing.
 ## SVG Loader
 
 * **Author**: Moerill#7205 on Discord. He accepts donations at his [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYZ294SP2JBGS&source=url).
-* **Version**: 
-* **Foundry VTT Compatibility**: 
-* **System Compatibility (If applicable)**: 
-* **Module Requirement(s)**: 
-* **Module Conflicts**: 
 * **Translation Support**: EN (full)
 
 ### Link(s) to Module
@@ -767,8 +751,6 @@ This module allows to load walls, lights and sources through .svg files, provide
 ## Tiles Browser
 
 * **Author**: Moerill#7205 on Discord. He accepts donations at his [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYZ294SP2JBGS&source=url).
-* **Version**: 0.2
-* **Foundry VTT Compatibility**: 0.3.5
 * **Translation Support**: EN (full)
 
 ### Link(s) to Module
@@ -783,10 +765,7 @@ Adds a browser to the tiles layer to conveniently preview and then drag and drop
 ## Token Mold
 
 * **Author**: Moerill#7205 on Discord. He accepts donations at his [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYZ294SP2JBGS&source=url).
-* **Version**: 1.0
-* **Foundry VTT Compatibility**: 0.3.5
-* **System Compatibility (If applicable)**: All, though extra option to roll hp for DnD5e
-* **Module Conflicts**: This module replaces the *Token Randomizer*, hence it is not compatible with it.
+* **System Compatibility (If applicable)**: All, though some extra option for DnD5e
 * **Translation Support**: EN (full)
 
 ### Link(s) to Module
@@ -991,26 +970,6 @@ To install use the following link in Foundrys Module Setup https://raw.githubuse
 ### Link(s) to Module
 * [https://gitlab.com/Ionshard/foundry-vtt-chatdamagebuttons-beyond20](https://gitlab.com/Ionshard/foundry-vtt-chatdamagebuttons-beyond20#foundry-vtt-chat-damage-buttons-beyond20-edition)
 * [https://gitlab.com/Ionshard/foundry-vtt-chatdamagebuttons-beyond20/-/jobs/artifacts/master/raw/module.json?job=build-module](https://gitlab.com/Ionshard/foundry-vtt-chatdamagebuttons-beyond20/-/jobs/artifacts/master/raw/module.json?job=build-module)
-
----
-
-## DnD Beyond Character Importer
-
-* **Author**: @Sillvva#2532 on Discord.
-* **Version**: 0.19
-* **Foundry VTT Compatibility**: 0.3+ (See Description)
-* **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
-* **Module Requirement(s)**: None.
-* **Module Conflicts**: None, but see description.
-* **Translation Support**: EN (full)
-
-### Link(s) to Module
-* [https://github.com/sillvva/foundry-vtt-modules/tree/master/ddb-importer](https://github.com/sillvva/foundry-vtt-modules/tree/master/ddb-importer) 
-
-### Description
-This module allows you to import character data from DnD Beyond into Foundry Virtual Tabletop.  
-
-The module has not been updated recently by its creator, but the community has produced a fix for this issue.  The fix is not included in the zip file for the module, but is instead contained within the Github repository, and must be retrieved there. Replace the file in the module folder with the fixed version.
 
 ---
 
@@ -1238,14 +1197,14 @@ This module adds a search interface for actors. This enables more comfortable br
 ## Obsidian Character Sheets
 
 * **Author**: [Fyorl#1292](https://kim.mantas.me.uk)
-* **Version**: 1.0.2
-* **Foundry VTT Compatibility**: 0.4.1+
+* **Version**: 1.1.2
+* **Foundry VTT Compatibility**: 0.4.3+
 * **Translation Support**: EN, DE, JP
 
 ### Link to Module
 
 * [https://bitbucket.org/Fyorl/obsidian](https://bitbucket.org/Fyorl/obsidian)
-* [https://bitbucket.org/Fyorl/obsidian/raw/1.0.0/module.json](https://bitbucket.org/Fyorl/obsidian/raw/master/module.json)
+* [https://bitbucket.org/Fyorl/obsidian/raw/master/module.json](https://bitbucket.org/Fyorl/obsidian/raw/master/module.json)
 
 ### Description
 
@@ -1495,6 +1454,26 @@ Foundry VTT modules that no longer work are noted here. Modules included here ha
 ### Description
 Opens a D&D Beyond popup for a linked actor.    
 More info here: [https://github.com/death-save/ddb-popper](https://github.com/death-save/ddb-popper)
+
+---
+
+## DnD Beyond Character Importer (non-functional -- use VTTA-D&D Beyond Integration instead)
+
+* **Author**: @Sillvva#2532 on Discord.
+* **Version**: 0.19
+* **Foundry VTT Compatibility**: 0.3+ (See Description)
+* **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
+* **Module Requirement(s)**: None.
+* **Module Conflicts**: None, but see description.
+* **Translation Support**: EN (full)
+
+### Link(s) to Module
+* [https://github.com/sillvva/foundry-vtt-modules/tree/master/ddb-importer](https://github.com/sillvva/foundry-vtt-modules/tree/master/ddb-importer) 
+
+### Description
+This module allows you to import character data from DnD Beyond into Foundry Virtual Tabletop.  
+
+The module has not been updated recently by its creator, but the community has produced a fix for this issue.  The fix is not included in the zip file for the module, but is instead contained within the Github repository, and must be retrieved there. Replace the file in the module folder with the fixed version.
 
 ---
 
