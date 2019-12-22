@@ -2,84 +2,86 @@
 ---
 <!--tl=2-->
 <!--ts-->
+_Items marked with :three: series icons may work for the indicated revision and later :three: revisions of FVTT (only)._
+_Items marked with :four: series icons require a minimum FVTT revision level as indicated and may work with later revisions._
    * [Foundry VTT Modules (Universal)](#foundry-vtt-modules-universal)
-      * [Actually Private Rolls](#actually-private-rolls)
-      * [Always Show Notes](#always-show-notes)
-      * [Anvil Menu](#anvil-menu)
-      * [Arcane Viewing](#arcane-viewing)
-      * [Chat Autoloader](#chat-autoloader)
-      * [Combat Utility Belt (Beta)](#combat-utility-belt-beta)
-      * [Cursor Hider](#cursor-hider)
-      * [Deselection](#deselection)
-      * [Dice Calculator](#dice-calculator)
-      * [Discord Rich Presence](#discord-rich-presence)
-      * [Display Mode](#display-mode)
-      * [Entity Order](#entity-order)
-      * [FFG Roller](#ffg-roller)
-      * [Foundry Patrol](#foundry-patrol)
-      * [Foundry Pin](#foundry-pin)
-      * [The Furnace](#the-furnace)
-      * [Grid Scaler](#grid-scaler)
-      * [Image Previewer](#image-previewer)
-      * [Journal Drag](#journal-drag)
-      * [Layer Hotkeys](#layer-hotkeys)
-      * [Less Fog](#less-fog)
-      * [Maestro](#maestro)
-      * [Merge Walls](#merge-walls)
-      * [Message Age Restriction](#message-age-restriction)
-      * [No Token Animations](#no-token-animations)
-      * [Patches by trdischat](#patches-by-trdischat)
-      * [Permission Viewer](#permission-viewer)
-      * [Pings](#pings)
-      * [Playlist Import](#playlist-import)
-      * [Popout!](#popout)
-      * [Pointer](#pointer)
-      * [Search Anywhere](#search-anywhere)
-      * [Skycons](#skycons)
-      * [SVG Loader](#svg-loader)
-      * [Tiles Browser](#tiles-browser)
-      * [Token Mold](#token-mold)
-      * [Torch](#torch)
-      * [VTTA Iconizer](#vtta-iconizer)
-      * [VTTA Tokenizer](#vtta-tokenizer)
+      * [Actually Private Rolls :three:.:nine:](#actually-private-rolls)
+      * [Always Show Notes :three:.:five:](#always-show-notes)
+      * [Anvil Menu :three:.:seven:](#anvil-menu)
+      * [Arcane Viewing :three:.:eight:](#arcane-viewing)
+      * [Chat Autoloader :four:.:one::heavy_plus_sign:](#chat-autoloader)
+      * [Combat Utility Belt (Beta) :four:.:zero::heavy_plus_sign:](#combat-utility-belt-beta)
+      * [Cursor Hider :three:.:seven:](#cursor-hider)
+      * [Deselection :four:.:zero::heavy_plus_sign:](#deselection)
+      * [Dice Calculator :four:.:zero::heavy_plus_sign:](#dice-calculator)
+      * [Discord Rich Presence :four:.:zero::heavy_plus_sign:](#discord-rich-presence)
+      * [Display Mode :three:.:zero:](#display-mode)
+      * [Entity Order :four:.:zero::heavy_plus_sign:](#entity-order)
+      * [FFG Roller :three:.:zero:](#ffg-roller)
+      * [Foundry Patrol :three:.:eight:](#foundry-patrol)
+      * [Foundry Pin :three:.:nine:](#foundry-pin)
+      * [The Furnace :four:.:three::heavy_plus_sign:](#the-furnace)
+      * [Grid Scaler :four:.:zero::heavy_plus_sign:](#grid-scaler)
+      * [Image Previewer :four:.:zero::heavy_plus_sign:](#image-previewer)
+      * [Journal Drag :no_entry_sign:](#journal-drag)
+      * [Layer Hotkeys :interrobang:](#layer-hotkeys)
+      * [Less Fog :four:.:one::heavy_plus_sign:](#less-fog)
+      * [Maestro :four:.:one::heavy_plus_sign::new:](#maestro)
+      * [Merge Walls :four:.:zero::heavy_plus_sign:](#merge-walls)
+      * [Message Age Restriction :three:.:one:](#message-age-restriction)
+      * [No Token Animations :three:.:five:](#no-token-animations)
+      * [Patches by trdischat :three:.:zero:](#patches-by-trdischat)
+      * [Permission Viewer :four:.:zero::heavy_plus_sign:](#permission-viewer)
+      * [Pings :four:.:zero::heavy_plus_sign:](#pings)
+      * [Playlist Import :four:.:one::heavy_plus_sign:](#playlist-import)
+      * [Popout! :four:.:zero::heavy_plus_sign:](#popout)
+      * [Pointer :four:.:one::heavy_plus_sign:](#pointer)
+      * [Search Anywhere :four:.:zero::heavy_plus_sign:](#search-anywhere)
+      * [Skycons :four:.:zero::heavy_plus_sign:](#skycons)
+      * [SVG Loader :three:.:zero:](#svg-loader)
+      * [Tiles Browser :four:.:two::heavy_plus_sign:](#tiles-browser)
+      * [Token Mold :four:.:zero::heavy_plus_sign:](#token-mold)
+      * [Torch :four:.:zero::heavy_plus_sign:](#torch)
+      * [VTTA Iconizer :four:.:zero::heavy_plus_sign](#vtta-iconizer)
+      * [VTTA Tokenizer :four:.:three::heavy_plus_sign:](#vtta-tokenizer)
    * [Foundry VTT Modules for DnD 5E](#foundry-vtt-modules-for-dnd-5e)
-      * [Better NPC Sheet 5e](#better-npc-sheet-5e)
-      * [Better Rolls for 5e](#better-rolls-for-5e)
-      * [Beyond 20](#beyond-20)
-      * [Chat Damage Buttons](#chat-damage-buttons)
-      * [Chat Damage Buttons - Better Rolls Edition](#chat-damage-buttons---better-rolls-edition)
-      * [Chat Damage Buttons - Beyond20 Edition](#chat-damage-buttons---beyond20-edition)
-      * [Dynamic Items](#dynamic-items)
-      * [E-Z Roller](#e-z-roller)
-      * [Favourite Item Tab](#favourite-item-tab)
-      * [Group Roll](#group-roll)
-      * [Item Sheet Buttons](#item-sheet-buttons)
-      * [Item Collection](#item-collection)
-      * [Kobold Press OGL](#kobold-press-ogl)
-      * [Let Me Roll That For You! (LMRTFY)](#let-me-roll-that-for-you-lmrtfy)
-      * [Minor QOL Improvements](#minor-qol-improvements)
-      * [Loot Sheet NPC (5e)](#loot-sheet-npc-5e)
-      * [NPC Browser](#npc-browser)
-      * [Obsidian Character Sheets](#obsidian-character-sheets)
-      * [Polyglot](#polyglot)
-      * [Polymorpher](#polymorpher)
-      * [Roll20 Converter](#roll20-converter)
-      * [Roll20 NPC Importer, for 5e](#roll20-npc-importer-for-5e)
-      * [Sky's 5th Edition Dungeons &amp; Dragons Sheet](#skys-5th-edition-dungeons--dragons-sheet)
-      * [Spell Browser](#spell-browser)
-      * [SRD Bestiary Module](#srd-bestiary-module)
-      * [VTTA D&amp;D Beyond Integration](#vtta-dd-beyond-integration)
-      * [VTTA Party](#vtta-party)
+      * [Better NPC Sheet 5e :four:.:zero::heavy_plus_sign:](#better-npc-sheet-5e)
+      * [Better Rolls for 5e :four:.:one::heavy_plus_sign:](#better-rolls-for-5e)
+      * [Beyond 20 :four:.:zero::heavy_plus_sign:](#beyond-20)
+      * [Chat Damage Buttons :four:.:zero::heavy_plus_sign:](#chat-damage-buttons)
+      * [Chat Damage Buttons - Better Rolls Edition :three:.:six:](#chat-damage-buttons---better-rolls-edition)
+      * [Chat Damage Buttons - Beyond20 Edition :three:.:nine:](#chat-damage-buttons---beyond20-edition)
+      * [Dynamic Items :four:.:two::heavy_plus_sign:](#dynamic-items)
+      * [E-Z Roller :four:.:zero::heavy_plus_sign:](#e-z-roller)
+      * [Favourite Item Tab :four:.:zero::heavy_plus_sign:](#favourite-item-tab)
+      * [Group Roll :three:.:zero:](#group-roll)
+      * [Item Sheet Buttons :two:.:one::zero:](#item-sheet-buttons)
+      * [Item Collection :four:.:three::heavy_plus_sign:](#item-collection)
+      * [Kobold Press OGL :four:.:zero::heavy_plus_sign::new:](#kobold-press-ogl)
+      * [Let Me Roll That For You! (LMRTFY) :four:.:zero::heavy_plus_sign::new:](#let-me-roll-that-for-you-lmrtfy)
+      * [Minor QOL Improvements :four:.:zero::heavy_plus_sign:](#minor-qol-improvements)
+      * [Loot Sheet NPC (5e) :three:.:zero:](#loot-sheet-npc-5e)
+      * [NPC Browser :three:.:zero:](#npc-browser)
+      * [Obsidian Character Sheets :four:.:three::heavy_plus_sign::new:](#obsidian-character-sheets)
+      * [Polyglot :four:.:zero::heavy_plus_sign:](#polyglot)
+      * [Polymorpher :three:.:zero:](#polymorpher)
+      * [Roll20 Converter :four:.:zero::heavy_plus_sign:](#roll20-converter)
+      * [Roll20 NPC Importer, for 5e :three:.:zero:](#roll20-npc-importer-for-5e)
+      * [Sky's 5th Edition Dungeons &amp; Dragons Sheet :three:.:six:](#skys-5th-edition-dungeons--dragons-sheet)
+      * [Spell Browser :three:.:zero:](#spell-browser)
+      * [SRD Bestiary Module :two:.:eight:](#srd-bestiary-module)
+      * [VTTA D&amp;D Beyond Integration :four:.:zero::heavy_plus_sign:](#vtta-dd-beyond-integration)
+      * [VTTA Party :four:.:zero::heavy_plus_sign:](#vtta-party)
    * [Foundry VTT Modules for WFRP 4E](#foundry-vtt-modules-for-wfrp-4e)
-      * [Arcane Marks &amp; Careers](#arcane-marks--careers)
+      * [Arcane Marks &amp; Careers :four:.:zero::heavy_plus_sign:](#arcane-marks--careers)
    * [Foundry VTT Modules (Defunct)](#foundry-vtt-modules-defunct)
-      * [DDB Popper (use VTTA-DNDBEYOND instead)](#ddb-popper-use-vtta-dndbeyond-instead)
-      * [DnD Beyond Character Importer (non-functional -- use VTTA-D&amp;D Beyond Integration instead)](#dnd-beyond-character-importer-non-functional----use-vtta-dd-beyond-integration-instead)
-      * [Encumbrance Variant](#encumbrance-variant)
-      * [FVTT-Party (Discontinued, see VTTA-Party for an successor)](#fvtt-party-discontinued-see-vtta-party-for-an-successor)
-      * [GM Roll Message](#gm-roll-message)
-      * [Infinite Folders](#infinite-folders)
-      * [Z Order (functionality integrated into core)](#z-order-functionality-integrated-into-core)
+      * [DDB Popper (use VTTA-DNDBEYOND instead) 🚫 ](#ddb-popper-use-vtta-dndbeyond-instead)
+      * [DnD Beyond Character Importer (non-functional -- use VTTA-D&amp;D Beyond Integration instead) 🚫 ](#dnd-beyond-character-importer-non-functional----use-vtta-dd-beyond-integration-instead)
+      * [Encumbrance Variant 🚫 ](#encumbrance-variant)
+      * [FVTT-Party (Discontinued, see VTTA-Party for an successor) 🚫 ](#fvtt-party-discontinued-see-vtta-party-for-an-successor)
+      * [GM Roll Message 🚫 ](#gm-roll-message)
+      * [Infinite Folders 🚫 ](#infinite-folders)
+      * [Z Order (functionality integrated into core) 🚫 ](#z-order-functionality-integrated-into-core)
    * [Appendix](#appendix)
       * [Appendix A: Adding a Module](#appendix-a-adding-a-module)
       * [Appendix B: Best Editing Practices](#appendix-b-best-editing-practices)
@@ -172,7 +174,7 @@ Through the use of Arcane magic, you are able to see and hear your follow advent
 
 * **Author**: Moerill#7205 on Discord. He accepts donations at his [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYZ294SP2JBGS&source=url).
 * **Translation Support**: EN (full)
-
+* **Foundry VTT Compatibility**: 0.4.1
 ### Link(s) to Module
 * [https://gitlab.com/moerills-fvtt-modules/chat-autoloader](https://gitlab.com/moerills-fvtt-modules/chat-autoloader)
 * [https://gitlab.com/moerills-fvtt-modules/chat-autoloader/raw/master/chat-autoloader/module.json](https://gitlab.com/moerills-fvtt-modules/chat-autoloader/raw/master/chat-autoloader/module.json)
@@ -249,7 +251,7 @@ This module lets the GM deselect a token or tokens by clicking anywhere on the m
 
 * **Author**: Asacolips#1867 on Discord.
 * **Version**: 0.3.9
-* **Foundry VTT Compatibility**: 0.3.0+
+* **Foundry VTT Compatibility**: 0.4.0+
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
 * **Module Conflicts**: Inline rolls (if enabled) will likely conflict with other macro systems
@@ -268,7 +270,7 @@ This module turns the d20 icon near the chat prompt into a clickable link that o
 
 * **Author**: Cody Swendrowski (Toon324#9701 on Discord)
 * **Version**: 1.0.0
-* **Foundry VTT Compatibility**: 0.3.8+
+* **Foundry VTT Compatibility**: 0.4.0+
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: [Companion API (Required!)](https://github.com/cswendrowski/FoundryVTT-Discord-Rich-Presence/releases)
 * **Module Conflicts**: None
@@ -310,7 +312,7 @@ This module makes it so that when you click the anvil in the top left of the scr
 
 * **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto)
 * **Version**: 0.1
-* **Foundry VTT Compatibility**: 0.3.1+
+* **Foundry VTT Compatibility**: 0.4.0+
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
@@ -348,6 +350,7 @@ This adds a simple dice rolling window for the special dice used in Fantasy Flig
 * **Author**: Jacob McAuley Discord: @JacobMcAuley3461
 * **Version**: 1.0.0
 * **Foundry VTT Compatibility**: 0.3.8
+> Editor Note: This module is reported to work in v0.4.0+ if the MinimumCoreVersion line is added to the module.json.
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None known
@@ -385,7 +388,7 @@ Allows the user to pin windows which will be re-opened automatically the next ti
 
 * **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto) 
 * **Version**: 1.0
-* **Foundry VTT Compatibility**: 0.3.5+
+* **Foundry VTT Compatibility**: 0.4.3+
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
@@ -406,7 +409,7 @@ It started by adding Drawing Tools, and then an experimental Macros system and n
 
 * **Author**: UberV, UberV#2154 on Discord.
 * **Version**: 0.0.5
-* **Foundry VTT Compatibility**: 0.3+
+* **Foundry VTT Compatibility**: 0.4.)+
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
@@ -425,7 +428,7 @@ This mod allows you to resize a grid more easily within Foundry, allowing easier
 
 * **Author**: Felix#6196 on Discord, accepts donations via paypal, felix.mueller.86@web.de
 * **Version**: 0.1
-* **Foundry VTT Compatibility**: written for 0.3.4, should be fairly version independent
+* **Foundry VTT Compatibility**: 0.4.0+
 * **System Compatibility (If applicable)**: universal
 * **Module Requirement(s)**: none
 * **Module Conflicts**: none
@@ -486,7 +489,7 @@ The Hotkeys can be seen by hovering over the button as well.
 
 * **Author**: trdischat#2123 on Discord.
 * **Version**: 0.0
-* **Foundry VTT Compatibility**: 0.3+
+* **Foundry VTT Compatibility**: 0.4.1+
 * **System Compatibility (If applicable)**: Universal.
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
@@ -505,7 +508,7 @@ Module to enhance visibility for the GM in Foundry VTT.
 
 * **Author**: Evan Clarke (errational#2007)
 * **Version**: 0.3.5
-* **Foundry VTT Compatibility**: 0.4.0+
+* **Foundry VTT Compatibility**: 0.4.1+
 * **System Compatibility (If applicable)**: N/A
 * **Module Requirement(s)**: N/A
 * **Module Conflicts**: Hype Track (deprecated by this module)
@@ -629,7 +632,7 @@ This Foundry VTT module displays colored diamonds/squares/circles to represent t
 
 * **Author**: AzzuriteTV#2004
 * **Version**: 1.0.2
-* **Foundry VTT Compatibility**: 0.3.7+
+* **Foundry VTT Compatibility**: 0.4.0+
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
@@ -650,7 +653,7 @@ Adds the ability to ping a location on the map, see this [example ping](https://
 
 * **Author**: JacobMcAuley#3461 on Discord
 * **Version**: 1.0
-* **Foundry VTT Compatibility**: 0.3.7+
+* **Foundry VTT Compatibility**: 0.4.1+
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
@@ -689,7 +692,7 @@ This Foundry VTT module lets you pop out journal entries and actor sheets into t
 * **Author**: Moerill#7205 on Discord. He accepts donations at his [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYZ294SP2JBGS&source=url).
 * **System Compatibility (If applicable)**: Universal
 * **Translation Support**: EN (full)
-
+* **Foundry VTT Compatibility**: 0.4.1+
 ### Link(s) to Module
 * [https://gitlab.com/moerills-fvtt-modules/pointer](https://gitlab.com/moerills-fvtt-modules/pointer)
 * [https://gitlab.com/moerills-fvtt-modules/pointer/raw/master/pointer/module.json](https://gitlab.com/moerills-fvtt-modules/pointer/raw/master/pointer/module.json)
@@ -738,7 +741,7 @@ Save/restore window position whem minimizing/maximizing.
 
 * **Author**: Moerill#7205 on Discord. He accepts donations at his [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYZ294SP2JBGS&source=url).
 * **Translation Support**: EN (full)
-
+* **Foundry VTT Compatibility**: 0.3+
 ### Link(s) to Module
 * [https://gitlab.com/moerills-fvtt-modules/svg-loader](https://gitlab.com/moerills-fvtt-modules/svg-loader)
 * [https://gitlab.com/moerills-fvtt-modules/svg-loader/raw/master/module.json](https://gitlab.com/moerills-fvtt-modules/svg-loader/raw/master/module.json)
@@ -746,13 +749,16 @@ Save/restore window position whem minimizing/maximizing.
 ### Description
 This module allows to load walls, lights and sources through .svg files, provided e.g. by DungeonFog.
 
+### Status
+Broken since at least update 4.2
+
 ---
 
 ## Tiles Browser
 
 * **Author**: Moerill#7205 on Discord. He accepts donations at his [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYZ294SP2JBGS&source=url).
 * **Translation Support**: EN (full)
-
+* **Foundry VTT Compatibility**: 0.4.2+
 ### Link(s) to Module
 * [https://gitlab.com/moerills-fvtt-modules/tiles-browser/](https://gitlab.com/moerills-fvtt-modules/tiles-browser/)
 * [https://gitlab.com/moerills-fvtt-modules/tiles-browser/raw/master/module.json](https://gitlab.com/moerills-fvtt-modules/tiles-browser/raw/master/module.json)
@@ -767,7 +773,7 @@ Adds a browser to the tiles layer to conveniently preview and then drag and drop
 * **Author**: Moerill#7205 on Discord. He accepts donations at his [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYZ294SP2JBGS&source=url).
 * **System Compatibility (If applicable)**: All, though some extra option for DnD5e
 * **Translation Support**: EN (full)
-
+* **Foundry VTT Compatibility**: 0.4+
 ### Link(s) to Module
 * [https://gitlab.com/moerills-fvtt-modules/token-mold](https://gitlab.com/moerills-fvtt-modules/token-mold)
 * [https://gitlab.com/moerills-fvtt-modules/token-mold/raw/master/module.json](https://gitlab.com/moerills-fvtt-modules/token-mold/raw/master/module.json)
@@ -830,7 +836,7 @@ to define custom databases, too
 
 * **Author**: solfolango77#0880 on Discord. His Patreon can be found here: [https://www.patreon.com/vttassets](https://www.patreon.com/vttassets) 
 * **Version**: v1.0.12
-* **Foundry VTT Compatibility**: 0.4.0+
+* **Foundry VTT Compatibility**: 0.4.3+
 * **System Compatibility (If applicable)**: "dnd5e", "pf2e", "archmage" - shout out if I should anything, thanks!
 * **Module Requirement(s)**: Requires the player permission "Trusted Player"
 * **Module Conflicts**:
@@ -858,7 +864,7 @@ Foundry modules that work within Dungeons and Dragons 5th Edition are noted here
 
 * **Author**: Felix#6196 on Discord, syl3r31 on Github. He accepts donations on Paypal at felix.mueller.86@web.de 
 * **Version**: Better NPC Sheet v0.4.5
-* **Foundry VTT Compatibility**: 0.2.9-0.2.10
+* **Foundry VTT Compatibility**: 0.4.0+
 * **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition.
 * **Module Requirement(s)**: None
 * **Module Conflicts**: If used alongside Moerill’s “adnd5e” module, item descriptions are unable to be expanded in the sheet. This can be fixed by disabling Moerill’s module.
@@ -921,7 +927,7 @@ This module allows you to use and roll sheets in DnD Beyond, and have those resu
 
 * **Author**: hooking#0492 on Discord.
 * **Version**: 0.3.1
-* **Foundry VTT Compatibility**: 0.2.8-0.2.10
+* **Foundry VTT Compatibility**: 0.4.0+
 * **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
 * **Module Requirement(s): None.
 * **Module Conflicts**: Module appears to be incompatible with the aDnD5e module.
@@ -1018,7 +1024,7 @@ Causes item cards to open in a window rather than in chat.  This allows you to o
 
 * **Author**: Felix#6196 on Discord, syl3r31 on Github. He accepts donations on Paypal at felix.mueller.86@web.de
 * **Version**: 0.4
-* **Foundry VTT Compatibility**: 0.3.0
+* **Foundry VTT Compatibility**: 0.4.0+
 * **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None known
@@ -1077,7 +1083,7 @@ To install, download the zip file included in the Github module directory. Extra
 
 * **Author**: @tposney#1462 on Discord
 * **Version**: 1.2.1
-* **Foundry VTT Compatibility**: 0.4+
+* **Foundry VTT Compatibility**: 0.4.3+
 * **System Compatibility (If applicable)**: dn5e, because of currency.
 * **Module Requirement(s)**: none.
 * **Module Conflicts**: none that I know of.
@@ -1216,7 +1222,7 @@ A dark theme character sheet.
 
 * **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto)
 * **Version**: 0.3
-* **Foundry VTT Compatibility**: 0.3.0
+* **Foundry VTT Compatibility**: 0.4.0+
 * **System Compatibility (If applicable)**: D&D 5e
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
@@ -1254,7 +1260,7 @@ A module for Foundry VTT that lets you polymorph characters into any other chara
 
 * **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto)
 * **Version**: 0.3
-* **Foundry VTT Compatibility**: 0.3.5
+* **Foundry VTT Compatibility**: 0.4.0+
 * **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
 * **Module Requirement(s)**: None in Foundry, though module requires a campaign exported from Roll20 using KaKaRoTo’s export tool.
 * **Module Conflicts**: None known.
@@ -1389,7 +1395,7 @@ into the world and optionally into designated compendium packs (see [a suitable 
 
 * **Author**: solfolango77#0880 on Discord. His Patreon can be found here: [https://www.patreon.com/vttassets](https://www.patreon.com/vttassets) 
 * **Version**: v1.0.0
-* **Foundry VTT Compatibility**: 0.3.5+
+* **Foundry VTT Compatibility**: 0.4.0+
 * **System Compatibility (If applicable)**:
 * **Module Requirement(s)**: None
 * **Module Conflicts**:
@@ -1412,7 +1418,7 @@ Foundry modules that work within Warhammer Fantasy Roleplay 4th Edition are note
 
 * **Author**: Moo Man#7518 on Discord
 * **Version**: 1.2.2
-* **Foundry VTT Compatibility**: 0.3+
+* **Foundry VTT Compatibility**: 0.4.0+
 * **System Compatibility**: Warhammer Fantasy Roleplay 4th Edition.
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
