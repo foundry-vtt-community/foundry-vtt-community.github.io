@@ -72,6 +72,7 @@
       * [VTTA Party](#vtta-party)
    * [Foundry VTT Modules for WFRP 4E](#foundry-vtt-modules-for-wfrp-4e)
       * [Arcane Marks &amp; Careers](#arcane-marks--careers)
+      * [Rough Nights &amp; Hard Days](#rough-nights--hard-days)
    * [Foundry VTT Modules (Defunct)](#foundry-vtt-modules-defunct)
       * [DDB Popper (use VTTA-DNDBEYOND instead)](#ddb-popper-use-vtta-dndbeyond-instead)
       * [DnD Beyond Character Importer (non-functional -- use VTTA-D&amp;D Beyond Integration instead)](#dnd-beyond-character-importer-non-functional----use-vtta-dd-beyond-integration-instead)
@@ -1434,6 +1435,22 @@ This module for FVTT adds these careers and tables to the [WFRP4e system](https:
 To install, simply add `arcane-marks-careers` into the modules folder in the `public` directory of Foundry. Enable the module in your world, then restart Foundry.
 
 Once installed, you'll find the careers in the Arcane Careers Compendium, and you can roll on any Arcane Mark table with the chat command `/table <wind-name>`, e.g. `/table aqshy`.
+
+---
+## Rough Nights & Hard Days
+
+* **Author**: Jagusti#3610
+* **Version**: 0.4
+* **Foundry VTT Compatibility**: 0.4.0+
+* **System Compatibility**: WFRP4e 0.9.0+
+* **Module Conflicts**: Any module that changes the species or career tables
+
+### Link(s) to Module
+* https://github.com/Jagusti/fvtt-wfrp4e-rnhd/
+* `https://raw.githubusercontent.com/Jagusti/fvtt-wfrp4e-rnhd/master/module.json`
+
+### Description
+Extends the character creation capabilities to gnomes, including their stats, background, features. Also includes pub games!
 
 ---
 
