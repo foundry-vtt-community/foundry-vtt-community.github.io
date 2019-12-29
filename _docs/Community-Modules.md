@@ -51,6 +51,7 @@
       * [Chat Damage Buttons](#chat-damage-buttons)
       * [Chat Damage Buttons - Better Rolls Edition](#chat-damage-buttons---better-rolls-edition)
       * [Chat Damage Buttons - Beyond20 Edition](#chat-damage-buttons---beyond20-edition)
+      * [Critical Fumble](#critical-fumble)
       * [Dynamic Items](#dynamic-items)
       * [E-Z Roller](#e-z-roller)
       * [Favourite Item Tab](#favourite-item-tab)
@@ -67,6 +68,7 @@
       * [Polymorpher](#polymorpher)
       * [Roll20 Converter](#roll20-converter)
       * [Roll20 NPC Importer, for 5e](#roll20-npc-importer-for-5e)
+      * [Request Roll](#request-roll)
       * [Sky's 5th Edition Dungeons &amp; Dragons Sheet](#skys-5th-edition-dungeons--dragons-sheet)
       * [Spell Browser](#spell-browser)
       * [SRD Bestiary Module](#srd-bestiary-module)
@@ -508,7 +510,7 @@ Module to enhance visibility for the GM in Foundry VTT.
 ## L5R Roller
 
 * **Author**: putty#0555 on Discord.
-* **Version**: 0.3.0
+* **Version**: 0.4.0
 * **Foundry VTT Compatibility**: 0.4.3+
 * **System Compatibility (If applicable)**: Universal.
 * **Module Requirement(s)**: None
@@ -520,9 +522,9 @@ Module to enhance visibility for the GM in Foundry VTT.
 * [https://raw.githubusercontent.com/BernhardPosselt/l5r-foundryvtt-roller/master/module.json](https://raw.githubusercontent.com/BernhardPosselt/l5r-foundryvtt-roller/master/module.json)
 
 ### Description
-A Legend of the 5 Rings dice roller using the images from [SkyJedi's Discord Roller](https://github.com/SkyJedi/FFGNDS-Discord-Dice-Roller)
+A Legend of the 5 Rings dice roller using the images from [SkyJedi's Discord Roller](https://github.com/SkyJedi/FFGNDS-Discord-Dice-Roller) that supports exploding successes, re-rolling and keeping dice.
 
-Also supports Genesys and Fantasy Flight Games Star Wars RPG
+Also supports Genesys and Fantasy Flight Games Star Wars RPG.
 
 You can roll a system by starting your message with the following string:
 
@@ -530,13 +532,9 @@ You can roll a system by starting your message with the following string:
 * FFG Star Wars: /sw
 * FFG Genesys: /gen
 
-Then supply a dice formula separated with a space. 
+Then supply a dice formula separated with a space. The formula consists of dice letters that are optionally prefixed with a number.
 
-This can be either separate letters and for each letter a roll will be made (e.g. ssr would roll 2 skill dice and 1 ring die) or a combination like **ndl+ndl** where n is a number of rolls and l the die letter (e.g. 2dr+1ds would roll 2 ring dice and 1 skill die) 
-
-A full roll example would be **/l5r rrs**.
-
-Roll Legend of the 5 Rings 5th edition dice in the chat window. Auto rolls exploding successes and let's you keep/re-roll selected dice.
+A full roll example would be **/l5r rrs** or **/l5r 2rs**.
 
 Use the **/l5r** command using the following dice letters:
 
@@ -1049,6 +1047,29 @@ To install use the following link in Foundrys Module Setup https://raw.githubuse
 
 ---
 
+## Critical Fumble
+
+* **Author**: Jacob McAuley Discord: @JacobMcAuley3461
+* **Version**: 0.5.0
+* **Foundry VTT Compatibility**: 0.4.3
+* **System Compatibility (If applicable)**: DnD5e
+* **Module Requirement(s)**: None
+* **Module Conflicts**: Any module that overrides Dice5e.roll()
+* **Translation Support**: EN (Full)
+
+### Link(s) to Module
+* [https://github.com/JacobMcAuley/critical-fumble](https://github.com/JacobMcAuley/critical-fumble)
+* [https://github.com/JacobMcAuley/critical-fumble/raw/master/module.json](https://github.com/JacobMcAuley/critical-fumble/raw/master/module.json)
+
+### Description
+Do you find yourself forgetting to roll on the critical hit table? The critical fumble table? Do you find yourself forgetting to roll that pesky loot table after each monster dies?
+
+Then you're like me and this mod is what you need! Critical-fumble will automatically roll on the critical hit tables in the event of a critical hit! Each hit rolls a special table depending on the type of damage.
+
+Additionally, every time a targeted monster is felled by your players, the CR table is rolled! To further your convience, the coins dropped can be automatically distributed to your players. This option can be ignored though!
+
+---
+
 ## Dynamic Items
 
 * **Author**: @tposney discord
@@ -1360,6 +1381,25 @@ This module imports most facets of a campaign, including scenes, dynamic lightin
 
 ### Description
 This module allows for the importing of NPCs from Roll20, through use of JSONs exported via [VTT Enhancement Suite](https://ssstormy.github.io/roll20-enhancement-suite/). This import currently only supports NPCs created in the Roll20 OGL or Shaped version sheets. This module supports the Better NPC Sheet 5e, as well as the aDnD5e sheet in tagging actor items according to abilities, reactions, legendary actions, etc.  To install, first download the module, unzip it into `/public/modules`, and then restart Foundry while it is running.
+
+---
+
+## Request Roll
+
+* **Author**: Jacob McAuley Discord: @JacobMcAuley3461
+* **Version**: 1.0.0
+* **Foundry VTT Compatibility**: 0.4.3
+* **System Compatibility (If applicable)**: DnD5e
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None known
+* **Translation Support**: EN (Full)
+
+### Link(s) to Module
+* [https://github.com/JacobMcAuley/request_roll](https://github.com/JacobMcAuley/request_roll)
+* [https://github.com/JacobMcAuley/request_roll/raw/master/module.json](https://github.com/JacobMcAuley/request_roll/raw/master/module.json)
+
+### Description
+Request Roll is a module designed to help Gamemasters speed up the rolling process by requesting rolls from PCs. This can help reduce player navigation time, questions about where a roll is located, and other unforseen delays that cause chokepoitns in your game. You can select from a range of options varying from hidden rolls, where only the gm knows, to rolls with advantage or disadvantage! Consider installing this module to speed along your game!
 
 ---
 
