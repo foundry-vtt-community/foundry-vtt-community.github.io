@@ -24,7 +24,7 @@
       * [Journal Drag](#journal-drag)
       * [Layer Hotkeys](#layer-hotkeys)
       * [Less Fog](#less-fog)
-      * [L5R Roller](#l5r-roller)
+      * [Special Dice Roller](#special-dice-roller)
       * [Maestro](#maestro)
       * [Merge Walls](#merge-walls)
       * [Message Age Restriction](#message-age-restriction)
@@ -51,6 +51,7 @@
       * [Chat Damage Buttons](#chat-damage-buttons)
       * [Chat Damage Buttons - Better Rolls Edition](#chat-damage-buttons---better-rolls-edition)
       * [Chat Damage Buttons - Beyond20 Edition](#chat-damage-buttons---beyond20-edition)
+      * [Compendium Browser](#compendium-browser)
       * [Critical Fumble](#critical-fumble)
       * [Dynamic Items](#dynamic-items)
       * [E-Z Roller](#e-z-roller)
@@ -60,6 +61,7 @@
       * [Item Collection](#item-collection)
       * [Kobold Press OGL](#kobold-press-ogl)
       * [Let Me Roll That For You! (LMRTFY)](#let-me-roll-that-for-you-lmrtfy)
+      * [Max Crit Damage](#max-crit-damage)
       * [Minor QOL Improvements](#minor-qol-improvements)
       * [Loot Sheet NPC (5e)](#loot-sheet-npc-5e)
       * [NPC Browser](#npc-browser)
@@ -507,10 +509,10 @@ Module to enhance visibility for the GM in Foundry VTT.
 
 ---
 
-## L5R Roller
+## Special Dice Roller
 
 * **Author**: putty#0555 on Discord.
-* **Version**: 0.4.0
+* **Version**: 0.5.0
 * **Foundry VTT Compatibility**: 0.4.3+
 * **System Compatibility (If applicable)**: Universal.
 * **Module Requirement(s)**: None
@@ -518,38 +520,16 @@ Module to enhance visibility for the GM in Foundry VTT.
 * **Translation Support**: EN (full)
 
 ### Link(s) to Module
-* [https://github.com/BernhardPosselt/l5r-foundryvtt-roller](https://github.com/BernhardPosselt/l5r-foundryvtt-roller)
-* [https://raw.githubusercontent.com/BernhardPosselt/l5r-foundryvtt-roller/master/module.json](https://raw.githubusercontent.com/BernhardPosselt/l5r-foundryvtt-roller/master/module.json)
+* [https://github.com/BernhardPosselt/foundryvtt-special-dice-roller](https://github.com/BernhardPosselt/foundryvtt-special-dice-roller)
+* [https://raw.githubusercontent.com/BernhardPosselt/foundryvtt-special-dice-roller/master/module.json](https://raw.githubusercontent.com/BernhardPosselt/foundryvtt-special-dice-roller/master/module.json)
 
 ### Description
-A Legend of the 5 Rings dice roller using the images from [SkyJedi's Discord Roller](https://github.com/SkyJedi/FFGNDS-Discord-Dice-Roller) that supports exploding successes, re-rolling and keeping dice.
+Supports rolling dice in your chat window for various non regular dice systems:
 
-Also supports Genesys and Fantasy Flight Games Star Wars RPG.
-
-You can roll a system by starting your message with the following string:
-
-* Legend of the 5 Rings: /l5r
-* FFG Star Wars: /sw
-* FFG Genesys: /gen
-
-Then supply a dice formula separated with a space. The formula consists of dice letters that are optionally prefixed with a number.
-
-A full roll example would be **/l5r rrs** or **/l5r 2rs**.
-
-Use the **/l5r** command using the following dice letters:
-
-* b, r: ring
-* s, w: skill
-
-Usage is similar to L5R but re-rolls and keeping dice is unsupported. Use the **/gen** or **/sw** commands using the following dice letters:
-
-* b: boost
-* s: setback
-* a: ability
-* d: difficulty
-* p: proficiency
-* c: challenge
-* f: force (only sw)
+* Legend of the 5 Rings 5th edition
+* Vampire the Masquerade 5th edition
+* Genesys
+* FFG's Star Wars TTRPG
 
 ---
 
@@ -1047,6 +1027,26 @@ To install use the following link in Foundrys Module Setup https://raw.githubuse
 
 ---
 
+## Compendium Browser
+
+* **Author**: Felix#6196, accepts donation via paypal: felix.mueller.86@web.de
+* **Version**: 0.1
+* **Foundry VTT Compatibility**: 0.4.3
+* **System Compatibility (If applicable)**: dnd5e
+* **Module Requirement(s)**: none
+* **Module Conflicts**: none known
+* **Translation Support**: full english translation is included
+
+### Link(s) to Module
+* https://github.com/syl3r86/compendium-browser
+* https://raw.githubusercontent.com/syl3r86/compendium-browser/master/module.json
+
+### Description
+A module to easily browse and filter spells as well as npcs loaded from compendie.
+To install, copy the second link to the manifest file and paste that in the modules setup page in Foundry VTT.
+
+---
+
 ## Critical Fumble
 
 * **Author**: Jacob McAuley Discord: @JacobMcAuley3461
@@ -1227,7 +1227,28 @@ This module adds Kobold Press OGL content sourced from the KPOGL wiki. Currently
 * [https://raw.githubusercontent.com/kakaroto/fvtt-module-lmrtfy/master/module.json](https://raw.githubusercontent.com/kakaroto/fvtt-module-lmrtfy/master/module.json)
 
 ### Description
-LMRTFY is a module to let Game Masters request rolls from their players. This can help avoid questions like "where do I click again?" or maybe simply to request a roll without the other players knowing about it.
+LMRTFY is a module to let Game Masters request rolls from their players. This can help avoid questions like 
+"where do I click again?" or maybe simply to request a roll without the other players knowing about it.
+
+---
+
+## Max Crit Damage
+
+* **Author**: n3rf_herder#9026 on Discord.
+* **Version**: 0.1
+* **Foundry VTT Compatibility**: 0.4.0
+* **System Compatibility (If applicable)**: D&D 5e
+* **Module Requirement(s)**: None
+* **Module Conflicts**: Any that don't use the standard D&D 5e roller
+* **Translation Support**: English
+
+### Link(s) to Module
+* [https://github.com/smilligan93/max-crit-foundry-dnd5e/archive/master.zip](https://github.com/smilligan93/max-crit-foundry-dnd5e/archive/master.zip)
+* [https://raw.githubusercontent.com/smilligan93/max-crit-foundry-dnd5e/master/module.json](https://raw.githubusercontent.com/smilligan93/max-crit-foundry-dnd5e/master/module.json)
+
+
+### Description
+Deals max damage for critical hit rolls.
 
 ---
 
@@ -1277,7 +1298,7 @@ This module adds an additional NPC sheet which can be used for loot containers s
 
 * **Author**: Felix#6196 on Discord, syl3r31 on Github. He accepts donations on Paypal at felix.mueller.86@web.de
 * **Version: 0.1**
-* **Foundry VTT Compatibility**: 0.3.0
+* **Foundry VTT Compatibility**: 0.3.0  (discontinued, use Compendium Browser instead)
 * **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None known
@@ -1433,7 +1454,7 @@ This module provides a variant layout of the Core 5e Character Sheet in Foundry 
 
 * **Author**: Felix#6196 on Discord, syl3r31 on Github. He accepts donations on Paypal at felix.mueller.86@web.de.
 * **Version**: 0.3
-* **Foundry VTT Compatibility**: 0.3.0
+* **Foundry VTT Compatibility**: 0.3.0 (discontinued, use Compendium Browser instead)
 * **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None known.

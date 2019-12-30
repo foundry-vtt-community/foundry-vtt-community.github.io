@@ -14,6 +14,8 @@
       * [FATE Core &amp; Accelerated](#fate-core--accelerated)
    * [Starfinder](#starfinder)
       * [starfinder](#starfinder-1)
+   * [Shadowrun](#shadowrun)
+      * [Shadowrun 5th Edition](#shadowrun-5th-edition)
    * [Other](#other)
       * [Simple Worldbuilding System](#simple-worldbuilding-system)
    * [Appendix](#appendix)
@@ -152,6 +154,29 @@ This system adds support for FATE Core and FATE Accelerated (FAE) to Foundry VTT
 
 ### Description
 This system brings support for the Starfinder RPG to Foundry VTT. The system provides sheets for player characters, NPC's, starships, and vehicles. There isn't any compendium content provided currently. That should come in a future update.
+
+---
+
+# Shadowrun
+
+## Shadowrun 5th Edition
+
+* **Author**: Shawn Milligan (n3rf_herder#9026 on discord)
+* **Version**: v0.1
+* **Foundry VTT Compatibility**: v0.4.3
+* **Translation Support**: EN (full)
+
+### Link(s) to Game System
+* [https://github.com/smilligan93/SR5-FoundryVTT](https://github.com/smilligan93/SR5-FoundryVTT)
+* [https://raw.githubusercontent.com/smilligan93/SR5-FoundryVTT/master/system.json](https://raw.githubusercontent.com/smilligan93/SR5-FoundryVTT/master/system.json)
+
+### Description
+This system adds support for Shadowrun 5th Edition. 
+There are sheets for Players -- grunts, vehicles, and spirits are planned.
+Spells, Weapons, Matrix Devices, and many other items are supported. Many values are auto-calculated from equipped items (armor, essence, matrix attributes).
+Currently no compendium items, waiting for a more stable position before beginning that.
+
+Still work in progress. Message me with feature requests/bug reports.
 
 ---
 
