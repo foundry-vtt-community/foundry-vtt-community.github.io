@@ -6,6 +6,7 @@
       * [French](#french)
       * [German](#german)
       * [Portuguese (BR)](#portuguese-br)
+      * [Russian (RU)](#russian-ru)
    * [Appendix](#appendix)
       * [Appendix A: Adding a Translation](#appendix-a-adding-a-translation)
       * [Appendix B: Best Editing Practices](#appendix-b-best-editing-practices)
@@ -60,6 +61,23 @@ Installation In the Add-On Modules option click on Install Module and place the 
 
 ### Description
 Foundry VTT Brazilian (Portuguese) translation.
+
+---
+
+## Russian (RU)
+
+* **Author**: Phenomen [Discord: Phenomen#1337]
+* **Version**: 0.4.3.2
+* **Foundry VTT Compatibility**: 0.4.3+
+
+### Links to Translation
+* Github: https://github.com/Phenomen/foundry-vtt-ru
+* Manifest: https://github.com/Phenomen/foundry-vtt-ru/raw/master/module.json
+
+### Description
+This module adds the Russian language to Foundry VTT. Additionally, it translates D&D5 and WFRP4 systems.
+
+Этот модуль добавлять русский язык в Foundry VTT. Также он переводит системы D&D5 и WFRP4. Для включения перевода, зайдите в Game Settings > Configure Settings и поменяйте Language на Russian.
 
 ---
 
