@@ -63,9 +63,9 @@
       * [Item Collection](#item-collection)
       * [Kobold Press OGL](#kobold-press-ogl)
       * [Let Me Roll That For You! (LMRTFY)](#let-me-roll-that-for-you-lmrtfy)
+      * [Loot Sheet NPC 5E](#loot-sheet-npc-5e)
       * [Max Crit Damage](#max-crit-damage)
       * [Minor QOL Improvements](#minor-qol-improvements)
-      * [Loot Sheet NPC (5e)](#loot-sheet-npc-5e)
       * [NPC Browser](#npc-browser)
       * [Obsidian Character Sheets](#obsidian-character-sheets)
       * [Polyglot](#polyglot)
@@ -514,7 +514,7 @@ Module to enhance visibility for the GM in Foundry VTT.
 ## Special Dice Roller
 
 * **Author**: putty#0555 on Discord.
-* **Version**: 0.5.0
+* **Version**: 0.6.0
 * **Foundry VTT Compatibility**: 0.4.3+
 * **System Compatibility (If applicable)**: Universal.
 * **Module Requirement(s)**: None
@@ -1256,6 +1256,26 @@ LMRTFY is a module to let Game Masters request rolls from their players. This ca
 
 ---
 
+## Loot Sheet NPC 5E
+
+* **Author**: Jan Ole Peek (ChalkOne#0156 on Discord)
+* **Version**: 1.3.0
+* **Foundry VTT Compatibility**: 0.4.0
+* **System Compatibility (If applicable)**: Dungeons & Dragons 5th Edition
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None known
+* **Translation Support**: English (no localization)
+
+### Link(s) to Module
+* [https://gitlab.com/jopeek/fvtt---loot-sheet-npc-5e](https://gitlab.com/jopeek/fvtt---loot-sheet-npc-5e)
+* [https://gitlab.com/jopeek/fvtt---loot-sheet-npc-5e/raw/master/module.json](https://gitlab.com/jopeek/fvtt---loot-sheet-npc-5e/raw/master/module.json)
+
+### Description
+This module adds an additional NPC sheet which can be used for loot containers such as chests. It also allows spells to be automatically converted into spell scrolls by dragging them onto this sheet. 
+This version was forked from Hooking's module which ended compatibility with Foundry VTT version 0.3.9 (https://gitlab.com/hooking/foundry-vtt---loot-sheet-npc).
+
+---
+
 ## Max Crit Damage
 
 * **Author**: n3rf_herder#9026 on Discord.
@@ -1296,25 +1316,6 @@ Adds item deletion confirmation, accelerated dice rolls with attack and damage i
 To install paste the manifest link into the foundry "add a module" or download the zip and unzip in your module directory.
 
 Many thanks to @Red Rein @Hooking for allowing me to pillage their code.
-
----
-
-## Loot Sheet NPC (5e)
-
-* **Author**: hooking#0492 on Discord.
-* **Version**: v0.2.2
-* **Foundry VTT Compatibility**: 0.3.0
-* **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
-* **Module Requirement(s)**: None
-* **Module Conflicts**: None
-* **Translation Support**: EN (full)
-
-### Link(s) to Module
-* [https://gitlab.com/hooking/foundry-vtt---loot-sheet-npc](https://gitlab.com/hooking/foundry-vtt---loot-sheet-npc)
-* [https://gitlab.com/hooking/foundry-vtt---loot-sheet-npc/raw/master/module.json](https://gitlab.com/hooking/foundry-vtt---loot-sheet-npc/raw/master/module.json)
-
-### Description
-This module adds an additional NPC sheet which can be used for loot containers such as chests. It also allows spells to be automatically converted into spell scrolls by dragging them onto this sheet.
 
 ---
 
