@@ -7,6 +7,7 @@
       * [Always Show Notes](#always-show-notes)
       * [Anvil Menu](#anvil-menu)
       * [Arcane Viewing](#arcane-viewing)
+      * [BubbleRolls](#bubblerolls)
       * [Chat Autoloader](#chat-autoloader)
       * [Combat Utility Belt (Beta)](#combat-utility-belt-beta)
       * [Cursor Hider](#cursor-hider)
@@ -176,6 +177,25 @@ The Anvil Menu is also a library able to be used by other module developers with
 Arcane Viewing adds Audio/Video conferencing support directly from within FVTT.
 
 Through the use of Arcane magic, you are able to see and hear your follow adventurers wherever they may hide! Peer through the looking glass and see the horror that grips them and hear their screams as they are attacked by a cute bunny. Huh?
+
+---
+
+## BubbleRolls
+
+* **U~man**: U~man#2374, contributions are welcome on core features, translations and new templates
+* **Version**: 0.1
+* **Foundry VTT Compatibility**: 0.4.3
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None known
+* **Translation Support**: English, French
+
+### Link(s) to Module
+* [https://gitlab.com/mesfoliesludiques/foundryvtt-bubblerolls](https://gitlab.com/mesfoliesludiques/foundryvtt-bubblerolls) 
+* [https://gitlab.com/mesfoliesludiques/foundryvtt-bubblerolls/raw/master/module.json](https://gitlab.com/mesfoliesludiques/foundryvtt-bubblerolls/raw/master/module.json) 
+
+### Description
+This module displays Actor Rolls in Chat Bubbles located on just above the Token. This module makes it easy for contributors to add templates of their own. More information on the gitlab link.
 
 ---
 
@@ -756,7 +776,7 @@ This module adds the ability for each user to show a cursor following his mouse 
 ## Roll Table Buttons
 
 * **Author**: RaySSharma#4736 on Discord
-* **Version**: 0.1.0
+* **Version**: 0.3.0
 * **Foundry VTT Compatibility**: 0.4.3+
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
