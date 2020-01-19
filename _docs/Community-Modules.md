@@ -15,6 +15,7 @@
       * [Dice Calculator](#dice-calculator)
       * [Discord Rich Presence](#discord-rich-presence)
       * [Display Mode](#display-mode)
+      * [Enhanced Playlist](#enhanced-playlist)
       * [Entity Order](#entity-order)
       * [FFG Roller](#ffg-roller)
       * [Foundry Hot Seat Observer](#foundry-hot-seat-observer)
@@ -31,7 +32,6 @@
       * [Merge Walls](#merge-walls)
       * [Message Age Restriction](#message-age-restriction)
       * [No Token Animations](#no-token-animations)
-      * [Patches by trdischat](#patches-by-trdischat)
       * [Permission Viewer](#permission-viewer)
       * [Pings](#pings)
       * [Playlist Import](#playlist-import)
@@ -58,6 +58,7 @@
       * [Chat Damage Buttons - Beyond20 Edition](#chat-damage-buttons---beyond20-edition)
       * [Compendium Browser](#compendium-browser)
       * [Critical Fumble](#critical-fumble)
+      * [D&D 5e Conditions](#d&d-5e-conditions)
       * [Dynamic Items](#dynamic-items)
       * [E-Z Roller](#e-z-roller)
       * [Favourite Item Tab](#favourite-item-tab)
@@ -337,6 +338,25 @@ This module makes it so that when you click the anvil in the top left of the scr
 
 ---
 
+## Enhanced Playlist
+
+* **Author**: trdischat#2123 on Discord.
+* **Version**: 0.4.5
+* **Foundry VTT Compatibility**: 0.4.5+
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
+* **Translation Support**: EN (full)
+
+### Link(s) to Module
+* [https://github.com/trdischat/tweakplaylist](https://github.com/trdischat/tweakplaylist)
+* [https://raw.githubusercontent.com/trdischat/tweakplaylist/master/module.json](https://raw.githubusercontent.com/trdischat/tweakplaylist/master/module.json)
+
+### Description
+Enhancements to Foundry playlists, including making playlists visible only to the GM, and allowing for random delays and volume changes in looped sounds.
+
+---
+
 ## Entity Order
 
 * **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto)
@@ -375,9 +395,9 @@ This adds a simple dice rolling window for the special dice used in Fantasy Flig
 ---
 ## Foundry Hot Seat Observer
 
-* **Author**: Zzarek Discord: zzarek@8820
-* **Version**: 0.1.2
-* **Foundry VTT Compatibility**: 0.4.3
+* **Author**: Zzarek Discord: zzarek@8820 [Paypal Donations Accepted At](https://paypal.me/Zzarek8820?locale.x=en_US)
+* **Version**: 0.2.08
+* **Foundry VTT Compatibility**: 0.4.5
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None known
@@ -535,8 +555,8 @@ The Hotkeys can be seen by hovering over the button as well.
 ## Less Fog
 
 * **Author**: trdischat#2123 on Discord.
-* **Version**: 0.0
-* **Foundry VTT Compatibility**: 0.4.1+
+* **Version**: 0.4.5
+* **Foundry VTT Compatibility**: 0.4.5+
 * **System Compatibility (If applicable)**: Universal.
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
@@ -544,7 +564,7 @@ The Hotkeys can be seen by hovering over the button as well.
 
 ### Link(s) to Module
 * [https://github.com/trdischat/lessfog](https://github.com/trdischat/lessfog)
-* [https://github.com/trdischat/lessfog/raw/master/module.json](https://github.com/trdischat/lessfog/raw/master/module.json)
+* [https://raw.githubusercontent.com/trdischat/lessfog/master/module.json](https://raw.githubusercontent.com/trdischat/lessfog/master/module.json)
 
 ### Description
 Module to enhance visibility for the GM in Foundry VTT.
@@ -578,12 +598,12 @@ Supports rolling dice in your chat window for various non regular dice systems:
 ## Maestro
 
 * **Author**: Evan Clarke (errational#2007)
-* **Version**: 0.3.5
-* **Foundry VTT Compatibility**: 0.4.1+
+* **Version**: 0.4.2
+* **Foundry VTT Compatibility**: 0.4.4+
 * **System Compatibility (If applicable)**: N/A
 * **Module Requirement(s)**: N/A
 * **Module Conflicts**: Hype Track (deprecated by this module)
-* **Translation Support**: N/A (EN only)
+* **Translation Support**: EN, JA
 
 ### Link(s) to Module
 * [https://github.com/death-save/maestro](https://github.com/death-save/maestro)
@@ -594,7 +614,6 @@ A quality of life audio-focused module for Foundry Virtual Tabletop.
 
 Maestro adds the following features:
 
-* Scene Playlist - Select a playlist to play automatically when the Scene is activated.
 * Hype Track - Set a track to play each time that Actor has a turn in Combat
 * Item Track - Set a track/playlist to play each time that Item is rolled
 
@@ -653,30 +672,6 @@ A Foundry VTT Module to enable filtering chat-messages by their age. Each user c
 
 ### Description
 Adds an option to the settings dialog to disable token movement animations. Tokens will drop immediately instead of sliding when dragged and dropped around the map with this setting enabled.
-
----
-
-## Patches by trdischat
-
-* **Author**: trdischat#2123 on Discord.
-* **Version**: 0.0
-* **Foundry VTT Compatibility**: 0.3+
-* **System Compatibility (If applicable)**: Universal.
-* **Module Requirement(s)**: None
-* **Module Conflicts**: None
-* **Translation Support**: EN (full)
-
-### Link(s) to Module
-* [https://github.com/trdischat/fvtt/tree/master/patches](https://github.com/trdischat/fvtt/tree/master/patches)
-* [https://github.com/trdischat/fvtt/raw/master/patches/module.json](https://github.com/trdischat/fvtt/raw/master/patches/module.json)
-
-### Description
-Module to apply the following patches to Foundry VTT:
-- `patchFog`: Allow GM to see through the FOW and to see all tokens on the canvas.
-- `patchSound`: Apply volume easing to selected volume level of sound effect.
-- `patchDice`: Average of 2d20 rolls for normal checks and saves; limit dice to reroll (applies to the dnd5e system).
-
-All patches rely on the `patchClass` utility function.
 
 ---
 
@@ -1153,6 +1148,25 @@ Additionally, every time a targeted monster is felled by your players, the CR ta
 
 ---
 
+## D&D 5e Conditions
+
+* **Author**: trdischat#2123 on Discord.
+* **Version**: 0.4.5
+* **Foundry VTT Compatibility**: 0.4.5+
+* **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition.
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
+* **Translation Support**: EN (full)
+
+### Link(s) to Module
+* [https://github.com/trdischat/conditions5e](https://github.com/trdischat/conditions5e)
+* [https://raw.githubusercontent.com/trdischat/conditions5e/master/module.json](https://raw.githubusercontent.com/trdischat/conditions5e/master/module.json)
+
+### Description
+Alter the icons in the Status Effects panel of the Token Hub to reflect the standard "conditions" in D&D 5e, and repurpose the effects overlay to display whether the token is seriously wounded, unconscious, or dead.
+
+---
+
 ## Dynamic Items
 
 * **Author**: @tposney discord
@@ -1216,16 +1230,16 @@ Adds a Favourite tab to display a customized list of items, feats and spells. Us
 ## Group Roll
 
 * **Author**: trdischat#2123 on Discord.
-* **Version**: 0.0
-* **Foundry VTT Compatibility**: 0.3+
+* **Version**: 0.4.5
+* **Foundry VTT Compatibility**: 0.4.5+
 * **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition.
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
 * **Translation Support**: EN (full)
 
 ### Link(s) to Module
-* [https://github.com/trdischat/fvtt/tree/master/grouproll](https://github.com/trdischat/fvtt/tree/master/grouproll)
-* [https://github.com/trdischat/fvtt/raw/master/grouproll/module.json](https://github.com/trdischat/fvtt/raw/master/grouproll/module.json)
+* [https://github.com/trdischat/grouproll](https://github.com/trdischat/grouproll)
+* [https://raw.githubusercontent.com/trdischat/grouproll/master/module.json](https://raw.githubusercontent.com/trdischat/grouproll/master/module.json)
 
 ### Description
 Implements group ability and skill check rolls per Player's Handbook, page 175: "*If at least half the group succeeds, the whole group succeeds.*" Modules also includes patches to implement the Halfling Lucky trait, and a house rule to use the average of 2d20 for normal skill and ability check rolls. Both of these patches can be disabled in config.js. All patches rely on the included `patchClass` utility function.
