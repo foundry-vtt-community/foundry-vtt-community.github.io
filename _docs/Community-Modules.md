@@ -58,7 +58,7 @@
       * [Chat Damage Buttons - Beyond20 Edition](#chat-damage-buttons---beyond20-edition)
       * [Compendium Browser](#compendium-browser)
       * [Critical Fumble](#critical-fumble)
-      * [D&D 5e Conditions](#d&d-5e-conditions)
+      * [D&amp;D 5e Conditions](#dd-5e-conditions)
       * [Dynamic Items](#dynamic-items)
       * [E-Z Roller](#e-z-roller)
       * [Favourite Item Tab](#favourite-item-tab)
@@ -395,7 +395,7 @@ This adds a simple dice rolling window for the special dice used in Fantasy Flig
 ---
 ## Foundry Hot Seat Observer
 
-* **Author**: Zzarek Discord: zzarek@8820 [Paypal Donations Accepted At](https://paypal.me/Zzarek8820?locale.x=en_US)
+* **Author**: Zzarek Discord: zzarek@8820 Paypal Donations Accepted [Here](https://paypal.me/Zzarek8820?locale.x=en_US)
 * **Version**: 0.2.08
 * **Foundry VTT Compatibility**: 0.4.5
 * **System Compatibility (If applicable)**: Universal
@@ -408,8 +408,8 @@ This adds a simple dice rolling window for the special dice used in Fantasy Flig
 * [https://raw.githubusercontent.com/zzarek/FoundryHotSeatObserver/master/module.json](https://raw.githubusercontent.com/zzarek/FoundryHotSeatObserver/master/module.json)
 
 ### Description
-TLDR: Create token automated token patrols
-Using this mod, you will be able to set up "Patrol Routes" which tokens will move to based on a timing of your choice. This can give certain scenes a more life like appearance! Make your markets full of life and give your castles that patrolling retinue they've always needed!
+
+Allows a single player for hot seat situations - whenever initiative is changed the Observer player is updated to the next player assigned to it.
 
 ---
 
@@ -429,7 +429,8 @@ Using this mod, you will be able to set up "Patrol Routes" which tokens will mov
 * [https://github.com/JacobMcAuley/foundry-patrol/raw/master/module.json](https://github.com/JacobMcAuley/foundry-patrol/raw/master/module.json)
 
 ### Description
-Allows a single player for hot seat situations - whenever initiative is changed the Observer player is updated to the next player assigned to it.
+TLDR: Create token automated token patrols
+Using this mod, you will be able to set up "Patrol Routes" which tokens will move to based on a timing of your choice. This can give certain scenes a more life like appearance! Make your markets full of life and give your castles that patrolling retinue they've always needed!
 
 ---
 
@@ -1170,11 +1171,12 @@ Alter the icons in the Status Effects panel of the Token Hub to reflect the stan
 ## Dynamic Items
 
 * **Author**: @tposney discord
-* **Version**: 0.0.32
-* **Foundry VTT Compatibility**: 0.4.2+ dnd 5e. Requires 0.4.2+ and wont work with earlier versions.
+* **Version**: 0.0.45
+* **Foundry VTT Compatibility**: 0.4.4+ dnd 5e 0.80+. Requires 0.4.4+ and wont work with earlier versions.
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None that I know of
 * **Translation Support**: English.
+* **Translation Support**: Japanese. Kingly provided by @BrotherSharp
 
 ### Link(s) to Module
 * [https://gitlab.com/tposney/dynamicitems](https://gitlab.com/tposney/dynamicitems)
@@ -1184,10 +1186,15 @@ Alter the icons in the Status Effects panel of the Token Hub to reflect the stan
 ### Description
 Dynamic items are ones that makes changes to your stats/modifiers when they are active in your inventory. This module is really intended for player characters and NPCs that have linked tokens.
 
-* Armor and shields now update your armor class when equipped and reverse the change when unequipped. (this happens automatically once the module is turned on and the items are equipped). Armor can have dynamic properties, e.g. ac+2 which can require attunement.
+* Armor and shields now update your armor class when equipped and reverse the change when unequipped. (this happens automatically once the module is turned on and the items are equipped). Armor can have dynamic properties, e.g. ac+2 which can require attunement. Dexterity bonuses are added to AC up to the max dex mod specified in the armor.
 * Rings of protection can increase saves or armor class when active, again changes are reversed when unequiped or unattuned (if that is a word).
 * There is a straightforward ui to make changes/create items For more complex changes (e.g. AC based on dex mod, you need to know the attribute specification, e.g. data.avilities.dex.mod)
 * Dynamic effects can be applied to any item, weapons/backpacks/armor/feats, in addition to its normal properties.
+* as of 0.8 new bonus fields, like attacks, weapon damage and saves/checks can be added as strings. So +1d4 on saving throws for bless.
+* You can add the following macro
+```DynamicItems.showEffects(actor)``` for a detailed list of effects, or ```DynamicItems.showEffects(actor, false)`` for a summary.
+* You can add the following macro
+```toggleFeatActive("item name")``` to toggle a feat/item as active. Think turning on/off bless or sneak attack.
 
 ---
 
@@ -1270,13 +1277,13 @@ To install, download the zip file included in the Github module directory. Extra
 ## Item Collection
 
 * **Author**: @tposney#1462 on Discord
-* **Version**: 1.2.1
-* **Foundry VTT Compatibility**: 0.4.3+
+* **Version**: 1.2.11
+* **Foundry VTT Compatibility**: 0.4.4+
 * **System Compatibility (If applicable)**: dn5e, because of currency.
 * **Module Requirement(s)**: none.
 * **Module Conflicts**: none that I know of.
 * **Translation Support**: English, but others can be added via a suitable json.
-
+* **Translation Support**: Japanese, kindly provided by @Asami
 ### Link(s) to Module
 * [https://gitlab.com/tposney/itemcollection](https://gitlab.com/tposney/itemcollection)
 * [https://gitlab.com/tposney/itemcollection/raw/master/module.json](https://gitlab.com/tposney/itemcollection/raw/master/module.json)
@@ -1373,20 +1380,38 @@ Deals max damage for critical hit rolls.
 
 * **Author**: @tposney#1462 on Discord
 * **Version**: 0.18
-* **Foundry VTT Compatibility**: 0.4+
-* **System Compatibility (If applicable)**: dnd5e
+* **Foundry VTT Compatibility**: 0.4.4+
+* **System Compatibility (If applicable)**: dnd5e 0.8
 * **Module Requirement(s)**: None
 * **Module Conflicts**: Does not work with the default Apply damage pull down but provides chat damage buttons instead.
 * **Translation Support**: English, but localization support is included.
 
 ### Link(s) to Module
+* https://gitlab.com/tposney/minor-qol/master/minor-qol
 * [https://gitlab.com/tposney/minor-qol/raw/master/minor-qol.zip](https://gitlab.com/tposney/minor-qol/raw/master/minor-qol.zip)
 * [https://gitlab.com/tposney/minor-qol/raw/master/module.json](https://gitlab.com/tposney/minor-qol/raw/master/module.json)
 
 ### Description
-Adds item deletion confirmation, accelerated dice rolls with attack and damage in one click and item info hiding. All features can be enabled/disabled from the in-game module settings. If enabling/disabling speed-item-rolls you should reload the browser window.
+ Link: https://gitlab.com/tposney/minor-qol
+Manifest:  https://gitlab.com/tposney/minor-qol/raw/master/module.json
 
-To install paste the manifest link into the foundry "add a module" or download the zip and unzip in your module directory.
+Please see the link for more detailed info.
+
+* A confirmation dialog when you delete an item from the character sheet
+* The ability to add damage buttons to any standard dnd5e damage dice roll.
+* Speed Rolls. There are quite a few options, but simply when you enable the flag "Speed Item Rolls" the item roll icon (on the character inventory) allows you to use shift/ctrl/alt for standard rolls (if you don't select any then the default chat card will be displayed), rolls with disadvantage and advantage respectively. So for normal usage you shift click the weapon/spell icon to do a normal speed roll.
+* Speed item rolls support rolling the attack, checking if the attack hit the target, any saves, the damage and applying the damage if the attack hits all automatically (taking into account damage immunities for single damage type rolls). You can decide how much automation you want, toggling off auto hit checking, auto saves and damage application. 
+* You can choose display the target token's name or it's image in the save/hits chatcards. 
+* When applying damage the module uses targeted opponents not selected.
+* For weapon attacks only the fist targeted token is damaged by the attack. 
+* If casting an area affect spell target all of the affected tokens.
+* The module also supports speed item rolls on the macro bar. 
+* You can create speed item macro rolls by hand, create a script macro and enter 
+```MinorQOL.doMacroRoll(event, "Greataxe")```
+
+* The attack/damage rolls are displayed using the system chat cards.
+* You can enable roll buttons on the inventory sheet.
+* The module will speed cast spells at the default level and consume the appropriate spell slot or auto use a higher level slot.  Spell scaling will be applied. Useful for pact/always prepared spells which will consume slots from the main spell slots. Innate spells don't.
 
 Many thanks to @Red Rein @Hooking for allowing me to pillage their code.
 
