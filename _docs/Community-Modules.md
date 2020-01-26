@@ -71,7 +71,6 @@
       * [Loot Sheet NPC 5E](#loot-sheet-npc-5e)
       * [Max Crit Damage](#max-crit-damage)
       * [Minor QOL Improvements](#minor-qol-improvements)
-      * [NPC Browser](#npc-browser)
       * [Obsidian Character Sheets](#obsidian-character-sheets)
       * [Polyglot](#polyglot)
       * [Polymorpher](#polymorpher)
@@ -79,7 +78,6 @@
       * [Roll20 NPC Importer, for 5e](#roll20-npc-importer-for-5e)
       * [Request Roll](#request-roll)
       * [Sky's 5th Edition Dungeons &amp; Dragons Sheet](#skys-5th-edition-dungeons--dragons-sheet)
-      * [Spell Browser](#spell-browser)
       * [VTTA D&amp;D Beyond Integration](#vtta-dd-beyond-integration)
       * [VTTA Party](#vtta-party)
    * [Foundry VTT Modules for WFRP 4E](#foundry-vtt-modules-for-wfrp-4e)
@@ -92,6 +90,8 @@
       * [FVTT-Party (Discontinued, see VTTA-Party for an successor)](#fvtt-party-discontinued-see-vtta-party-for-an-successor)
       * [GM Roll Message](#gm-roll-message)
       * [Infinite Folders](#infinite-folders)
+      * [NPC Browser (discontinued. functionality moved to Compendium Browser)](#npc-browser)
+      * [Spell Browser(discontinued. functionality moved to Compendium Browser)](#spell-browser)
       * [SRD Bestiary Module](#srd-bestiary-module)
       * [Z Order (functionality integrated into core)](#z-order-functionality-integrated-into-core)
    * [Appendix](#appendix)
@@ -106,8 +106,8 @@ Foundry modules that work across all or most systems are noted here. These may i
 ## Actually Private Rolls
 
 * **Author**: Felix#6196
-* **Version**: 0.1
-* **Foundry VTT Compatibility**: 0.3.9
+* **Version**: 0.0.3
+* **Foundry VTT Compatibility**: 0.4.5
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: N/A
 * **Module Conflicts**: No known conflicts
@@ -217,7 +217,7 @@ This module improves loading times by only rendering the last few chat messages 
 
 ## Combat Utility Belt (Beta)
 
-* **Author**: errational#2007 on discord
+* **Author**: errational#2007 on discord (Donation/Sponsor? Sponsor button in the first link below)
 * **Version**: 0.7.1
 * **Foundry VTT Compatibility**: 0.4.0+
 * **System Compatibility (If applicable)**: N/A
@@ -323,8 +323,8 @@ Enables Discord Rich Presence and Invites for http://foundryvtt.com/
 ## Display Mode
 
 * **Author**: Felix#6196 on Discord, syl3r31 on Github. He accepts donations on Paypal at felix.mueller.86@web.de
-* **Version**: 0.1
-* **Foundry VTT Compatibility**: At least 0.3.0+, and will likely work with previous versions.
+* **Version**: 0.2
+* **Foundry VTT Compatibility**: At least 0.4.5
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
@@ -332,7 +332,7 @@ Enables Discord Rich Presence and Invites for http://foundryvtt.com/
 
 ### Link(s) to Module
 * [https://github.com/syl3r86/displaymode](https://github.com/syl3r86/displaymode)
-* [https://raw.githubusercontent.com/syl3r86/displaymode/master/displaymode/module.json](https://raw.githubusercontent.com/syl3r86/displaymode/master/displaymode/module.json)
+* [https://raw.githubusercontent.com/syl3r86/displaymode/master/module.json](https://raw.githubusercontent.com/syl3r86/displaymode/master/module.json)
 
 ### Description
 This module makes it so that when you click the anvil in the top left of the screen, the sidebar in Foundry is hidden.
@@ -515,8 +515,8 @@ This mod allows you to resize a grid more easily within Foundry, allowing easier
 ## Image Previewer
 
 * **Author**: Felix#6196 on Discord, accepts donations via paypal, felix.mueller.86@web.de
-* **Version**: 0.1
-* **Foundry VTT Compatibility**: 0.4.0+
+* **Version**: 0.4
+* **Foundry VTT Compatibility**: 0.4.4+
 * **System Compatibility (If applicable)**: universal
 * **Module Requirement(s)**: none
 * **Module Conflicts**: none
@@ -618,8 +618,8 @@ Supports rolling dice in your chat window for various non regular dice systems:
 
 ## Maestro
 
-* **Author**: Evan Clarke (errational#2007)
-* **Version**: 0.4.2
+* **Author**: Evan Clarke (errational#2007) (Donation/Sponsor? Sponsor button in the first link below)
+* **Version**: 0.5.0
 * **Foundry VTT Compatibility**: 0.4.4+
 * **System Compatibility (If applicable)**: N/A
 * **Module Requirement(s)**: N/A
@@ -631,12 +631,19 @@ Supports rolling dice in your chat window for various non regular dice systems:
 * [https://raw.githubusercontent.com/death-save/maestro/master/module.json](https://raw.githubusercontent.com/death-save/maestro/master/module.json)
 
 ### Description
-A quality of life audio-focused module for Foundry Virtual Tabletop.
+Adds some sound-focused features to Foundry Virtual Tabletop!
 
 Maestro adds the following features:
 
-* Hype Track - Set a track to play each time that Actor has a turn in Combat
-* Item Track - Set a track/playlist to play each time that Item is rolled
+Hype Track - Set a track to play each time that Actor has a turn in Combat
+
+Item Track - Set a track to play when that Item is rolled
+
+Combat Track - Set a playlist or track to play when the Combat encounter begins
+
+Miscellaneous - Playlist loop toggling, disable dice sound setting
+
+DEPRECATED Scene Playlist - DEPRECATED -- Use native Foundry functionality instead Select a playlist to play automatically when the Scene is activated.
 
 ---
 
@@ -1010,8 +1017,8 @@ Foundry modules that work within Dungeons and Dragons 5th Edition are noted here
 ## Better NPC Sheet 5e
 
 * **Author**: Felix#6196 on Discord, syl3r31 on Github. He accepts donations on Paypal at felix.mueller.86@web.de 
-* **Version**: Better NPC Sheet v0.4.5
-* **Foundry VTT Compatibility**: 0.4.0+
+* **Version**: Better NPC Sheet v0.6.6
+* **Foundry VTT Compatibility**: 0.4.5+
 * **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition.
 * **Module Requirement(s)**: None
 * **Module Conflicts**: If used alongside Moerill’s “adnd5e” module, item descriptions are unable to be expanded in the sheet. This can be fixed by disabling Moerill’s module.
@@ -1019,7 +1026,7 @@ Foundry modules that work within Dungeons and Dragons 5th Edition are noted here
 
 ### Link(s) to Module
 * [https://github.com/syl3r86/BetterNPCSheet5e](https://github.com/syl3r86/BetterNPCSheet5e)
-* [https://raw.githubusercontent.com/syl3r86/BetterNPCSheet5e/master/betternpcsheet5e/module.json](https://raw.githubusercontent.com/syl3r86/BetterNPCSheet5e/master/betternpcsheet5e/module.json)
+* [https://raw.githubusercontent.com/syl3r86/BetterNPCSheet5e/master/module.json](https://raw.githubusercontent.com/syl3r86/BetterNPCSheet5e/master/module.json)
 
 ### Description
 This module overwrites the default NPC sheet that comes shipped with the dnd5e system and brings it closer to the well known official template. It also includes functionality supporting separation of action categories (legendary actions, actions, reactions, etc.), and features the ability to expand and view the description of the ability/action in-sheet.
@@ -1129,12 +1136,12 @@ To install use the following link in Foundrys Module Setup https://raw.githubuse
 ## Compendium Browser
 
 * **Author**: Felix#6196, accepts donation via paypal: felix.mueller.86@web.de
-* **Version**: 0.1
-* **Foundry VTT Compatibility**: 0.4.3
+* **Version**: 0.1.10
+* **Foundry VTT Compatibility**: 0.4.4
 * **System Compatibility (If applicable)**: dnd5e
 * **Module Requirement(s)**: none
 * **Module Conflicts**: none known
-* **Translation Support**: full english translation is included
+* **Translation Support**: en, ja, fr
 
 ### Link(s) to Module
 * https://github.com/syl3r86/compendium-browser
@@ -1495,8 +1502,8 @@ Talk to others using a language your selected character can understand and scram
 ## Polymorpher
 
 * **Author**: Felix#6196 on Discord, syl3r31 on Github. He accepts donations on Paypal at felix.mueller.86@web.de
-* **Version**: 0.2
-* **Foundry VTT Compatibility**: 0.3.0+
+* **Version**: 0.3.5
+* **Foundry VTT Compatibility**: 0.4.4+
 * **System Compatibility (If applicable)**: Dungeons and Dragons 5th edition.
 * **Module Requirement(s)**: None.
 * **Module Conflicts**: Previous version of the module deleted actors, do not use v0.1.
@@ -1504,7 +1511,7 @@ Talk to others using a language your selected character can understand and scram
 
 ### Link(s) to Module
 * [https://github.com/syl3r86/polymorpher](https://github.com/syl3r86/polymorpher)
-* [https://raw.githubusercontent.com/syl3r86/polymorpher/master/polymorpher/module.json](https://raw.githubusercontent.com/syl3r86/polymorpher/master/polymorpher/module.json)
+* [https://raw.githubusercontent.com/syl3r86/polymorpher/master/module.json](https://raw.githubusercontent.com/syl3r86/polymorpher/master/module.json)
 
 ### Description
 A module for Foundry VTT that lets you polymorph characters into any other character! Just drag any Actor (NPC or Character) on top of another Actor to change the later into the prior. Support dropping both from Compendium or the sidebar.
@@ -1537,7 +1544,7 @@ This module imports most facets of a campaign, including scenes, dynamic lightin
 * **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
 * **Module Requirement(s)**: None.
 * **Module Conflicts**: None known.
-* **Translation Support**: EN (full)
+* **Translation Support**: EN (full), JA (full)
 
 ### Link(s) to Module
 * [https://github.com/syl3r86/roll20npcimporter](https://github.com/syl3r86/roll20npcimporter)
@@ -1590,24 +1597,6 @@ This module provides a variant layout of the Core 5e Character Sheet in Foundry 
 * Adds the ability to click Known Languages under Traits to send the list to the chat window
 * Adds Tool, Armor, and Weapon proficiencies beneath Skills
 * Saves the scrollbar position when adding/deleting items from your inventory, features, or spellbook
-
----
-
-## Spell Browser
-
-* **Author**: Felix#6196 on Discord, syl3r31 on Github. He accepts donations on Paypal at felix.mueller.86@web.de.
-* **Version**: 0.3
-* **Foundry VTT Compatibility**: 0.3.0 (discontinued, use Compendium Browser instead)
-* **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
-* **Module Requirement(s)**: None
-* **Module Conflicts**: None known.
-* **Translation Support**: EN (full)
-
-### Link(s) to Module
-* [https://github.com/syl3r86/Spell-Browser](https://github.com/syl3r86/Spell-Browser)
-
-### Description
-This module adds a search interface for spells. This enables more comfortable browsing and searching via predefined filters like spell level, class or damage type.
 
 ---
 
@@ -1826,6 +1815,43 @@ Sends an extra public message/hint when rolling a `gmroll` or `blindroll`.
 
 ### Description
 This Foundry VTT module allows you to create infinite depth of folders for Scenes, Actors, Items and Journals. No more limit to a depth of 2 folders (or none for Journal entries). This will also add a `New entity` button on folders so you can create it directly in the folder (does not work for Scenes though).
+
+---
+## NPC Browser 
+
+* discontinued. functionality moved to Compendium Browser
+* **Author**: Felix#6196 on Discord, syl3r31 on Github. He accepts donations on Paypal at felix.mueller.86@web.de
+* **Version: 0.1**
+* **Foundry VTT Compatibility**: 0.3.0  (discontinued, use Compendium Browser instead)
+* **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None known
+* **Translation Support**: EN (full)
+
+### Link(s) to Module
+* [https://github.com/syl3r86/npc-browser](https://github.com/syl3r86/npc-browser)
+
+### Description
+This module adds a search interface for actors. This enables more comfortable browsing and searching via predefined filters like challenge rating, type or ability score.
+
+---
+
+## Spell Browser 
+
+* discontinued. functionality moved to Compendium Browser
+* **Author**: Felix#6196 on Discord, syl3r31 on Github. He accepts donations on Paypal at felix.mueller.86@web.de.
+* **Version**: 0.3
+* **Foundry VTT Compatibility**: 0.3.0 (discontinued, use Compendium Browser instead)
+* **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None known.
+* **Translation Support**: EN (full)
+
+### Link(s) to Module
+* [https://github.com/syl3r86/Spell-Browser](https://github.com/syl3r86/Spell-Browser)
+
+### Description
+This module adds a search interface for spells. This enables more comfortable browsing and searching via predefined filters like spell level, class or damage type.
 
 ---
 
