@@ -71,6 +71,7 @@
       * [Loot Sheet NPC 5E](#loot-sheet-npc-5e)
       * [Max Crit Damage](#max-crit-damage)
       * [Minor QOL Improvements](#minor-qol-improvements)
+      * [NPC Browser](#npc-browser)
       * [Obsidian Character Sheets](#obsidian-character-sheets)
       * [Polyglot](#polyglot)
       * [Polymorpher](#polymorpher)
@@ -90,8 +91,8 @@
       * [FVTT-Party (Discontinued, see VTTA-Party for an successor)](#fvtt-party-discontinued-see-vtta-party-for-an-successor)
       * [GM Roll Message](#gm-roll-message)
       * [Infinite Folders](#infinite-folders)
-      * [NPC Browser (discontinued. functionality moved to Compendium Browser)](#npc-browser)
-      * [Spell Browser(discontinued. functionality moved to Compendium Browser)](#spell-browser)
+      * [NPC Browser](#npc-browser-1)
+      * [Spell Browser](#spell-browser)
       * [SRD Bestiary Module](#srd-bestiary-module)
       * [Z Order (functionality integrated into core)](#z-order-functionality-integrated-into-core)
    * [Appendix](#appendix)
@@ -185,12 +186,12 @@ Through the use of Arcane magic, you are able to see and hear your follow advent
 ## BubbleRolls
 
 * **U~man**: U~man#2374, contributions are welcome on core features, translations and new templates
-* **Version**: 0.1
-* **Foundry VTT Compatibility**: 0.4.3
+* **Version**: 0.3
+* **Foundry VTT Compatibility**: 0.4.5
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None known
-* **Translation Support**: English, French
+* **Translation Support**: English, French, Japanese
 
 ### Link(s) to Module
 * [https://gitlab.com/mesfoliesludiques/foundryvtt-bubblerolls](https://gitlab.com/mesfoliesludiques/foundryvtt-bubblerolls) 
