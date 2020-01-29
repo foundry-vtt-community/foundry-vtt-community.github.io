@@ -6,4 +6,4 @@
 * Making a blind roll to the GM : `/br` or `/blindroll`
 * In Character chat (triggers a chat bubble) : `/ic`
 * Out of Character chat : `/occ`
-* Whispers : `@name` or `@[player name]`* Emote : `/em` or `/emote`
+* Whispers : `@PlayerName`, `@CharacterName`, `@[Player Name]`, or `@[Character Name]`* Emote : `/em` or `/emote`
