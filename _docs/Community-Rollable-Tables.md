@@ -4,6 +4,7 @@
 <!--ts-->
    * [Foundry VTT Rollable Tables for DnD 5E](#foundry-vtt-rollable-tables-for-dnd-5e)
       * [Potion Strength](#potion-strength)
+      * [SRD Trinkets Table](#srd-trinkets-table)
    * [Appendix](#appendix)
       * [Appendix A: Adding a Rollable Table](#appendix-a-adding-a-rollable-table)
       * [Appendix B: Best Editing Practices](#appendix-b-best-editing-practices)
@@ -53,7 +54,6 @@ Based on u/olirant's [tables for generating potions randomly](https://www.reddit
 ### Table Data
 
 (Enter table data here and surround with code blocks, three ` at the start and end of the table data. You can find your table data at \resources\app\public\worlds\(your world)\data, in the tables.db file)
-
 
 ---
 ```
