@@ -45,7 +45,6 @@
       * [Skycons](#skycons)
       * [SVG Loader](#svg-loader)
       * [Tiles Browser](#tiles-browser)
-      * [Token Info Icons](#token-info-icons)
       * [Token Mold](#token-mold)
       * [Torch](#torch)
       * [VTTA Iconizer](#vtta-iconizer)
@@ -81,6 +80,7 @@
       * [Roll20 NPC Importer, for 5e](#roll20-npc-importer-for-5e)
       * [Request Roll](#request-roll)
       * [Sky's 5th Edition Dungeons &amp; Dragons Sheet](#skys-5th-edition-dungeons--dragons-sheet)
+      * [Token Info Icons](#token-info-icons)
       * [VTTA D&amp;D Beyond Integration](#vtta-dd-beyond-integration)
       * [VTTA Party](#vtta-party)
    * [Foundry VTT Modules for GURPS](#foundry-vtt-modules-for-gurps)
@@ -277,6 +277,7 @@ Adds the ability to hide your cursor and ruler on the tabletop, see this [demons
 
 ### Link(s) to Module
 * [https://github.com/Sky-Captain-13/foundry/tree/master/deselection](https://github.com/Sky-Captain-13/foundry/tree/master/deselection)
+* [https://raw.githubusercontent.com/Sky-Captain-13/foundry/master/deselection/deselection/module.json](https://raw.githubusercontent.com/Sky-Captain-13/foundry/master/deselection/deselection/module.json)
 
 ### Description
 This module lets the GM deselect a token or tokens by clicking anywhere on the map.
@@ -363,25 +364,6 @@ Enhancements to Foundry playlists, including making playlists visible only to th
 
 ---
 
-## Entity Order
-
-* **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto)
-* **Version**: 0.1
-* **Foundry VTT Compatibility**: 0.4.0+
-* **System Compatibility (If applicable)**: Universal
-* **Module Requirement(s)**: None
-* **Module Conflicts**: None
-* **Translation Support**: EN (full)
-
-### Link(s) to Module
-* [https://github.com/kakaroto/fvtt-module-entityorder](https://github.com/kakaroto/fvtt-module-entityorder)
-* [https://raw.githubusercontent.com/kakaroto/fvtt-module-entityorder/master/entityorder/module.json](https://raw.githubusercontent.com/kakaroto/fvtt-module-entityorder/master/entityorder/module.json)
-
-### Description
-This Foundry VTT module allows you to re-order entities (Actors, Scenes, Items and Journal entries).
-
----
-
 ## FFG Roller
 
 * **Author**: Petep, @petep#0441 on Discord
@@ -399,6 +381,7 @@ This Foundry VTT module allows you to re-order entities (Actors, Scenes, Items a
 This adds a simple dice rolling window for the special dice used in Fantasy Flight Games Star Wars RPG and Genesys. 
 
 ---
+
 ## Foundry Hot Seat Observer
 
 * **Author**: Zzarek Discord: zzarek@8820 Paypal Donations Accepted [Here](https://paypal.me/Zzarek8820?locale.x=en_US)
@@ -919,25 +902,6 @@ Broken since at least update 4.2
 
 ### Description
 Adds a browser to the tiles layer to conveniently preview and then drag and drop tiles onto the scene. Providing additional features to manipulate tile rotation and size while dragging.
-
----
-
-## Token Info Icons
-
-* **Author**: Jan Ole Peek (ChalkOne#0156 on Discord)
-* **Version**: 0.1.1
-* **Foundry VTT Compatibility**: 0.4.0
-* **System Compatibility (If applicable)**: None
-* **Module Requirement(s)**: None
-* **Module Conflicts**: None known
-* **Translation Support**: English (no localization)
-
-### Link(s) to Module
-* [https://gitlab.com/jopeek/fvtt---token-info-icons](https://gitlab.com/jopeek/fvtt---token-info-icons)
-* [https://gitlab.com/jopeek/fvtt---token-info-icons/raw/master/module.json](https://gitlab.com/jopeek/fvtt---token-info-icons/raw/master/module.json)
-
-### Description
-Simple module that displays Speed, AC, and Passive Perception on Tokens for the GM.
 
 ---
 
@@ -1641,6 +1605,25 @@ This module provides a variant layout of the Core 5e Character Sheet in Foundry 
 
 ---
 
+## Token Info Icons
+
+* **Author**: Jan Ole Peek (ChalkOne#0156 on Discord)
+* **Version**: 0.1.1
+* **Foundry VTT Compatibility**: 0.4.0
+* **System Compatibility (If applicable)**: None
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None known
+* **Translation Support**: English (no localization)
+
+### Link(s) to Module
+* [https://gitlab.com/jopeek/fvtt---token-info-icons](https://gitlab.com/jopeek/fvtt---token-info-icons)
+* [https://gitlab.com/jopeek/fvtt---token-info-icons/raw/master/module.json](https://gitlab.com/jopeek/fvtt---token-info-icons/raw/master/module.json)
+
+### Description
+Simple module that displays Speed, AC, and Passive Perception on Tokens for the GM.
+
+---
+
 ## VTTA D&D Beyond Integration
 
 * **Author**: solfolango77#0880 on Discord. His Patreon can be found here: [https://www.patreon.com/vttassets](https://www.patreon.com/vttassets) 
@@ -1821,6 +1804,25 @@ The module has not been updated recently by its creator, but the community has p
 
 ### Description
 This module modifies how the encumbrance bar in the actor sheet is displayed to distinguish the different levels of encumbrance when using the variant rules in **PHB pg. 175**. It does not currently support the Powerful Build feature, as doing so would require extending the base Actor5eSheet class.
+
+---
+
+## Entity Order
+
+* **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto)
+* **Version**: 0.1
+* **Foundry VTT Compatibility**: 0.4.0+
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
+* **Translation Support**: EN (full)
+
+### Link(s) to Module
+* [https://github.com/kakaroto/fvtt-module-entityorder](https://github.com/kakaroto/fvtt-module-entityorder)
+* [https://raw.githubusercontent.com/kakaroto/fvtt-module-entityorder/master/entityorder/module.json](https://raw.githubusercontent.com/kakaroto/fvtt-module-entityorder/master/entityorder/module.json)
+
+### Description
+This Foundry VTT module allows you to re-order entities (Actors, Scenes, Items and Journal entries).
 
 ---
 
