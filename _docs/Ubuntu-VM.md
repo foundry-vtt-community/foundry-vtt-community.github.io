@@ -321,7 +321,7 @@ include conf.d/drop;
 location ^~ /.well-known/acme-challenge {
     allow all;
     root /var/www/letsencrypt;
-    auth_basic off
+    auth_basic off;
 }
 ```
 
@@ -339,8 +339,8 @@ server {
 
     location ^~ /.well-known/acme-challenge {
         allow all;
-       root /var/www/letsencrypt;
-       auth_basic off;
+        root /var/www/letsencrypt;
+        auth_basic off;
     }
 
     location / {
