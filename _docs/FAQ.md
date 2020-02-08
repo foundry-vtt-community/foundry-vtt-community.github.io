@@ -6,6 +6,7 @@
       * [How Do I Access Foundry VTT?](#how-do-i-access-foundry-vtt)
       * [How Do I Link My Patreon to Discord?](#how-do-i-link-my-patreon-to-discord)
       * [How do I enable WebGL?](#how-do-i-enable-webgl)
+      * [How Do I Connect to an IPv6 Address?](#how-do-i-connect-to-an-ipv6-address)
       * [How Do I Install Modules?](#how-do-i-install-modules)
       * [I Forgot My Player Access Keys!](#i-forgot-my-player-access-keys)
       * [Where Can I Place Content In Foundry?](#where-can-i-place-content-in-foundry)
@@ -30,6 +31,12 @@ Refer to Patreon's instructions [here](https://support.patreon.com/hc/en-us/arti
 **Chrome** - `chrome://settings` -> "System" -> Toggle "Use hardware acceleration when available" to on
 
 **Firefox** - `about:preferences` -> Performance -> Uncheck "Use recommended performance settings" -> Check "Use hardware acceleration when available"
+
+## How Do I Connect to an IPv6 Address?
+Open your browser of choice and enter the address like this: `http://[IP:v6:AD:RE:SS]:PORTNUMBER`
+
+- Paste the full IPv6 Address between the `[` `]`
+- Port number by default is 3000
 
 ## How Do I Install Modules?
 Check out the [Modules](https://foundry-vtt-community.github.io/wiki/Modules/) page for instructions.

@@ -60,7 +60,6 @@
       * [Compendium Browser](#compendium-browser)
       * [Critical Fumble](#critical-fumble)
       * [D&amp;D 5e Conditions](#dd-5e-conditions)
-      * [D&amp;D5e Dark Mode](#dd5e-dark-mode)
       * [Dynamic Items](#dynamic-items)
       * [E-Z Roller](#e-z-roller)
       * [Favourite Item Tab](#favourite-item-tab)
@@ -100,6 +99,7 @@
       * [Spell Browser](#spell-browser)
       * [SRD Bestiary Module](#srd-bestiary-module)
       * [Z Order (functionality integrated into core)](#z-order-functionality-integrated-into-core)
+      * [D&amp;D5e Dark Mode](#dd5e-dark-mode)
    * [Appendix](#appendix)
       * [Appendix A: Adding a Module](#appendix-a-adding-a-module)
       * [Appendix B: Best Editing Practices](#appendix-b-best-editing-practices)
@@ -427,8 +427,8 @@ Using this mod, you will be able to set up "Patrol Routes" which tokens will mov
 ## Foundry Pin
 
 * **Author**: [Fyorl#1292](https://kim.mantas.me.uk)
-* **Version**: 1.0
-* **Foundry VTT Compatibility**: 0.3.9+
+* **Version**: 2.0
+* **Foundry VTT Compatibility**: 0.4.4+
 * **Translation Support**: N/A
 
 ### Link to Module
@@ -715,8 +715,8 @@ Allows trusted players to drag items and actors they own to the canvas as long a
 ## No Token Animations
 
 * **Author**: [Fyorl#1292](https://kim.mantas.me.uk)
-* **Version**: 1.0
-* **Foundry VTT Compatibility**: 0.3.5+
+* **Version**: 2.0
+* **Foundry VTT Compatibility**: 0.4.4+
 * **Translation Support**: EN (full)
 
 ### Link to Module
@@ -1471,8 +1471,8 @@ This module adds a search interface for actors. This enables more comfortable br
 ## Obsidian Character Sheets
 
 * **Author**: [Fyorl#1292](https://kim.mantas.me.uk)
-* **Version**: 1.1.7
-* **Foundry VTT Compatibility**: 0.4.3+
+* **Version**: 2.1.1
+* **Foundry VTT Compatibility**: 0.4.5+
 * **Translation Support**: EN, DE, JP
 
 ### Link to Module
