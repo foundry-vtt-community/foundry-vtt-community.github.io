@@ -14,7 +14,6 @@ jobs:
     - uses: actions/checkout@v2
     - name: Run Scripts
       run: |     
-        ls -la
         git config user.name "Wiki Sync"
         git config user.email "fvtt-travisci@mail.com"
         git clone https://github.com/foundry-vtt-community/wiki.wiki
@@ -27,6 +26,10 @@ jobs:
         for file in *.md; do tac "$file" > "/tmp/$file" && echo -e ---\\n--- >> "/tmp/$file" && tac "/tmp/$file" > "$file"; done 
         cd ..
         mv wiki-nav.html _docs/ && mv index.md _docs/ && mv Home.md _docs/
-        git add _docs
-        git commit -m "Update Wiki Content (Automatic)"
-        git push https://$GITHUB_API_KEY@github.com/foundry-vtt-community/foundry-vtt-community.github.io.git HEAD:master
+        if [[ "$(git diff --cached)" != "" ]] ; then
+          git add _docs
+          git commit -m "Update Wiki Content (Automatic)"
+          git push https://$GITHUB_API_KEY@github.com/foundry-vtt-community/foundry-vtt-community.github.io.git HEAD:master
+        fi
+        
+        
