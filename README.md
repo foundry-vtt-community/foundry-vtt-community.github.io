@@ -1,6 +1,6 @@
 # Foundry Community Website Repository
 
-[![Build Status](https://travis-ci.org/foundry-vtt-community/foundry-vtt-community.github.io.svg?branch=master)](https://travis-ci.org/foundry-vtt-community/foundry-vtt-community.github.io)
+![CI for Foundry VTT Community Website](https://github.com/foundry-vtt-community/foundry-vtt-community.github.io/workflows/CI%20for%20Foundry%20VTT%20Community%20Website/badge.svg)
 
 ## Running Locally
 
