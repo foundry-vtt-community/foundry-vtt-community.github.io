@@ -1,0 +1,32 @@
+name: CI for Foundry VTT Community Website
+
+on:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: "0 */2 * * *" #Every 2 hours
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Run Scripts
+      run: |     
+        ls -la
+        git config user.name "Wiki Sync"
+        git config user.email "fvtt-travisci@mail.com"
+        git clone https://github.com/foundry-vtt-community/wiki.wiki
+        mv _docs/wiki-nav.html . && mv _docs/index.md .
+        rm -rf _docs
+        mv wiki.wiki _docs
+        mv _docs/Home.md .
+        cd _docs
+        rm -rf utils && rm -rf _Footer.md && rm -rf _Sidebar.md && rm -rf README.txt && rm -rf .travis.yml
+        for file in *.md; do tac "$file" > "/tmp/$file" && echo -e ---\\n--- >> "/tmp/$file" && tac "/tmp/$file" > "$file"; done 
+        cd ..
+        mv wiki-nav.html _docs/ && mv index.md _docs/ && mv Home.md _docs/
+        git add _docs
+        git commit -m "Update Wiki Content (Automatic)"
+        git push https://$GITHUB_API_KEY@github.com/foundry-vtt-community/foundry-vtt-community.github.io.git HEAD:master
