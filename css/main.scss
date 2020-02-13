@@ -170,6 +170,20 @@ footer a:hover{
 }
 
 // col4
+.col-sm-3 a {
+	color:#fff;
+	text-decoration: none;
+}
+.col-sm-3 a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+.col-sm-3 a:visited {
+	color:#fff;
+	text-decoration: none;
+}
+
+// col4
 .col-sm-4 a {
 	color:#fff;
 	text-decoration: none;
