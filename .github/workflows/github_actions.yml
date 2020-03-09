@@ -26,10 +26,6 @@ jobs:
         for file in *.md; do tac "$file" > "/tmp/$file" && echo -e ---\\n--- >> "/tmp/$file" && tac "/tmp/$file" > "$file"; done 
         cd ..
         mv wiki-nav.html _docs/ && mv index.md _docs/ && mv Home.md _docs/
-        if [[ "$(git diff --cached)" != "" ]] ; then
-          git add _docs
-          git commit -m "Update Wiki Content (Automatic)"
-          git push https://$GITHUB_API_KEY@github.com/foundry-vtt-community/foundry-vtt-community.github.io.git HEAD:master
-        fi
-        
-        
+        git add _docs
+        git commit -m "Update Wiki Content (Automatic)"
+        git push https://$GITHUB_API_KEY@github.com/foundry-vtt-community/foundry-vtt-community.github.io.git HEAD:master
