@@ -3,11 +3,13 @@
 <!--tl=2-->
 <!--ts-->
    * [Foundry VTT Modules (Universal)](#foundry-vtt-modules-universal)
-      * [Actually Private Rolls](#actually-private-rolls)
+      * [About Time](#about-time)
       * [Always Show Notes](#always-show-notes)
       * [Anvil Menu](#anvil-menu)
       * [Arcane Viewing](#arcane-viewing)
+      * [Babele](#babele)
       * [BubbleRolls](#bubblerolls)
+      * [Calendar/Weather](#calendarweather)
       * [Chat Autoloader](#chat-autoloader)
       * [Combat Utility Belt (Beta)](#combat-utility-belt-beta)
       * [Cursor Hider](#cursor-hider)
@@ -15,23 +17,23 @@
       * [Dice Calculator](#dice-calculator)
       * [Discord Rich Presence](#discord-rich-presence)
       * [Display Mode](#display-mode)
+      * [Easy Target](#easy-target)
       * [Enhanced Playlist](#enhanced-playlist)
       * [FFG Roller](#ffg-roller)
       * [Foundry Hot Seat Observer](#foundry-hot-seat-observer)
       * [Foundry Patrol](#foundry-patrol)
       * [Foundry Pin](#foundry-pin)
       * [The Furnace](#the-furnace)
+      * [FX Master](#fx-master)
       * [GM Notes](#gm-notes)
       * [GM Scene Background](#gm-scene-background)
       * [Grid Scaler](#grid-scaler)
       * [Image Previewer](#image-previewer)
-      * [Journal Drag](#journal-drag)
       * [Layer Hotkeys](#layer-hotkeys)
       * [Less Fog](#less-fog)
       * [Special Dice Roller](#special-dice-roller)
       * [Maestro](#maestro)
       * [Merge Walls](#merge-walls)
-      * [Message Age Restriction](#message-age-restriction)
       * [Mother, May I?](#mother-may-i)
       * [No Token Animations](#no-token-animations)
       * [Permission Viewer](#permission-viewer)
@@ -48,6 +50,7 @@
       * [Torch](#torch)
       * [VTTA Iconizer](#vtta-iconizer)
       * [VTTA Tokenizer](#vtta-tokenizer)
+      * [ZoomKey](#zoomkey)
    * [Foundry VTT Modules for 13th Age](#foundry-vtt-modules-for-13th-age)
       * [13th Age Expanded](#13th-age-expanded)
    * [Foundry VTT Modules for DnD 5E](#foundry-vtt-modules-for-dnd-5e)
@@ -55,7 +58,6 @@
       * [Better Rolls for 5e](#better-rolls-for-5e)
       * [Beyond 20](#beyond-20)
       * [Chat Damage Buttons](#chat-damage-buttons)
-      * [Chat Damage Buttons - Better Rolls Edition](#chat-damage-buttons---better-rolls-edition)
       * [Chat Damage Buttons - Beyond20 Edition](#chat-damage-buttons---beyond20-edition)
       * [Compendium Browser](#compendium-browser)
       * [Critical Fumble](#critical-fumble)
@@ -70,16 +72,19 @@
       * [Kobold Press OGL](#kobold-press-ogl)
       * [Let Me Roll That For You! (LMRTFY)](#let-me-roll-that-for-you-lmrtfy)
       * [Loot Sheet NPC 5E](#loot-sheet-npc-5e)
+      * [Magic Items](#magic-items)
       * [Max Crit Damage](#max-crit-damage)
       * [Minor QOL Improvements](#minor-qol-improvements)
+      * [MyBeyond-Theme](#mybeyond-theme)
       * [NPC Browser](#npc-browser)
       * [Obsidian Character Sheets](#obsidian-character-sheets)
+      * [Pin Cushion](#pin-cushion)
       * [Polyglot](#polyglot)
       * [Polymorpher](#polymorpher)
       * [Roll20 Converter](#roll20-converter)
-      * [Roll20 NPC Importer, for 5e](#roll20-npc-importer-for-5e)
       * [Request Roll](#request-roll)
       * [Sky's 5th Edition Dungeons &amp; Dragons Sheet](#skys-5th-edition-dungeons--dragons-sheet)
+      * [Stat Drawer](#stat-drawer)
       * [Token Info Icons](#token-info-icons)
       * [VTTA D&amp;D Beyond Integration](#vtta-dd-beyond-integration)
       * [VTTA Party](#vtta-party)
@@ -89,6 +94,8 @@
       * [Arcane Marks &amp; Careers](#arcane-marks--careers)
       * [Rough Nights &amp; Hard Days](#rough-nights--hard-days)
    * [Foundry VTT Modules (Defunct)](#foundry-vtt-modules-defunct)
+      * [Actually Private Rolls](#actually-private-rolls)
+      * [Chat Damage Buttons - Better Rolls Edition](#chat-damage-buttons---better-rolls-edition)
       * [DDB Popper (use VTTA-DNDBEYOND instead)](#ddb-popper-use-vtta-dndbeyond-instead)
       * [DnD Beyond Character Importer (non-functional -- use VTTA-D&amp;D Beyond Integration instead)](#dnd-beyond-character-importer-non-functional----use-vtta-dd-beyond-integration-instead)
       * [Encumbrance Variant](#encumbrance-variant)
@@ -96,7 +103,9 @@
       * [FVTT-Party (Discontinued, see VTTA-Party for an successor)](#fvtt-party-discontinued-see-vtta-party-for-an-successor)
       * [GM Roll Message](#gm-roll-message)
       * [Infinite Folders](#infinite-folders)
+      * [Journal Drag](#journal-drag)
       * [NPC Browser](#npc-browser-1)
+      * [Roll20 NPC Importer, for 5e](#roll20-npc-importer-for-5e)
       * [Spell Browser](#spell-browser)
       * [SRD Bestiary Module](#srd-bestiary-module)
       * [Z Order (functionality integrated into core)](#z-order-functionality-integrated-into-core)
@@ -109,10 +118,10 @@
 
 Foundry modules that work across all or most systems are noted here. These may include reskins, general improvement mods, and more.
 
-## Actually Private Rolls
+## About Time
 
-* **Author**: Felix#6196
-* **Version**: 0.0.3
+* **Author**: @tposney
+* **Version**: 0.1.17
 * **Foundry VTT Compatibility**: 0.4.5
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: N/A
@@ -120,11 +129,13 @@ Foundry modules that work across all or most systems are noted here. These may i
 * **Translation Support**: EN (full)
 
 ### Link(s) to Module
-* [https://github.com/syl3r86/Actually-Private-Rolls](https://github.com/syl3r86/Actually-Private-Rolls)
-* [https://raw.githubusercontent.com/syl3r86/Actually-Private-Rolls/master/module.json](https://raw.githubusercontent.com/syl3r86/Actually-Private-Rolls/master/module.json)
+*  url: https://gitlab.com/tposney/about-time
+*  manifest: https://gitlab.com/tposney/about-time/raw/master/package/module.json
+*  download: https://gitlab.com/tposney/about-time/raw/master/package/about-time-v0.1.17.zip
 
 ### Description
-Hides Private GM Rolls completely rather then just obfuscating the result.
+Supports a pseudo real time game clock withe events and arbitrary calendars.
+See Readme.md and gettingStarted.md for more information.
 
 ---
 
@@ -188,22 +199,68 @@ Through the use of Arcane magic, you are able to see and hear your follow advent
 
 ---
 
+## Babele
+
+* **Author**: Simone#6710 (Discord).
+* **Version**: 1.2
+* **Foundry VTT Compatibility**: 0.4.5+
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
+* **Translation Support**: EN, IT
+
+### Link(s) to Module
+* [https://gitlab.com/riccisi/foundryvtt-babele](https://gitlab.com/riccisi/foundryvtt-babele) 
+* Manifest: [https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json](https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json)
+
+### Description
+Babele is a module for runtime translation of Compendium packs.
+
+---
+
 ## BubbleRolls
 
 * **U~man**: U~man#2374, contributions are welcome on core features, translations and new templates
-* **Version**: 0.3
+* **Version**: 0.3.1
 * **Foundry VTT Compatibility**: 0.4.5
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
-* **Module Conflicts**: None known
+* **Module Conflicts**: None knownd
 * **Translation Support**: English, French, Japanese
 
 ### Link(s) to Module
 * [https://gitlab.com/mesfoliesludiques/foundryvtt-bubblerolls](https://gitlab.com/mesfoliesludiques/foundryvtt-bubblerolls) 
-* [https://gitlab.com/mesfoliesludiques/foundryvtt-bubblerolls/raw/master/module.json](https://gitlab.com/mesfoliesludiques/foundryvtt-bubblerolls/raw/master/module.json) 
+* Manifest: [https://gitlab.com/mesfoliesludiques/foundryvtt-bubblerolls/-/raw/master/bubblerolls/module.json](https://gitlab.com/mesfoliesludiques/foundryvtt-bubblerolls/-/raw/master/bubblerolls/module.json)
 
 ### Description
 This module displays Actor Rolls in Chat Bubbles located on just above the Token. This module makes it easy for contributors to add templates of their own. More information on the gitlab link.
+
+---
+
+## Calendar/Weather
+
+* **Author**: Michael Sebelski [DasSauerkraut#3215]
+* **Version**: v1.0.4
+* **Foundry VTT Compatibility**: 4.7+
+* **Module Requirement(s)**: [about-time](https://gitlab.com/tposney/about-time) v1.6 or greater by tposney.
+* **Translation Support**: English
+
+### Link(s) to Module
+* URL: https://github.com/DasSauerkraut/calendar-weather
+* Manifest: https://raw.githubusercontent.com/DasSauerkraut/calendar-weather/master/package/module.json
+
+### Description
+A customizable module that accurately tracks and displays dates and time.
+#### Features:
+* Customizable calendar that handles arbitrarily long weeks, months, and years.
+* Intercalary day handling.
+* Real time time tracking at customizable speeds through about-time.
+* Persistant data through refreshes and closings.
+#### Upcoming Features:
+* Weather generation that takes custom seasons and climates into consideration, and generates extreme weather events like tornados.
+* Event tracking that handles reoccuring and one-time events.
+#### Controls
+![control menu](https://i.imgur.com/yUysSNH.png)
 
 ---
 
@@ -346,6 +403,24 @@ This module makes it so that when you click the anvil in the top left of the scr
 
 ---
 
+## Easy Target
+
+* **Author**: [Fyorl#1292](https://kim.mantas.me.uk)
+* **Version**: 1.0
+* **Foundry VTT Compatibility**: 0.4.7+
+* **Translation Support**: N/A
+
+### Link to Module
+
+* [https://bitbucket.org/Fyorl/easy-target](https://bitbucket.org/Fyorl/easy-target)
+* [https://bitbucket.org/Fyorl/easy-target/raw/master/module.json](https://bitbucket.org/Fyorl/easy-target/raw/master/module.json)
+
+### Description
+
+Target tokens while on any layer with alt+click. Clear all targeted tokens with alt+shift+c.
+
+---
+
 ## Enhanced Playlist
 
 * **Author**: trdischat#2123 on Discord.
@@ -427,8 +502,8 @@ Using this mod, you will be able to set up "Patrol Routes" which tokens will mov
 ## Foundry Pin
 
 * **Author**: [Fyorl#1292](https://kim.mantas.me.uk)
-* **Version**: 1.0
-* **Foundry VTT Compatibility**: 0.3.9+
+* **Version**: 2.0
+* **Foundry VTT Compatibility**: 0.4.4+
 * **Translation Support**: N/A
 
 ### Link to Module
@@ -460,6 +535,25 @@ Allows the user to pin windows which will be re-opened automatically the next ti
 The Furnace is an essential part of every Foundry. This Foundry VTT module brings Quality of Life Improvements to the VTT.
 
 It started by adding Drawing Tools, and then an experimental Macros system and now it also adds a 'Split Journal' feature. More QoL improvements are planned.
+
+---
+
+## FX Master
+
+* **U~man**: U~man#2374, contributions are welcome
+* **Version**: 0.1.0
+* **Foundry VTT Compatibility**: 0.4.5
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None known
+* **Translation Support**: -
+
+### Link(s) to Module
+* [https://gitlab.com/mesfoliesludiques/foundryvtt-fxmaster](https://gitlab.com/mesfoliesludiques/foundryvtt-fxmaster) 
+* Manifest: [https://gitlab.com/mesfoliesludiques/foundryvtt-fxmaster/-/raw/master/fxmaster/module.json](https://gitlab.com/mesfoliesludiques/foundryvtt-fxmaster/-/raw/master/fxmaster/module.json) 
+
+### Description
+This module adds weather effects to choose from in the scene configuration menu. You can now have animated flying birds, bubbles, embers and clouds.
 
 ---
 
@@ -545,14 +639,6 @@ A little app to preview images on hover in the file picker menu.
 
 ---
 
-## Journal Drag
-
-* **Author**: @tposney - discord
-* **Version**: 0.4.1
-* **Foundry VTT Compatibility**: 0.4+
-* **Obsolete as of version Foundry 0.4.2. of core. Please uninstall the module once updated to 0.4.2**
----
-
 ## Layer Hotkeys
 
 * **Author**: Moerill#7205 on Discord. He accepts donations at his [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYZ294SP2JBGS&source=url).
@@ -585,8 +671,8 @@ The Hotkeys can be seen by hovering over the button as well.
 ## Less Fog
 
 * **Author**: trdischat#2123 on Discord.
-* **Version**: 0.4.5
-* **Foundry VTT Compatibility**: 0.4.5+
+* **Version**: 0.5.1
+* **Foundry VTT Compatibility**: 0.5.1+
 * **System Compatibility (If applicable)**: Universal.
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
@@ -677,25 +763,6 @@ Backup your world before trying as it will change the walls in your world perman
 
 ---
 
-## Message Age Restriction
-
-* **Author**: Felix#6196 on Discord, syl3r31 on Github. He accepts donations on Paypal at felix.mueller.86@web.de
-* **Version**: 0.1
-* **Foundry VTT Compatibility**: 0.3.1+
-* **System Compatibility (If applicable)**: Universal
-* **Module Requirement(s)**: None
-* **Module Conflicts**: None
-* **Translation Support**: EN (full)
-
-### Link(s) to Module
-* [https://github.com/syl3r86/messageagerestriction](https://github.com/syl3r86/messageagerestriction)
-* [https://github.com/syl3r86/messageagerestriction/master/favtab/module.json](https://github.com/syl3r86/messageagerestriction/master/favtab/module.json)
-
-### Description
-A Foundry VTT Module to enable filtering chat-messages by their age. Each user can choose his own settings. It is possible to set the maximum age (in days) and to specify if the filter should be applied.
-
----
-
 ## Mother, May I?
 
 * **Author**: Deuce#8801 on Discord.
@@ -715,8 +782,8 @@ Allows trusted players to drag items and actors they own to the canvas as long a
 ## No Token Animations
 
 * **Author**: [Fyorl#1292](https://kim.mantas.me.uk)
-* **Version**: 1.0
-* **Foundry VTT Compatibility**: 0.3.5+
+* **Version**: 2.0
+* **Foundry VTT Compatibility**: 0.4.4+
 * **Translation Support**: EN (full)
 
 ### Link to Module
@@ -843,8 +910,8 @@ This module adds a button to the chat controls for easier access to rolltables. 
 ## Search Anywhere
 
 * **Author**: Simone#6710 on Discord
-* **Version**: 1.0.3
-* **Foundry VTT Compatibility**: 0.4.0+
+* **Version**: 1.4
+* **Foundry VTT Compatibility**: 0.4.5+
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
@@ -911,7 +978,7 @@ Adds a browser to the tiles layer to conveniently preview and then drag and drop
 * **Author**: Moerill#7205 on Discord. He accepts donations at his [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYZ294SP2JBGS&source=url).
 * **System Compatibility (If applicable)**: All, though some extra option for DnD5e
 * **Translation Support**: EN (full)
-* **Foundry VTT Compatibility**: 0.4+
+* **Foundry VTT Compatibility**: 0.4.7+
 ### Link(s) to Module
 * [https://gitlab.com/moerills-fvtt-modules/token-mold](https://gitlab.com/moerills-fvtt-modules/token-mold)
 * [https://gitlab.com/moerills-fvtt-modules/token-mold/raw/master/module.json](https://gitlab.com/moerills-fvtt-modules/token-mold/raw/master/module.json)
@@ -920,12 +987,14 @@ Adds a browser to the tiles layer to conveniently preview and then drag and drop
 What is a foundry without its molds? This module provides you with a customizable mold for your Tokens.
 On creation each unlinked Token will fit snugly into the pattern of your mold.
 **Features**
-- Automatic indexing
-- Random adjective prefixes (e.g. angry, calm, bloodthirsty, ...)
-- Hit Point rolling by formula (currently dnd5e only)
-- Overriding default token template config
-- Providing a customizable overlay to quickly  check some stats on Token hover
-
+- [Automatic indexing](https://gitlab.com/moerills-fvtt-modules/token-mold#automatic-indexing)
+- [Random name generation](https://gitlab.com/moerills-fvtt-modules/token-mold#random-name-generation) from 35(!) languages
+- [Override token config](https://gitlab.com/moerills-fvtt-modules/token-mold#override-token-config)
+- [Auras/Sticky Templates](https://gitlab.com/moerills-fvtt-modules/token-mold#sticky-templates). Make your templates follow your tokens around and even rotate with them.
+- [Customizable overlay](https://gitlab.com/moerills-fvtt-modules/token-mold#customizable-token-overlay) on token hover, for quick reference
+- [Automatic name hiding](https://gitlab.com/moerills-fvtt-modules/token-mold#hide-names)
+- [Hit Point rolling](https://gitlab.com/moerills-fvtt-modules/token-mold#hit-point-rolling) by formula (currently dnd5e only)
+- [Automatic token scaling](https://gitlab.com/moerills-fvtt-modules/token-mold#automatic-token-scaling) according to creature size and map grid distance.  (dnd5e and pf2e only)
 ---
 
 ## Torch
@@ -991,6 +1060,28 @@ Tokenizer provides the user with:
 - the ability to scale and translate each layer individually
 - automatic generation of a mask using the marching squares algorithm
 - automatic upload of the created tokens to the Foundry VTT server (requires 'Trusted Player' permission level)
+
+---
+
+## ZoomKey
+
+* **Author**: U~man#2374, contributions are welcome
+* **Version**: 0.2.1
+* **Foundry VTT Compatibility**: 0.4.x
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None known
+* **Translation Support**: No text
+
+### Link(s) to Module
+* [https://gitlab.com/mesfoliesludiques/foundryvtt-zoomkey](https://gitlab.com/mesfoliesludiques/foundryvtt-zoomkey) 
+* [https://gitlab.com/mesfoliesludiques/foundryvtt-zoomkey/-/raw/master/zoomkey/module.json](https://gitlab.com/mesfoliesludiques/foundryvtt-zoomkey/-/raw/master/zoomkey/module.json) 
+
+### Description
+Adds hotkeys for zooming and panning on the canvas without mousewheel
+- Zooming in: Page Up or Ctrl + '+'
+- Zooming out: Page Down or Ctrl + '-'
+- Panning : Ctrl + arrows
 
 ---
 # Foundry VTT Modules for 13th Age
@@ -1101,25 +1192,6 @@ This module allows you to use and roll sheets in DnD Beyond, and have those resu
 This module replaces the right-click context menu with buttons on the dice-roll chat message. This allows for quicker application of damage/healing.
 
 To install the module, download the zip file included in the Github module directory. Extract the zip file to `/public/modules`. Restart Foundry Virtual Tabletop.
-
----
-
-## Chat Damage Buttons - Better Rolls Edition
-
-* **Author**: Felix#6196 and hooking#0492
-* **Version**: 0.1
-* **Foundry VTT Compatibility**: written for and tested on v0.3.6
-* **Module Requirement(s)**: [Better Rolls for 5e](https://github.com/RedReign/FoundryVTT-BetterRolls5e) by RedReign
-* **Module Conflicts**: none known.
-* **Translation Support**: EN (full)
-
-### Link(s) to Module
-* [https://github.com/syl3r86/chatdamagebuttons-betterrolls](https://github.com/syl3r86/chatdamagebuttons-betterrolls)
-* [https://raw.githubusercontent.com/syl3r86/chatdamagebuttons-betterrolls/master/chatdamagebuttons-betterrolls5e/module.json](https://raw.githubusercontent.com/syl3r86/chatdamagebuttons-betterrolls/master/chatdamagebuttons-betterrolls5e/module.json)
-
-### Description
-A small module to add "Apply Damage" buttons to Red Reigns Better Rolls 5e Module, based on hookings Chat Damage Buttons.
-To install use the following link in Foundrys Module Setup https://raw.githubusercontent.com/syl3r86/chatdamagebuttons-betterrolls/master/chatdamagebuttons-betterrolls5e/module.json
 
 ---
 
@@ -1280,7 +1352,7 @@ Causes item cards to open in a window rather than in chat.  This allows you to o
 
 ### Link(s) to Module
 * [https://github.com/syl3r86/favtab](https://github.com/syl3r86/favtab)
-* [https://raw.githubusercontent.com/syl3r86/favtab/master/favtab/module.json](https://raw.githubusercontent.com/syl3r86/favtab/master/favtab/module.json)
+* [https://raw.githubusercontent.com/syl3r86/favtab/master/module.json](https://raw.githubusercontent.com/syl3r86/favtab/master/module.json)
 
 ### Description
 Adds a Favourite tab to display a customized list of items, feats and spells. Usable with the default dnd5e Character sheet. You can add any item from the inventory, spell book or feature section of the character sheet. This module also gives access to item charges. You can add these to any item on the favourite list or remove them by changing the maximum to 0. This uses the same data that is used by Moerill#7205's adnd5e module, since this data is not supported by default.
@@ -1290,8 +1362,8 @@ Adds a Favourite tab to display a customized list of items, feats and spells. Us
 ## Group Roll
 
 * **Author**: trdischat#2123 on Discord.
-* **Version**: 0.4.5
-* **Foundry VTT Compatibility**: 0.4.5+
+* **Version**: 0.4.7
+* **Foundry VTT Compatibility**: 0.4.7+
 * **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition.
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
@@ -1302,7 +1374,7 @@ Adds a Favourite tab to display a customized list of items, feats and spells. Us
 * [https://raw.githubusercontent.com/trdischat/grouproll/master/module.json](https://raw.githubusercontent.com/trdischat/grouproll/master/module.json)
 
 ### Description
-Implements group ability and skill check rolls per Player's Handbook, page 175: "*If at least half the group succeeds, the whole group succeeds.*" Modules also includes patches to implement the Halfling Lucky trait, and a house rule to use the average of 2d20 for normal skill and ability check rolls. Both of these patches can be disabled in config.js. All patches rely on the included `patchClass` utility function.
+Implements group ability and skill check rolls per Player's Handbook, page 175: "*If at least half the group succeeds, the whole group succeeds.*" The module also implements a house rule to use the average of 2d20 for normal skill and ability check rolls, and partially implements the D&D 5e Halfling Lucky trait. Both of these patches can be disabled in config.js. All patches rely on the included `patchClass` utility function.
 
 ---
 
@@ -1409,6 +1481,25 @@ This version was forked from Hooking's module which ended compatibility with Fou
 
 ---
 
+## Magic Items
+
+* **Author**: Simone#6710 (Discord).
+* **Version**: 1.4
+* **Foundry VTT Compatibility**: 0.4.7+
+* **System Compatibility (If applicable)**: DnD 5e
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
+* **Translation Support**: EN, IT
+
+### Link(s) to Module
+* [https://gitlab.com/riccisi/foundryvtt-magic-items](https://gitlab.com/riccisi/foundryvtt-magic-items) 
+* Manifest: [https://gitlab.com/riccisi/foundryvtt-magic-items/raw/master/module/module.json](https://gitlab.com/riccisi/foundryvtt-magic-items/raw/master/module/module.json)
+
+### Description
+This module adds the ability to create magical items with spells or feats that belong to the item itself, such as staffs or magic wands, which will be automatically inherited from the character who owns the item.
+
+---
+
 ## Max Crit Damage
 
 * **Author**: n3rf_herder#9026 on Discord.
@@ -1470,6 +1561,22 @@ Many thanks to @Red Rein @Hooking for allowing me to pillage their code.
 
 ---
 
+## MyBeyond-Theme
+* **Author**: Frederik Eschmann (Aylas#4838 on Discord; FreddyEs on GitHub)
+* **Version**: 1.0.0 (2020-02-09)
+* **Foundry VTT Compatibility**: 0.4.5+
+* **System Compatibility (If applicable)**: D&D 5e v0.81+
+* **Module Requirement(s)**: None
+* **Module Conflicts**: no known conflicts
+### Link(s) to Module
+* [https://fvtt-modules.eschmann.online/](https://fvtt-modules.eschmann.online/)
+* [https://fvtt-modules.eschmann.online/mybeyond-theme/module.json](https://fvtt-modules.eschmann.online/mybeyond-theme/module.json)
+### Description
+A simple css overwrite that brings the character sheet into a DnDBeyond like style without changing the function of the character sheet.
+Note: In Version 1.0.0, this module will also add styles for the ChatLog Messages and Chat Input, but will be made optional in a later version.
+
+---
+
 ## NPC Browser
 
 * **Author**: Felix#6196 on Discord, syl3r31 on Github. He accepts donations on Paypal at felix.mueller.86@web.de
@@ -1491,8 +1598,8 @@ This module adds a search interface for actors. This enables more comfortable br
 ## Obsidian Character Sheets
 
 * **Author**: [Fyorl#1292](https://kim.mantas.me.uk)
-* **Version**: 1.1.7
-* **Foundry VTT Compatibility**: 0.4.3+
+* **Version**: 2.1.1
+* **Foundry VTT Compatibility**: 0.4.5+
 * **Translation Support**: EN, DE, JP
 
 ### Link to Module
@@ -1503,6 +1610,25 @@ This module adds a search interface for actors. This enables more comfortable br
 ### Description
 
 A dark theme character sheet.
+
+---
+
+## Pin Cushion
+
+* **Author**: Evan Clarke (errational#2007 on Discord). Sponsorship button in the Github link below.
+* **Version**: 0.1.0
+* **Foundry VTT Compatibility**: 0.5.1+
+* **System Compatibility (If applicable)**: N/A
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
+* **Translation Support**: None
+
+### Link(s) to Module
+* [https://github.com/death-save/pin-cushion]( https://github.com/death-save/pin-cushion)
+* [Manifest](https://raw.githubusercontent.com/death-save/pin-cushion/master/module.json)
+
+### Description
+Changes map pin icon selection to filepicker
 
 ---
 
@@ -1562,25 +1688,6 @@ This module imports most facets of a campaign, including scenes, dynamic lightin
 
 ---
 
-## Roll20 NPC Importer, for 5e
-
-* **Author**: Felix#6196 on Discord, syl3r31 on Github. He accepts donations on Paypal at felix.mueller.86@web.de
-* **Version**: Roll20 NPC Importer 5e v0.5.1
-* **Foundry VTT Compatibility**: 0.3.0
-* **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
-* **Module Requirement(s)**: None.
-* **Module Conflicts**: None known.
-* **Translation Support**: EN (full), JA (full)
-
-### Link(s) to Module
-* [https://github.com/syl3r86/roll20npcimporter](https://github.com/syl3r86/roll20npcimporter)
-* [https://raw.githubusercontent.com/syl3r86/roll20npcimporter/master/roll20npcimporter/module.json](https://raw.githubusercontent.com/syl3r86/roll20npcimporter/master/roll20npcimporter/module.json)
-
-### Description
-This module allows for the importing of NPCs from Roll20, through use of JSONs exported via [VTT Enhancement Suite](https://ssstormy.github.io/roll20-enhancement-suite/). This import currently only supports NPCs created in the Roll20 OGL or Shaped version sheets. This module supports the Better NPC Sheet 5e, as well as the aDnD5e sheet in tagging actor items according to abilities, reactions, legendary actions, etc.  To install, first download the module, unzip it into `/public/modules`, and then restart Foundry while it is running.
-
----
-
 ## Request Roll
 
 * **Author**: Jacob McAuley Discord: @JacobMcAuley3461
@@ -1623,6 +1730,25 @@ This module provides a variant layout of the Core 5e Character Sheet in Foundry 
 * Adds the ability to click Known Languages under Traits to send the list to the chat window
 * Adds Tool, Armor, and Weapon proficiencies beneath Skills
 * Saves the scrollbar position when adding/deleting items from your inventory, features, or spellbook
+
+---
+
+## Stat Drawer
+
+* **Author**: Felix#6196 (Discord), Art by @Setsuretsu (Twitter)
+* **Version**: 0.1
+* **Foundry VTT Compatibility**: 0.4.7+
+* **System Compatibility (If applicable)**: dnd5e
+* **Module Requirement(s)**: none
+* **Module Conflicts**: none known
+* **Translation Support**: none yet
+
+### Link(s) to Module
+* Link: [https://github.com/syl3r86/statdrawer](https://github.com/syl3r86/statdrawer)
+* Manifest: [https://raw.githubusercontent.com/syl3r86/statdrawer/master/module.json](https://raw.githubusercontent.com/syl3r86/statdrawer/master/module.json)
+
+### Description
+A module for Foundry VTT that lets you generate ablitiy scores for characters using the "Holy Grail" method as described [here](https://www.reddit.com/r/DnD/comments/c67dft/oc_another_character_stat_generation_method_i/)!
 
 ---
 
@@ -1751,23 +1877,66 @@ Once installed, you'll find the careers in the Arcane Careers Compendium, and yo
 ## Rough Nights & Hard Days
 
 * **Author**: Jagusti#3610
-* **Version**: 0.4
-* **Foundry VTT Compatibility**: 0.4.0+
+* **Version**: 0.7
+* **Foundry VTT Compatibility**: 0.4.5+
 * **System Compatibility**: WFRP4e 0.9.0+
-* **Module Conflicts**: Any module that changes the species or career tables
+* **Module Conflicts**: Any module that changes (rather than extends) the species or career tables
 
 ### Link(s) to Module
 * https://github.com/Jagusti/fvtt-wfrp4e-rnhd/
 * `https://raw.githubusercontent.com/Jagusti/fvtt-wfrp4e-rnhd/master/module.json`
 
 ### Description
-Extends the character creation capabilities to gnomes, including their stats, background, features. Also includes pub games!
+
+* Extends the character creation capabilities to gnomes, including their stats, background, features. 
+* Also includes pub games
+* Adds campaign scenario content (see [readme.md](https://github.com/Jagusti/fvtt-wfrp4e-rnhd/blob/master/README.md) for current coverage)
 
 ---
 
 # Foundry VTT Modules (Defunct)
 
 Foundry VTT modules that no longer work are noted here. Modules included here have been defunct for at least one month. This exists to help document previous work on Foundry Virtual Tabletop by the community, as well as to exist as a record for anyone who chooses to remain on a previous version of Foundry VTT.  
+
+## Actually Private Rolls
+
+* **Depreciated**: See Moerils Chat Autoloader for similar functionality
+* **Author**: Felix#6196
+* **Version**: 0.0.3
+* **Foundry VTT Compatibility**: 0.4.5
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: N/A
+* **Module Conflicts**: No known conflicts
+* **Translation Support**: EN (full)
+
+### Link(s) to Module
+* [https://github.com/syl3r86/Actually-Private-Rolls](https://github.com/syl3r86/Actually-Private-Rolls)
+* [https://raw.githubusercontent.com/syl3r86/Actually-Private-Rolls/master/module.json](https://raw.githubusercontent.com/syl3r86/Actually-Private-Rolls/master/module.json)
+
+### Description
+Hides Private GM Rolls completely rather then just obfuscating the result.
+
+---
+
+## Chat Damage Buttons - Better Rolls Edition
+
+* **Discontinued**: The functionality has been added to the core features of Better Rolls
+* **Author**: Felix#6196 and hooking#0492
+* **Version**: 0.1
+* **Foundry VTT Compatibility**: written for and tested on v0.3.6
+* **Module Requirement(s)**: [Better Rolls for 5e](https://github.com/RedReign/FoundryVTT-BetterRolls5e) by RedReign
+* **Module Conflicts**: none known.
+* **Translation Support**: EN (full)
+
+### Link(s) to Module
+* [https://github.com/syl3r86/chatdamagebuttons-betterrolls](https://github.com/syl3r86/chatdamagebuttons-betterrolls)
+* [https://raw.githubusercontent.com/syl3r86/chatdamagebuttons-betterrolls/master/chatdamagebuttons-betterrolls5e/module.json](https://raw.githubusercontent.com/syl3r86/chatdamagebuttons-betterrolls/master/chatdamagebuttons-betterrolls5e/module.json)
+
+### Description
+A small module to add "Apply Damage" buttons to Red Reigns Better Rolls 5e Module, based on hookings Chat Damage Buttons.
+To install use the following link in Foundrys Module Setup https://raw.githubusercontent.com/syl3r86/chatdamagebuttons-betterrolls/master/chatdamagebuttons-betterrolls5e/module.json
+
+---
 
 ## DDB Popper (use VTTA-DNDBEYOND instead)
 
@@ -1905,6 +2074,16 @@ Sends an extra public message/hint when rolling a `gmroll` or `blindroll`.
 This Foundry VTT module allows you to create infinite depth of folders for Scenes, Actors, Items and Journals. No more limit to a depth of 2 folders (or none for Journal entries). This will also add a `New entity` button on folders so you can create it directly in the folder (does not work for Scenes though).
 
 ---
+
+
+## Journal Drag
+
+* **Author**: @tposney - discord
+* **Version**: 0.4.1
+* **Foundry VTT Compatibility**: 0.4+
+* **Obsolete as of version Foundry 0.4.2. of core. Please uninstall the module once updated to 0.4.2**
+
+---
 ## NPC Browser 
 
 * discontinued. functionality moved to Compendium Browser
@@ -1921,6 +2100,26 @@ This Foundry VTT module allows you to create infinite depth of folders for Scene
 
 ### Description
 This module adds a search interface for actors. This enables more comfortable browsing and searching via predefined filters like challenge rating, type or ability score.
+
+---
+
+## Roll20 NPC Importer, for 5e
+
+* **Depreicated**: No longer recieves updates. See R20 Converter here for similar functionality @ [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto)
+* **Author**: Felix#6196 on Discord, syl3r31 on Github. He accepts donations on Paypal at felix.mueller.86@web.de
+* **Version**: Roll20 NPC Importer 5e v0.5.1
+* **Foundry VTT Compatibility**: 0.3.0
+* **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
+* **Module Requirement(s)**: None.
+* **Module Conflicts**: None known.
+* **Translation Support**: EN (full), JA (full)
+
+### Link(s) to Module
+* [https://github.com/syl3r86/roll20npcimporter](https://github.com/syl3r86/roll20npcimporter)
+* [https://raw.githubusercontent.com/syl3r86/roll20npcimporter/master/roll20npcimporter/module.json](https://raw.githubusercontent.com/syl3r86/roll20npcimporter/master/roll20npcimporter/module.json)
+
+### Description
+This module allows for the importing of NPCs from Roll20, through use of JSONs exported via [VTT Enhancement Suite](https://ssstormy.github.io/roll20-enhancement-suite/). This import currently only supports NPCs created in the Roll20 OGL or Shaped version sheets. This module supports the Better NPC Sheet 5e, as well as the aDnD5e sheet in tagging actor items according to abilities, reactions, legendary actions, etc.  To install, first download the module, unzip it into `/public/modules`, and then restart Foundry while it is running.
 
 ---
 

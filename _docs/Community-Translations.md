@@ -3,9 +3,11 @@
 <!--tl=2-->
 <!--ts-->
    * [Languages](#languages)
+      * [Chinese 中文（简体）](#chinese-中文简体)
       * [French](#french)
       * [German](#german)
       * [Italian](#italian)
+      * [Korean](#korean)
       * [Portuguese (BR)](#portuguese-br)
       * [Russian (RU)](#russian-ru)
    * [Appendix](#appendix)
@@ -14,6 +16,23 @@
 <!--te-->
 
 # Languages
+
+## Chinese 中文（简体）
+
+### Core Game FoundryVTT 中文核心系统
+* **Authors**: Chivell
+* **Version**: 0.1
+* **Foundry VTT Compatibility**: 0.4+
+
+#### Link(s) to Translation 链接
+* Gitlab : [https://gitlab.com/xtlcme/foundry-vtt-chn/cn-CN](https://gitlab.com/xtlcme/foundry-vtt-chn/cn-CN)
+* Manifest : [https://gitlab.com/xtlcme/foundry-vtt-chn/raw/master/cn-CN/module.json](https://gitlab.com/xtlcme/foundry-vtt-chn/raw/master/cn-CN/module.json)
+
+#### Description 描述
+将中文添加到FoundryVTT的核心系统中。之后在游戏世界中的设置选择语言为【中文（简体）】即可。
+目前仅汉化了核心系统提供的部分，后续会继续根据翻译。
+
+---
 
 ## French
 
@@ -117,18 +136,52 @@ For issues or translation problems, contact ariakas81#9664 or Simone#6710 on Dis
 
 ---
 
+## Korean
+
+### Core Game FoundryVTT 
+* **Author**: Shoyu Vanilla#3445 on Discord
+* **Version**: 0.1.2
+* **Foundry VTT Compatibility**: 0.47+
+
+#### Link(s) to Translation
+* Github : [https://github.com/ShoyuVanilla/FoundryVTT-lang-ko-KR](https://github.com/ShoyuVanilla/FoundryVTT-lang-ko-KR)
+* Manifest : [https://raw.githubusercontent.com/ShoyuVanilla/FoundryVTT-lang-ko-KR/master/module.json](https://raw.githubusercontent.com/ShoyuVanilla/FoundryVTT-lang-ko-KR/master/module.json)
+
+#### Description
+This module adds the option to select the Korean language from the FoundryVTT settings menu. Selecting this option will translate various aspects of the program interface.
+
+이 모듈은 FoundryVTT 설정 메뉴에 한국어 선택 옵션을 추가합니다. 이 옵션을 선택하면 프로그램 인터페이스의 여러 영역이 한국어로 번역됩니다.
+
+---
+
 ## Portuguese (BR)
 
-* **Authors**: Miriadis#9152, Bellenus#5269 and Thomaz M.#7564 on Discord
-* **Version**: 0.1.0
-* **Foundry VTT Compatibility**: 0.3+
+* **Authors**: Miriadis#9152, Bellenus#5269, Thomaz M.#7564 and Melithian539#0625 on Discord
+* **Version**: 0.2.3
+* **Foundry VTT Compatibility**: 0.4+
 
 ### Link(s) to Translation
 * [https://gitlab.com/elvis-pereira/foundryvtt-brazilian-portuguese](https://gitlab.com/elvis-pereira/foundryvtt-brazilian-portuguese)
 * [https://gitlab.com/elvis-pereira/foundryvtt-brazilian-portuguese/raw/master/pt-BR/module.json](https://gitlab.com/elvis-pereira/foundryvtt-brazilian-portuguese/raw/master/pt-BR/module.json)
 
 ### Description
-Foundry VTT Brazilian (Portuguese) translation.
+This module adds the option to select the Português (Brasil) language from the FoundryVTT settings menu. Selecting this option will translate various aspects of the program interface.  
+
+Esse módulo adiciona a opção de selecionar o idioma Português (Brasil) no menu de configurações do FoundryVTT. Ao selecionar essa opção você obterá a tradução de diversos aspectos da interface do programa.
+
+### Dungeons & Dragons 5th Edition System [Author : Atropos]
+* **Authors**: Melithian539#0625 on Discord
+* **Version**: 0.1.0
+* **Foundry VTT Compatibility**: 0.4+
+
+#### Link(s) to Translation
+* Gitlab : [https://gitlab.com/Caua539/foundryvtt-dnd5e-brazilian-portuguese](https://gitlab.com/Caua539/foundryvtt-dnd5e-brazilian-portuguese)
+* Manifest : [https://gitlab.com/Caua539/foundryvtt-dnd5e-brazilian-portuguese/raw/master/dnd5e_pt-BR/module.json](https://gitlab.com/Caua539/foundryvtt-dnd5e-brazilian-portuguese/raw/master/dnd5e_pt-BR/module.json)
+
+#### Description
+This module adds the option to translate to Portuguese language the FoundryVTT Dungeons and Dragons 5th Edition System. This modules only translates words in places related to the DND 5E system, like sheets and rolls. This module doesn't translate other parts of the FoundryVTT interface.  
+
+Adiciona o idioma Português (Brasil) para o sistema de jogo D&D 5E no FoundryVTT. Esse módulo traduz somente os termos relacionados ao sistema de D&D 5E, como as fichas e rolagens. Esse módulo não traduz outras partes do FoundryVTT.
 
 ---
 
