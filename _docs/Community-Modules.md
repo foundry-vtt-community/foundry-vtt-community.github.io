@@ -4,6 +4,7 @@
 <!--ts-->
    * [Foundry VTT Modules (Universal)](#foundry-vtt-modules-universal)
       * [About Time](#about-time)
+      * [Actually Private Rolls](#actually-private-rolls)
       * [Always Show Notes](#always-show-notes)
       * [Babele](#babele)
       * [BubbleRolls](#bubblerolls)
@@ -80,11 +81,9 @@
       * [Max Crit Damage](#max-crit-damage)
       * [Minor QOL Improvements](#minor-qol-improvements)
       * [MyBeyond-Theme](#mybeyond-theme)
-      * [NPC Browser](#npc-browser)
       * [Obsidian Character Sheets](#obsidian-character-sheets)
       * [Pin Cushion](#pin-cushion)
       * [Polyglot](#polyglot)
-      * [Polymorpher](#polymorpher)
       * [Roll20 Converter](#roll20-converter)
       * [Request Roll](#request-roll)
       * [Sky's 5th Edition Dungeons &amp; Dragons Sheet](#skys-5th-edition-dungeons--dragons-sheet)
@@ -99,7 +98,6 @@
       * [Rough Nights &amp; Hard Days](#rough-nights--hard-days)
       * [Gerwin Waffenhalter’s Magnificent Weapons Gallery](#gerwin-waffenhalters-magnificent-weapons-gallery)
    * [Foundry VTT Modules (Defunct)](#foundry-vtt-modules-defunct)
-      * [Actually Private Rolls](#actually-private-rolls)
       * [Anvil Menu](#anvil-menu)
       * [Arcane Viewing (module integrated into core)](#arcane-viewing-module-integrated-into-core)
       * [Chat Damage Buttons - Better Rolls Edition](#chat-damage-buttons---better-rolls-edition)
@@ -112,6 +110,7 @@
       * [Infinite Folders](#infinite-folders)
       * [Journal Drag](#journal-drag)
       * [NPC Browser](#npc-browser-1)
+      * [Polymorpher](#polymorpher)
       * [Roll20 NPC Importer, for 5e](#roll20-npc-importer-for-5e)
       * [Spell Browser](#spell-browser)
       * [SRD Bestiary Module](#srd-bestiary-module)
@@ -143,6 +142,25 @@ Foundry modules that work across all or most systems are noted here. These may i
 ### Description
 Supports a pseudo real time game clock withe events and arbitrary calendars.
 See Readme.md and gettingStarted.md for more information.
+
+---
+
+## Actually Private Rolls
+
+* **Author**: Felix#6196
+* **Version**: 0.0.3
+* **Foundry VTT Compatibility**: 0.4.5
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: N/A
+* **Module Conflicts**: No known conflicts
+* **Translation Support**: EN (full)
+
+### Link(s) to Module
+* [https://github.com/syl3r86/Actually-Private-Rolls](https://github.com/syl3r86/Actually-Private-Rolls)
+* [https://raw.githubusercontent.com/syl3r86/Actually-Private-Rolls/master/module.json](https://raw.githubusercontent.com/syl3r86/Actually-Private-Rolls/master/module.json)
+
+### Description
+Hides Private GM Rolls completely rather then just obfuscating the result.
 
 ---
 
@@ -1679,24 +1697,6 @@ Note: In Version 1.0.0, this module will also add styles for the ChatLog Message
 
 ---
 
-## NPC Browser
-
-* **Author**: Felix#6196 on Discord, syl3r31 on Github. He accepts donations on Paypal at felix.mueller.86@web.de
-* **Version: 0.1**
-* **Foundry VTT Compatibility**: 0.3.0  (discontinued, use Compendium Browser instead)
-* **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
-* **Module Requirement(s)**: None
-* **Module Conflicts**: None known
-* **Translation Support**: EN (full)
-
-### Link(s) to Module
-* [https://github.com/syl3r86/npc-browser](https://github.com/syl3r86/npc-browser)
-
-### Description
-This module adds a search interface for actors. This enables more comfortable browsing and searching via predefined filters like challenge rating, type or ability score.
-
----
-
 ## Obsidian Character Sheets
 
 * **Author**: [Fyorl#1292](https://kim.mantas.me.uk)
@@ -1750,25 +1750,6 @@ Changes map pin icon selection to filepicker
 
 ### Description
 Talk to others using a language your selected character can understand and scrambles in-character text you can't understand.
-
----
-
-## Polymorpher
-
-* **Author**: Felix#6196 on Discord, syl3r31 on Github. He accepts donations on Paypal at felix.mueller.86@web.de
-* **Version**: 0.3.5
-* **Foundry VTT Compatibility**: 0.4.4+
-* **System Compatibility (If applicable)**: Dungeons and Dragons 5th edition.
-* **Module Requirement(s)**: None.
-* **Module Conflicts**: Previous version of the module deleted actors, do not use v0.1.
-* **Translation Support**: EN (full)
-
-### Link(s) to Module
-* [https://github.com/syl3r86/polymorpher](https://github.com/syl3r86/polymorpher)
-* [https://raw.githubusercontent.com/syl3r86/polymorpher/master/module.json](https://raw.githubusercontent.com/syl3r86/polymorpher/master/module.json)
-
-### Description
-A module for Foundry VTT that lets you polymorph characters into any other character! Just drag any Actor (NPC or Character) on top of another Actor to change the later into the prior. Support dropping both from Compendium or the sidebar.
 
 ---
 
@@ -2003,26 +1984,6 @@ This module adds the 'Slashing' weapon quality as well as the expanded weapons f
 
 Foundry VTT modules that no longer work are noted here. Modules included here have been defunct for at least one month. This exists to help document previous work on Foundry Virtual Tabletop by the community, as well as to exist as a record for anyone who chooses to remain on a previous version of Foundry VTT.  
 
-## Actually Private Rolls
-
-* **Depreciated**: See Moerils Chat Autoloader for similar functionality
-* **Author**: Felix#6196
-* **Version**: 0.0.3
-* **Foundry VTT Compatibility**: 0.4.5
-* **System Compatibility (If applicable)**: Universal
-* **Module Requirement(s)**: N/A
-* **Module Conflicts**: No known conflicts
-* **Translation Support**: EN (full)
-
-### Link(s) to Module
-* [https://github.com/syl3r86/Actually-Private-Rolls](https://github.com/syl3r86/Actually-Private-Rolls)
-* [https://raw.githubusercontent.com/syl3r86/Actually-Private-Rolls/master/module.json](https://raw.githubusercontent.com/syl3r86/Actually-Private-Rolls/master/module.json)
-
-### Description
-Hides Private GM Rolls completely rather then just obfuscating the result.
-
----
-
 ## Anvil Menu
 
 * **Author**: Ionshard#7383 on Discord
@@ -2247,6 +2208,26 @@ This Foundry VTT module allows you to create infinite depth of folders for Scene
 
 ### Description
 This module adds a search interface for actors. This enables more comfortable browsing and searching via predefined filters like challenge rating, type or ability score.
+
+---
+
+## Polymorpher
+
+* Obsolte because its functionality has been merged to the core dnd5e system
+* **Author**: Felix#6196 on Discord, syl3r31 on Github. He accepts donations on Paypal at felix.mueller.86@web.de
+* **Version**: 0.3.5
+* **Foundry VTT Compatibility**: 0.4.4+
+* **System Compatibility (If applicable)**: Dungeons and Dragons 5th edition.
+* **Module Requirement(s)**: None.
+* **Module Conflicts**: Previous version of the module deleted actors, do not use v0.1.
+* **Translation Support**: EN (full)
+
+### Link(s) to Module
+* [https://github.com/syl3r86/polymorpher](https://github.com/syl3r86/polymorpher)
+* [https://raw.githubusercontent.com/syl3r86/polymorpher/master/module.json](https://raw.githubusercontent.com/syl3r86/polymorpher/master/module.json)
+
+### Description
+A module for Foundry VTT that lets you polymorph characters into any other character! Just drag any Actor (NPC or Character) on top of another Actor to change the later into the prior. Support dropping both from Compendium or the sidebar.
 
 ---
 
