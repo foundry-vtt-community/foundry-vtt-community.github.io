@@ -31,6 +31,7 @@
       * [GM Notes](#gm-notes)
       * [GM Scene Background](#gm-scene-background)
       * [Grid Scaler](#grid-scaler)
+      * [Image Drop](#image-drop)
       * [Image Previewer](#image-previewer)
       * [Layer Hotkeys](#layer-hotkeys)
       * [Less Fog](#less-fog)
