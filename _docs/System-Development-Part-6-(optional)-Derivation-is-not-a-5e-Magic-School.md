@@ -1,7 +1,11 @@
 ---
 ---
 
+
 ![](https://lh6.googleusercontent.com/1UfbCbWz54rZXds2llYZn0ebmut4mSwjCdqwpkHoJf4LIex2pdeE1Ao24vR1z9S4O3n7-uatgsmN5oBKaQZrdt9qnKH5rCYICBYpew1abnkZn52H4EPZRkcN4XBE6Uhhsex-gKp4)
+
+# FLAGGED FOR REVIEW
+this entry has been flagged for review. Due to some changes in Simple Worldbuilding System's structure (it now has an Actor Class) some of this may not be accurate (particularly the portion about SWS not having an actor class. 
 
 # Optional  
 
@@ -90,7 +94,7 @@ Our actor class needs to contain the following JavaScript for it to work with Fo
 
   
 
-Replace “MySystem” in ActorMySystem with whatever you want, as long as you follow that capitalization pattern for consistency.
+Replace “MySystem” in ActorMySystem with whatever you want, as long as you follow that capitalisation pattern for consistency.
 
     export  class  ActorMySystem  extends  Actor {
     
@@ -172,11 +176,72 @@ In **./modules/simple.js**
     /* -------------------------------------------- */
     
       
+Not quite done though! We have one more step to take, because simply importing the code isn't enough, we need to tell JavaScript to -use it-. Scroll down in this file and locate > Hooks.once("init"....
+
+Before
+
+
+    Hooks.once("init", async  function() {
+    
+    console.log(`Initializing Simple Worldbuilding System`);
+    
+      
+    
+    /**
+    
+    * Set an initiative formula for the system
+    
+    * @type  {String}
+    
+    */
+    
+    CONFIG.Combat.initiative = {
+    
+    formula:  "1d20",
+    
+    decimals:  2
+    
+    };
+    
+      
+    
+    // Define custom Entity classes
+    CONFIG.Actor.entityClass = SimpleActor;
+
+After
+
+    Hooks.once("init", async  function() {
+    
+    console.log(`Initializing Simple Worldbuilding System`);
+    
+      
+    
+    /**
+    
+    * Set an initiative formula for the system
+    
+    * @type  {String}
+    
+    */
+    
+    CONFIG.Combat.initiative = {
+    
+    formula:  "1d20",
+    
+    decimals:  2
+    
+    };
+    
+      
+    
+    // Define custom Entity classes
+    CONFIG.Actor.entityClass = ActorMySystem
 
 What this code does is:  
   
 
 -   Tells JavaScript to import our newly created **ActorClass** from the .js file we created
+-  Tells Foundry to use this class as an Actor Entity class
     
 
   
@@ -242,4 +307,5 @@ If it worked, when you refresh your sheet, and you should see “Testing Our Def
 Once it appears, change the value in the skills box. If it worked correctly, **defense** should always be equal to **agility+dodge**.
 
   
+
 That’s it. You now know how to have your sheet use derived values of any kind.
