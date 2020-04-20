@@ -150,4 +150,6 @@ Hooks.on("canvasPan", (canvas, options) => {
   };
   canvas.controls.getRulerForUser(game.userId).labels.children.map(c=>c.transform.scale.set(labelScale));
 });
+
 ```
+But maybe you should just make a macro and put it on hotbar
