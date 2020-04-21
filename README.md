@@ -1,7 +1,5 @@
 # Foundry Community Website Repository
 
-![CI for Foundry VTT Community Website](https://github.com/foundry-vtt-community/foundry-vtt-community.github.io/workflows/CI%20for%20Foundry%20VTT%20Community%20Website/badge.svg)
-
 ## Running Locally
 
 You need Ruby and gem before starting, then:
