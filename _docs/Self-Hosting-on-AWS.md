@@ -97,7 +97,7 @@ Hit Launch, wait while the spinner spins, then hit View Instances once you get t
 
 ## 5. Simple Storage Service (S3)
 
-If EC2 is what runs everything on AWS, S3 is what stores it (mostly).  The service mostly lives up to its name, as it provides an easy way to store large amounts of objects.  These objects can be, so far as we're concerned for this, of basically unlimited size -- sending more than 5gb in a single file requires special transfer methods, but other than that, as long as you're willing to pay per gigabyte-hour for it to get stored, they'll host it.  Open the Services menu and click on S3 near the top left.
+If EC2 is what runs everything on AWS, S3 is what stores it (mostly).  The service mostly lives up to its name, as it provides an easy way to store large amounts of objects.  These objects can be, so far as we're concerned for this, of basically unlimited size -- sending more than 5gb in a single file requires special transfer methods, but other than that, as long as you're willing to pay per gigabyte-month for it to get stored, they'll host it.  Open the Services menu and click on S3 near the top left.
 
 ![](https://github.com/foundry-vtt-community/wiki/blob/master/images/Getting%20Started/AWS%20Self%20Hosting/4-1.PNG)
 
@@ -186,7 +186,7 @@ The precise path will vary based on how you installed it.  The keys you need are
 
 Save the file, then go into the Configuration tab of the Foundry setup page.  Put the file path for the .json file into the AWS Configuration Path box, and hit Save Changes.  Note that is is from my personal setup -- yours may look different.
 
-<7-1>
+![](https://github.com/foundry-vtt-community/wiki/blob/master/images/Getting%20Started/AWS%20Self%20Hosting/7-1.PNG)
 
 Once you've done that, you should be able to launch a game table and open the image browser.  You should see a tab for Amazon S3 that will let you choose objects uploaded to S3 as well as upload objects to S3.  Note that if you like organization, you cannot create folders or delete in S3 from this tab at this time -- you'll need to use the S3 console to create folders for organization, or remove media you no longer need.
 
