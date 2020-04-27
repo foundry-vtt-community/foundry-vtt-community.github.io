@@ -65,9 +65,12 @@ You can find more complicated dice syntax (such as roll & keep) [here.](https://
 ## Roll Commands
 
 The `/r` or `/roll` command does a normal, public roll. You can use the following alternative commands as well:
+
 `/gmr` or `/gmroll` displays the roll to you and the GM only.
+
 `/br` or `/broll` or `/blindroll` displays the roll to the GM only (and hides it from you.)
-`/sr or `/selfroll` displays the roll only to you.
+
+`/sr` or `/selfroll` displays the roll only to you.
 
 
 ## Using Attributes
