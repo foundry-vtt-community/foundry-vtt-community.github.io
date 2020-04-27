@@ -148,14 +148,18 @@ You can reference almost any entity in Foundry in *any* textbox in Foundry, like
 
 | Entity          | Code                                |
 | --------------- | ----------------------------------- |
-| Character/Actor | `@Actor[Character Name]`            |
+| Character/Actor | `@Actor[Character Name]` (Note there must be an actor that exists with that name. Not just a Compendium entry.)            |
 | Scene           | `@Scene[Scene Name]`                |
-| Item            | `@Item[Item Name]`                  |
+| Item            | `@Item[Item Name]` (As with actor references, this refers to an item (see item sidebar). A Compendium entry isn’t enough.)                  |
 | Journal Entry   | `@JournalEntry[Journal Entry Name]` |
 | Roll Table      | `@RollTable[Roll Table Name]`       |
 | Macro           | `@Macro[Macro Name]`                |
 
-Note that linking to a macro or rollable table does not automatically roll it — it will create a button you must click to roll.
+Note that linking to a macro or rollable table does not automatically roll it — it will create a button you must click to roll. 
+
+Entry/object links are case-sensitive! Both the type (“JournalEntry”, not “journalEntry”) and the object’s name (“Abacus”, not “abacus”). You can also drag-and-drop objects to some places to create links.
+
+In the case of Actor, Item, and other references of the @<type>[<name>] style, a reference is created to a specific object’s ID. If that object is later deleted, even if a new one with the same name is made, the existing link won’t refer to the new object. Also note that if multiple choices for a given name exist, the “first” one will be picked. If that “first” one happens to be one that a player can’t see due to permissions, then even if there’s a “second” one the player can see, clicking the reference link will give them a permissions error.
 
 Example:
 
@@ -170,7 +174,7 @@ Displays this:
 You can format your journal entries, macros, etc — basically anything with a text box — using HTML. 
 
 **Learning HTML?**
-HTML is *extremely* simple. If you can put <h1> tags </h1> around some text, you can use HTML! If you want to learn some basic HTML, you can do the first few lessons before “create a text field” [here](https://www.freecodecamp.org/learn/), which all together shouldn’t take you more than 20 minutes.
+HTML is *extremely* simple. If you can put `<h1> tags </h1>` around some text, you can use HTML! If you want to learn some basic HTML, you can do the first few lessons before “create a text field” [here](https://www.freecodecamp.org/learn/), which all together shouldn’t take you more than 20 minutes.
 
 **Using the built-in HTML Editor**
 You don’t have to learn any HTML at all in order to make your formatting nice and pretty. On any description box (on your character, Journal entries, items, etc) there should be a text editor you can use. Just combine inline dice and references with using the buttons for formatting there to make things nice and pretty.
