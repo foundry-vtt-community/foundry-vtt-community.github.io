@@ -32,7 +32,21 @@ This is an implementation of the Fantasy Flight Games Star Wars roleplaying syst
 
 Requires the [Special Dice Roller](https://foundry-vtt-community.github.io/wiki/Community-Modules/#special-dice-roller) module for dice.
 
----	
+---
+
+# Powered by the Apocalypse
+
+## Monster of the Week
+* **Author**: U~man#2374 on Discord	
+* **Version**: 0.01	
+* **Foundry VTT Compatibility**: 0.5.5+	
+* **Translation Support**: EN, FR	
+
+### Link(s) to Game System	
+* [https://gitlab.com/mesfoliesludiques/foundryvtt-motw](https://gitlab.com/mesfoliesludiques/foundryvtt-motw)	
+* [https://gitlab.com/mesfoliesludiques/foundryvtt-motw/-/blob/master/system.json](https://gitlab.com/mesfoliesludiques/foundryvtt-motw/-/blob/master/system.json)
+
+---
 
 # Appendix	
 
