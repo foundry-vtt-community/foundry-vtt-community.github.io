@@ -107,7 +107,7 @@ sudo docker run --restart=always --name FoundryVTT.x.x.x -p 30000:30000 \
 ```
 
 ## jakvike 
-Using the node version. This dockerfile will copy your modules, worlds, assets, etc. into your docker image. 
+Using the node version zip. Extract the contents into foundryvtt directory below. This dockerfile will copy your modules, worlds, assets, etc. into your docker image. 
 I created a directory structure as:
 * FoundryVtt
     * foundryvtt
@@ -118,6 +118,7 @@ I created a directory structure as:
     * Dockerfile
 
 ### Contents of Docker File
+```yaml
 FROM node:12-alpine
 
 ENV UID=1000
@@ -136,4 +137,9 @@ COPY --chown=$UID /foundrydata/ .
 WORKDIR /home/foundry/app
 COPY /foundryvtt/ .
 
-CMD ["node", "/home/foundry/app/resources/app/main.js", "--headless", "--dataPath=/home/foundry/data" ]EXPOSE 80:30000
+EXPOSE 80:30000
+CMD ["node", "/home/foundry/app/resources/app/main.js", "--headless", "--dataPath=/home/foundry/data" ]
+```
+### Docker commands
+docker build . -t {something/something} 
+docker run --rm -it  -p 80:30000/tcp {something/something}:latestafter the build is finished
