@@ -146,6 +146,5 @@ CMD ["node", "/home/foundry/app/resources/app/main.js", "--headless", "--dataPat
 docker build . -t {something/something}
 ```
 after the build is finished
-
 ```yaml
 ```docker run --rm -it  -p 80:30000/tcp {something/something}:latest
