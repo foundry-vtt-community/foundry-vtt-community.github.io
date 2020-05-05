@@ -3,6 +3,11 @@
 <!--tl=2-->
 <!--ts-->
    * [Foundry Media](#foundry-media)
+   * [Maps](#maps)
+      * [Eightfold](#eightfold)
+      * [Neutral Party](#neutral-party)
+   * [Animated Maps](#animated-maps)
+   * [Music and Audio](#music-and-audio)
       * [GAMEAUDIOGDC BUNDLE](#gameaudiogdc-bundle)
    * [Appendix](#appendix)
       * [Appendix A: Adding Media](#appendix-a-adding-media)
@@ -12,6 +17,42 @@
 # Foundry Media
 
 Foundry media, such as music and artwork, that can be legally shared.
+
+# Maps
+
+## Eightfold
+
+* **Artist**: Eightfold Paper
+
+### Link(s) to Media
+* [https://www.patreon.com/EightfoldPaper/posts](https://www.patreon.com/EightfoldPaper/posts)
+
+### Description
+"Eightfold Paper is creating Battlemaps and Item Cards for Tabletop RPGs" *Eightfold Paper, Patreon*
+
+![https://i.imgur.com/T1Hu9ZM.jpg](https://i.imgur.com/T1Hu9ZM.jpg)
+
+---
+
+## Neutral Party
+
+* **Artist**: Neutral Party
+
+### Link(s) to Media
+* [https://www.patreon.com/neutralparty/posts](https://www.patreon.com/neutralparty/posts)
+
+### Description
+"Neutral Party is creating RPG Maps", *Neutral Party, Patreon*.
+
+![https://i.imgur.com/nEnvCIZ.jpg](https://i.imgur.com/nEnvCIZ.jpg)
+
+---
+
+# Animated Maps
+
+# Music and Audio
+
+Music and ambient sounds for your tabletop game.
 
 ## GAMEAUDIOGDC BUNDLE
 
@@ -28,7 +69,7 @@ Compressed files by a community member:
 Note: *always scan for viruses*
 ### Description
 90 GB+ of "high-quality sound effects from many of the best sound recordists and
-designers in the world", *soniss.com*
+designers in the world", *soniss.com*.
 Everything is royalty-free and commercially usable.
 The files are uncompressed and will need to be compressed to be used
 effectively in Foundry VTT.
