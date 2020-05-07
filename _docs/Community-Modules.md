@@ -1160,10 +1160,10 @@ Save/restore window position whem minimizing/maximizing.
 ## Speaker Stats
 
 * **Author**: JuanV#8807 on Discord
-* **Version**: 0.3.0
+* **Version**: 0.3.1
 * **Foundry VTT Compatibility**: 0.5.5
-* **System Compatibility (If applicable)**: Universal
-* **Module Requirement(s)**: None
+* **System Compatibility**: Universal
+* **Module Requirements**: None
 * **Module Conflicts**: None
 * **Translation Support**: English (full)
 
