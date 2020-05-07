@@ -15,7 +15,7 @@ bootwatch: superhero
 
 # Build Settings
 markdown: kramdown
-
+highlighter: pygments
 plugins:
   - jekyll-redirect-from
   - jekyll-seo-tag
