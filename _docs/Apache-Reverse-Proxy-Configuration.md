@@ -1,5 +1,7 @@
 ---
 ---
+This configuration is intended for use with Foundry 0.5.6 or later.  Compatibility with 0.5.5 and below is not guaranteed.
+
 Example configuration for setting up Apache2 as a reverse proxy for Foundry.  The list of modules required are in the comments at the start.  Credit to @Failbot42 on Discord for this.
 
 Replace vtt.example.com with your domain name where appropriate.
@@ -21,13 +23,13 @@ Replace vtt.example.com with your domain name where appropriate.
     SSLCertificateFile "/etc/letsencrypt/live/vtt.example.com/fullchain.pem"
     Include /etc/letsencrypt/options-ssl-apache.conf
     ProxyPreserveHost On
-    ProxyPass  "/socket.io/" "wss://localhost:30000/socket.io/"
+    ProxyPass  "/socket.io/" "ws://localhost:30000/socket.io/"
     ProxyPass / https://localhost:30000/
     ProxyPassReverse / https://localhost:30000/
 </VirtualHost>
 
-
 # Forward normal http requests to https
 <VirtualHost *:80>
     ServerName vtt.example.com
-</VirtualHost>```    Redirect permanent / https://vtt.example.com/
+    Redirect permanent / https://vtt.example.com/
+```</VirtualHost>
