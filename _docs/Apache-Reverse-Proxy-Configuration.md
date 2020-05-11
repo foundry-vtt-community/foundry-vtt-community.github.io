@@ -35,4 +35,16 @@ Replace vtt.example.com with your domain name where appropriate.
 <VirtualHost *:80>
     ServerName vtt.example.com
     Redirect permanent / https://vtt.example.com/
-```</VirtualHost>
+</VirtualHost>
+```
+
+Additionally, though not Apache specific, ensure your Foundry configuration is set to work from behind a reverse proxy to match your Apache configuration. For example, for the above, set the options in `foundrydata/Config/options.json` file like:
+```
+  "port": 30000,
+  "routePrefix": null,
+  "sslCert": null,
+  "sslKey": null,
+  "proxySSL": true,
+  "proxyPort": 443,
+```
+
