@@ -59,7 +59,7 @@ Ignore the section below, this is a test of using Handlebars syntax in the wiki.
 
 <!--- {% raw %} --->
 
-```
+```handlebars
     {{!-- ...continued... --}}
     {{!-- Sheet Tab Navigation --}}
     <nav class="sheet-tabs tabs" data-group="primary">
