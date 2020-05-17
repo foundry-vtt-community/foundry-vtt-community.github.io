@@ -70,4 +70,6 @@ Ignore the section below, this is a test of using Handlebars syntax in the wiki.
     </nav>
     {{!-- ...continued... --}}
 ```
+
 <!--- {% endraw %} --->
+- Test URL: [<a href="What-is-Foundry-VTT">What is Foundry VTT</a>](#what-is-foundry-vtt)
