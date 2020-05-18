@@ -51,4 +51,5 @@ WantedBy=multi-user.target
         }
     }
 ```
+
 After running certbot, certbot will modify your nginx config file to add ssl certs and optionally an http->https redirect

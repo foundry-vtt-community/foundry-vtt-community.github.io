@@ -108,11 +108,7 @@ if (barb !== undefined) {
 
         // optional extra step to toggle rage icon on token
         let token = canvas.tokens.ownedTokens.find(t => t.actor.id === macroActor.id);
-		if(token) {
-			// this path has to be edited to be the path to whatever icon you want. 
-			// alternativly, if you don't want to use a token aura, you can remove the line as well
-			token.toggleEffect('worlds/odyssey/images/playerfiles/icons/rage.svg');
-		}
+        token.toggleEffect('worlds/odyssey/images/playerfiles/icons/rage.svg');
     } else {
         chatMsg = `${macroActor.name} is raging.`;
 
@@ -137,11 +133,8 @@ if (barb !== undefined) {
 
         // optional extra step to toggle rage icon on token
         let token = canvas.tokens.ownedTokens.find(t => t.actor.id === macroActor.id);
-		if(token) {
-			// this path has to be edited to be the path to whatever icon you want. 
-			// alternativly, if you don't want to use a token aura, you can remove the line as well
-			token.toggleEffect('worlds/odyssey/images/playerfiles/icons/rage.svg');
-		}
+        token.toggleEffect('worlds/odyssey/images/playerfiles/icons/rage.svg');
+        token.update({ img: 'worlds/odyssey/images/playerfiles/artagantokenANGERY.png' });
 
         // remove charge
         let rageItem = macroActor.items.find(i => i.name === 'Rage');

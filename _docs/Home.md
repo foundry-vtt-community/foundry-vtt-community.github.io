@@ -50,14 +50,6 @@
 
 ### [Part 6: (optional) Derivation is not a 5e Magic School](System-Development-Part-6-(optional)-Derivation-is-not-a-5e-Magic-School)
 
-### [SD01: Getting started](SD01-Getting-started)
-
-### [SD01.2: Other options](SD01.2-Other-options)
-
-### [SD02: Stuff to be aware of](SD02-Stuff-to-be-aware-of)
-
-### [SD03: system.json](SD03-system.json)
-
 # [The Virtual Tabletop](The-Virtual-Tabletop)
 
 ## [Scene Controls](Scene-Controls)
