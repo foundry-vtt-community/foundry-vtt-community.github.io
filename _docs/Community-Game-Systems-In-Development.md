@@ -106,15 +106,12 @@ STABLE RELEASE (Use this!)
 * Readme: [https://github.com/Gerdofal/foundryvtt-cyberpunkred/blob/stable_release/README.md](https://github.com/Gerdofal/foundryvtt-cyberpunkred/blob/stable_release/README.md)
 * Manifest: [https://raw.githubusercontent.com/Gerdofal/foundryvtt-cyberpunkred/stable_release/system.json](https://raw.githubusercontent.com/Gerdofal/foundryvtt-cyberpunkred/stable_release/system.json)
 
-MASTER RELEASE (May not work as intended, used as a beta)
-* Readme: [https://github.com/Gerdofal/foundryvtt-cyberpunkred/blob/master/README.md](https://github.com/Gerdofal/foundryvtt-cyberpunkred/blob/master/README.md)
-
 ### Description	
-An in-progress game system for CyberpunkRED. Still very much in development as all we have are the jumpstart rules and the core rulebook isn't even out yet. Should be functional for the rules in the Cyberpunk RED Jumpstart Kit within a week or two.
+An in-progress game system for CyberpunkRED. Still very much in development as all we have are the jumpstart rules and the core rulebook isn't even out yet. Functional for the rules in the Cyberpunk RED Jumpstart Kit. Will also include options for common house rules.
 
 ### Installing
 
-The stable release is now usable. Paste the manifest URL into FoundryVTT to download. See readme for current status and future plans.
+The stable release is usable. Paste the manifest URL into FoundryVTT to download. See readme for current status and future plans.
 
 ---	
 
