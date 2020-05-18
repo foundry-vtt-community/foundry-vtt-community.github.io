@@ -40,7 +40,8 @@ Replace `vtt.example.com` with your domain name where appropriate, and `localhos
     ErrorLog "/var/log/httpd/vtt.example.com.error_log"
     CustomLog "/var/log/httpd/vtt.example.com.access_log" common
     LogLevel error
-    SSLProxyEngine on
+    # Uncomment this SSLProxyEngine line if Foundry running in SSL mode
+    #SSLProxyEngine on
     SSLCertificateKeyFile "/etc/letsencrypt/live/vtt.example.com/privkey.pem"
     SSLCertificateFile "/etc/letsencrypt/live/vtt.example.com/fullchain.pem"
     Include /etc/letsencrypt/options-ssl-apache.conf
@@ -90,7 +91,8 @@ Replace `vtt.example.com` with your domain name where appropriate, and `localhos
     ErrorLog "/var/log/httpd/vtt.example.com.error_log"
     CustomLog "/var/log/httpd/vtt.example.com.access_log" common
     LogLevel error
-    SSLProxyEngine on
+    # Uncomment SSLProxyEngine line if Foundry running in SSL mode
+    # SSLProxyEngine on
     SSLCertificateKeyFile "/etc/letsencrypt/live/vtt.example.com/privkey.pem"
     SSLCertificateFile "/etc/letsencrypt/live/vtt.example.com/fullchain.pem"
     Include /etc/letsencrypt/options-ssl-apache.conf
