@@ -78,6 +78,7 @@ Based on u/olirant's [tables for generating potions randomly](https://www.reddit
 ## Appendix D: Extracting DnDBeyond tables to importable json
 
 ```javascript
+
 /**
  * How to use this script.
  * 1. Right click on the table you wish to extract. Inspect element and grab the table id or the data-content-chunk-id
@@ -163,4 +164,5 @@ for (let i = 0; i < rows.length; i++) {
       drawn: false
    });
 }
-```console.save(jsonData);
+console.save(jsonData);
+```
