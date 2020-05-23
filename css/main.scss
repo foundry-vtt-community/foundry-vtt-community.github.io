@@ -54,8 +54,23 @@ body {
 	margin-top: 20px;
 }
 
-.body-container {
+.demo-container {
 	background: url('../img/incarnatesystem-min.png') no-repeat 50% 0;
+	color: #EEE;
+	background-color: rgba(0, 0, 0, 0.5);
+	background-blend-mode: darken;
+
+	h1 {
+		color: #EEE;
+	}
+	// background-attachment: fixed;
+	background-size: cover;
+	background-position: center 36%;
+	margin-top: -37px;
+}
+
+.modules-container {
+	background: url('../img/background2-min.png') no-repeat 50% 0;
 	color: #EEE;
 	background-color: rgba(0, 0, 0, 0.5);
 	background-blend-mode: darken;
