@@ -28,4 +28,4 @@ jobs:
         mv wiki-nav.html _docs/ && mv index.md _docs/ && mv Home.md _docs/
         git add _docs
         git commit -m "Update Wiki Content (Automatic)"
-        git push https://$GITHUB_API_KEY@github.com/foundry-vtt-community/foundry-vtt-community.github.io.git HEAD:master
+        git push https://$ACCESS_TOKEN@github.com/foundry-vtt-community/foundry-vtt-community.github.io.git HEAD:master
