@@ -15,7 +15,7 @@ jobs:
     - name: Run Scripts
       run: |     
         git config user.name "Wiki Sync"
-        git config user.email "fvtt-travisci@mail.com"
+        git config user.email "53021249+foundry-vtt-community-bot@users.noreply.github.com"
         git clone https://github.com/foundry-vtt-community/wiki.wiki
         mv _docs/wiki-nav.html . && mv _docs/index.md .
         rm -rf _docs
