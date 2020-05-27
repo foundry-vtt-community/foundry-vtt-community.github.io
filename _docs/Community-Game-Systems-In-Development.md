@@ -16,6 +16,7 @@ The list below is an unofficial list of game systems that are still a work in pr
    * [Star Trek Adventures (2d20)](#star-trek-adventures-(2d20))
    * [CyberpunkRED](#cyberpunkred)
    * [ZWEIHÄNDER Grim & Perilous RPG](#zweihÄnder-grim--perilous-rpg)
+   * [B/X D&D](#bx-dd)
    * [Appendix](#appendix)	
       * [Appendix A: Adding a Game System](#appendix-a-adding-a-game-system)	
       * [Appendix B: Best Editing Practices](#appendix-b-best-editing-practices)
@@ -154,6 +155,22 @@ It's still under development, so there's no special system.
 ![Example of a play image](https://dreamyaziumarand.sakura.ne.jp/cthulhu/kaihatuyou.jpg)  
 
 ---
+
+## B/X D&D	
+* **Author**: Norman J. Harman, njharman@gmail.com, BUTTER#4177 on discord	
+* **Version**: 0.2 pre-alpha	
+* **Foundry VTT Compatibility**: 0.6.0
+* **Translation Support**: English
+### Link(s) to Game System	
+* https://github.com/njharman/foundry_bx_system	
+* https://raw.githubusercontent.com/njharman/foundry_bx_system/master/system.json	
+### Description	
+Game System for playing 70's 80's old-school versions of Dungeons and Dragons. Focusing on automation. Supporting various optional house rules. Primarily the author's Wilderlands BX and Planet Eris OD&D.
+
+* Basic/Expert D&D aka B/X
+* Original D&D aka OD&D
+
+---	
 
 # Appendix	
 
