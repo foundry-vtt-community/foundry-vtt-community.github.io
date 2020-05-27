@@ -237,11 +237,77 @@ footer a:hover{
 	box-shadow: 0 0 5px #c7254e;
 }
 
-// code
+// code styling
 code {
 	color: #c7254e;
 	background-color: #f5f5f5;
 }
+
+code {
+	background: #222;
+	color: #efd098;
+	box-shadow: 0 0 3px #000;
+  }
+  
+  pre,
+  pre.highlight {
+	background: #222;
+	color: #fff;
+	border-color: #000;
+  }
+  
+  pre.highlight .nt,
+  pre.highlight .nl {
+	color: #35cedc;
+  }
+  
+  pre code {
+	box-shadow: none;
+  }
+  
+  pre.highlight .nn,
+  pre.highlight .s2,
+  pre.highlight .kd,
+  pre.highlight .p,
+  pre.highlight .k,
+  pre.highlight .o {
+	color: #f978ea;
+  }
+  
+  pre.highlight .p {
+	color: #fff;
+  }
+  
+  pre.highlight .c {
+	color: #666;
+  }
+  
+  pre.highlight .na {
+	color: #9cdc7b;
+  }
+  
+  pre.highlight .s,
+  pre.highlight .mi,
+  pre.highlight .s1 {
+	color: #ffc65d;
+  }
+  
+  pre.highlight .nv {
+	color: #fff;
+  }
+  
+  pre.highlight .nx {
+	  color: #9cdc7b;
+  }
+  
+  pre.highlight .nb,
+  pre.highlight .kc {
+	color: #5cc6ff;
+  }
+  
+  pre.highlight .kd {
+	  
+  }
 
 // resize containers
 .container {
