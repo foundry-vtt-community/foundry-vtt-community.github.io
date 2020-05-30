@@ -1,8 +1,6 @@
 ---
 ---
-Get Modules for Foundry VTT on the official site: https://foundryvtt.com/packages/
-
-The list below is an unofficial list of game modules.
+## Listed below are _unofficial_ and largely outdated game modules. Foundry VTT encourages users to instead use its official site for modules: https://foundryvtt.com/packages/
 
 <!--tl=2-->
 <!--ts-->
@@ -134,8 +132,7 @@ The list below is an unofficial list of game modules.
       * [SRD Bestiary Module](#srd-bestiary-module)
       * [Z Order (functionality integrated into core)](#z-order-functionality-integrated-into-core)
    * [Appendix](#appendix)
-      * [Appendix A: Adding a Module](#appendix-a-adding-a-module)
-      * [Appendix B: Best Editing Practices](#appendix-b-best-editing-practices)
+      * [Appendix A: Best Editing Practices](#appendix-a-best-editing-practices)
 <!--te-->
 
 # Foundry VTT Modules (Universal)
