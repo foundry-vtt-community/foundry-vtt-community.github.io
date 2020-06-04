@@ -1,2 +1,2 @@
 ---
-[Official Tutorial](http://foundryvtt.com/pages/tutorial.html)---
+[Official Tutorial](https://foundryvtt.com/article/tutorial/)---
