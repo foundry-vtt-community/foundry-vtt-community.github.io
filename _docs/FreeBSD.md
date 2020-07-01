@@ -1,6 +1,6 @@
 ---
 ---
-# Base install directly on the OS
+# Base install directly on FreeBSD, not for NAS
 
 Download the Linux version of Foundry and place it in a suitable location, such as **~/FoundryVTT**. Extract the contents (you may need to install zip using `pkg install zip`). The zip does not contain a top-level directory, so be sure you extract into an empty directory.
 
@@ -199,7 +199,7 @@ ee /config/Config/options.json
 Change the following fields:
 ```
 "upnp": false,
-"hostname": "my-public-foundry-DNS",
+"hostname": "DOMAIN-FOR-FOUNDRY",
 "proxySSL": true,
 "proxyPort": 443,
 ```
