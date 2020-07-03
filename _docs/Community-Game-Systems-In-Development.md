@@ -26,6 +26,7 @@ The list below is an unofficial list of game systems that are still a work in pr
    * [Torchbearer](#torchbearer)
    * [Wolves of God](#wolves-of-god) 
    * [Index Card RPG](#index-card-rpg)
+   * [Old School Essentials](#old-school-essentials)
    * [Appendix](#appendix)	
       * [Appendix A: Adding a Game System](#appendix-a-adding-a-game-system)	
       * [Appendix B: Best Editing Practices](#appendix-b-best-editing-practices)
@@ -344,6 +345,19 @@ Kevin Crawford's [Wolves of God - Adventures in Dark Ages England](https://www.d
 This Foundry VTT system allows creating **character sheets, NPC sheets and items** for ICRPG. The character sheet allows on-the-fly adding of items without the need to create them as stand-alone ones first. Items are easily equipped/unequipped directly from the character sheet's item list. Attributes are rollable by simply clicking them, i.e. Stats, Effort, Dying, Revive and Loot rolls. Note that items do not support attributes to be automatically added to the loot values of the character sheet. This is something the user has to track herself.
 
 I acquired **permission** from the author/designer, Brandish Gilhelm of [Runehammer Games](https://www.runehammer.online/) to make this game system available to the Foundry VTT community.
+
+---
+
+## Old School Essentials
+* **Author**: U~man#2374, contributions are welcome.
+* **Version**: 0.2
+* **Foundry VTT Compatibility**: 0.6
+* **Translation Support**: EN(full), fr(full)
+### Link(s) to Game System	
+* https://gitlab.com/mesfoliesludiques/foundryvtt-ose	
+* https://gitlab.com/mesfoliesludiques/foundryvtt-ose/-/raw/master/src/system.json
+### Description	
+An Old School Essentials system with basic automation and a fine looking sheet. Fully compatible with B/X and with several options that can fit with other OSRs: Ascending AC, Individual initiative, Variable Weapon damage, and many more to come. 
 
 ---
 
