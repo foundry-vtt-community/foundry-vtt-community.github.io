@@ -20,7 +20,7 @@ Please visit the README in the [fvtt-docker repository](https://github.com/Benja
 <!--ts-->
       * Dockerfile
       * docker-compose.yml
-      * foundryvtt-x.x.x.zip (Give by Patreon)
+      * foundryvtt-x.x.x.zip (Available on [https://foundryvtt.com](foundryvtt.com))
 
 **Dockerfile** describe installation of your container
 
@@ -93,7 +93,7 @@ services:
 
 ```
 
-#### **foundryvtt-x.x.x.zip** FoundryVTT (Give by Patreon)
+#### **foundryvtt-x.x.x.zip** FoundryVTT (Available on [https://foundryvtt.com](foundryvtt.com))
 copy your foundryvtt-x.x.x.zip file to the same level as the other files
 
 
