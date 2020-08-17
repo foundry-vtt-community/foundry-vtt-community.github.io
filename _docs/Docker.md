@@ -220,7 +220,7 @@ docker run \
   --env FOUNDRY_USERNAME='<your_username>' \
   --env FOUNDRY_PASSWORD='<your_password>' \
   --publish 30000:30000/tcp \
-  --volume /data:<your_data_dir> \
+  --volume <your_data_dir>:/data \
   felddy/foundryvtt:release
 ```
 
@@ -240,7 +240,7 @@ download URL for the software.
 docker run \
   --env FOUNDRY_RELEASE_URL='<temporary_url>' \
   --publish 30000:30000/tcp \
-  --volume /data:<your_data_dir> \
+  --volume <your_data_dir>:/data \
   felddy/foundryvtt:release
 ```
 For more information about the available configuration options please see the [project README](https://github.com/felddy/foundryvtt-docker#readme).  If you have any questions please feel free to contact me on the FoundryVTT discord: `@felddy`
