@@ -355,6 +355,19 @@ A Pen and Paper Roleplaying Game Set in the World of Pokemon. For a full list of
 To install, just import the system.json file to your FoundryVTT installation.
 
 ![](https://i.imgur.com/gA6BO1X.png)
+
+---	
+
+## Splittermond	
+* **Author**: Peter Laubender (Discord: TritonSchaumherz#8529)
+* **Version**: Pre-release	
+* **Foundry VTT Compatibility**: 0.6.6	
+* **Translation Support**: German	
+### Link(s) to Game System	
+* Coming soon!	
+### Description	
+An implementation of the German RPG "Splittermond" (Uhrwerk Verlag) as a game system for Foundry VTT. Still in very early development.
+
 ---	
 
 # Appendix	
