@@ -4,6 +4,7 @@
 <!--ts-->
    * [Foundry VTT Tools (Universal)](#foundry-vtt-tools-universal)
       * [DunGen](#dungen)
+      * [FG Converter](#fg-converter)
       * [Foundry Project Creator (FPC)](#foundry-project-creator-fpc)
       * [Table Importer](#table-importer)
    * [Appendix](#appendix)
@@ -27,6 +28,31 @@ Foundry tools that work across all or most systems are noted here. These differ 
 
 ### Description
 DunGen is a Dungeon Generator that creates high resolution maps ready to import into Foundry VTT. Alongside the maps, you can also generate a full scene file including pre-built walls to take full advantage of Foundry's lighting feature in only a minute. You can see it in action in [this short video](https://youtu.be/2RlPpLOFkhc).
+
+---
+
+## FG Converter
+
+* **Author**: grape_juice#2539 on Discord
+* **Version**: 0.0.1
+* **Foundry VTT Compatibility**: 0.6.0+
+
+### Link(s) to Tool
+* [Link to the repository](hhttps://gitlab.com/jesusafier/fg_converter)
+* [Link to the Patreon](https://www.patreon.com/foundry_grape_juice)
+
+### Description
+Converts Fantasy Grounds campaigns into FoundryVTT worlds.
+
+Current Generic Support Status: (This works for all game systems)
+
+- Refence Manuals and Books display
+- Scenes including walls and doors (even for FGC)
+- Journals
+- Journals on Scenes (map pins)
+- Rollable tables
+- Image asset de-noise and upscalling Token Example, Map Example (FG has "optimized" image assets that look really bad in modern VTTs)
+- Token placement on scenes
 
 ---
 
