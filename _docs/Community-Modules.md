@@ -775,7 +775,7 @@ This mod allows you to resize a grid more easily within Foundry, allowing easier
 
 ## Grape-Hud
 
-* **Author**: grape_juice#2539 on Discord.
+* **Author**: grape_juice#2539 on Discord, support on [Patreon](https://www.patreon.com/foundry_grape_juice).
 * **Version**: 0.0.10
 * **Foundry VTT Compatibility**: 0.6.0+
 * **System Compatibility (If applicable)**: Universal
@@ -785,7 +785,13 @@ This mod allows you to resize a grid more easily within Foundry, allowing easier
 
 ### Link(s) to Module
 * [https://gitlab.com/jesusafier/grape-hud](https://gitlab.com/jesusafier/grape-hud) 
-* [https://gitlab.com/jesusafier/grape-hud/-/raw/master/module.json](https://gitlab.com/jesusafier/grape-hud/-/raw/master/module.json) 
+* [https://gitlab.com/jesusafier/grape-hud/-/jobs/artifacts/master/raw/module.json?job=build-module
+](
+https://gitlab.com/jesusafier/grape-hud/-/jobs/artifacts/master/raw/module.json?job=build-module
+) 
+
+![](https://i.imgur.com/g3K34hm.gif)
+![](https://i.imgur.com/RhLdrKl.gif)
 
 ### Description
 
@@ -801,7 +807,7 @@ Currently has the following features:
 
 ## Grape_Juice - Manual Roll
 
-* **Author**: grape_juice#2539 on Discord.
+* **Author**: grape_juice#2539 on Discord, support on [Patreon](https://www.patreon.com/foundry_grape_juice).
 * **Version**: 0.0.2
 * **Foundry VTT Compatibility**: pre 0.7.x
 * **System Compatibility (If applicable)**: Universal
@@ -810,8 +816,8 @@ Currently has the following features:
 * **Translation Support**: EN (full)
 
 ### Link(s) to Module
-* [https://gitlab.com/jesusafier/grape_juice-manual-roll](https://gitlab.com/jesusafier/grape_juice-manual-roll) 
-* [https://gitlab.com/jesusafier/grape_juice-manual-roll/-/raw/master/module.json](https://gitlab.com/jesusafier/grape_juice-manual-roll/-/raw/master/module.json) 
+* [https://gitlab.com/fusafier/grape_juice-manual-roll](https://gitlab.com/jesusafier/grape_juice-manual-roll) 
+* [https://gitlab.com/jesusafier/grape_juice-manual-roll/-/jobs/artifacts/master/raw/module.json?job=build-module](https://gitlab.com/jesusafier/grape_juice-manual-roll/-/jobs/artifacts/master/raw/module.json?job=build-module) 
 
 ### Description
 Just a proof-of-concept for hooking into the roll system on pre 0.7.x
@@ -840,7 +846,7 @@ Allows rolling initiative once for each NPC group. Each NPC inside the group wil
 
 ## Haste
 
-* **Author**: grape_juice#2539 on Discord.
+* **Author**: grape_juice#2539 on Discord, support on [Patreon](https://www.patreon.com/foundry_grape_juice).
 * **Version**: 0.4.9
 * **Foundry VTT Compatibility**: 0.6.0+
 * **Module Requirement(s)**: None
@@ -849,7 +855,8 @@ Allows rolling initiative once for each NPC group. Each NPC inside the group wil
 
 ### Link(s) to Module
 * [https://gitlab.com/jesusafier/haste](https://gitlab.com/jesusafier/haste) 
-* [https://gitlab.com/jesusafier/haste/-/raw/master/module.json](https://gitlab.com/jesusafier/haste/-/raw/master/module.json)
+* [https://gitlab.com/jesusafier/haste/-/jobs/artifacts/master/raw/module.json?job=build-module](https://gitlab.com/jesusafier/haste/-/jobs/artifacts/master/raw/module.json?job=build-module)
+
 
 ### Description
 An experimental performance enhancement tweak modules for FoundryVTT it has 2 features:
@@ -1061,7 +1068,7 @@ Backup your world before trying as it will change the walls in your world perman
 
 ## MiniMap
 
-* **Author**: grape_juice#2539 on discord
+* **Author**: grape_juice#2539 on discord, support on [Patreon](https://www.patreon.com/foundry_grape_juice) 
 * **Version**: 0.0.7
 * **Foundry VTT Compatibility**: 0.6+
 * **System Compatibility (If applicable)**: Universal
@@ -1071,7 +1078,7 @@ Backup your world before trying as it will change the walls in your world perman
 
 ### Link(s) to Module
 * [https://gitlab.com/jesusafier/minimap](https://gitlab.com/jesusafier/minimap)
-* [https://gitlab.com/jesusafier/minimap/-/raw/master/module.json](https://gitlab.com/jesusafier/minimap/-/raw/master/module.json)
+* [https://gitlab.com/jesusafier/minimap/-/jobs/artifacts/master/raw/module.json?job=build-module](https://gitlab.com/jesusafier/minimap/-/jobs/artifacts/master/raw/module.json?job=build-module)
 
 ### Description
 Currently has the following features:
@@ -1080,6 +1087,7 @@ Currently has the following features:
 - Players view shows only explored areas.
 - All player token are shown live on the minimap.
 
+![](https://i.imgur.com/4feonG4.gif)
 ---
 
 ## Modbox
