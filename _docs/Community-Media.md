@@ -23,6 +23,8 @@
       * [Animated Dungeon Maps](#animated-dungeon-maps)
       * [Dynamic Dungeons](#dynamic-dungeons)
       * [Living Realms](#living-realms)
+   * [Miscellaneous](#miscellaneous)
+      * [Pierluigi Rimini](#pierluigi-rimini)
    * [Music and Audio](#music-and-audio)
       * [Adventure Music](#adventure-music)
       * [Michael Ghelfi](#michael-ghelfi)
@@ -262,6 +264,21 @@ is creating Animated Maps for Tabletop RPG Games", *Living Realms, Patreon*
 * [Patreon](https://www.patreon.com/LivingRealms/posts)
 
 ![https://i.imgur.com/UjvXpKJ.jpg](https://i.imgur.com/UjvXpKJ.jpg)
+
+---
+# Miscellaneous
+
+tokens, maps, effects, and more
+
+## Pierluigi Rimini
+
+"Hi, I'm Pierluigi. I'm a creative of assets for tabletop and RPG games. I like to create the digital-graphic parts to use in these games." *Pierluigi Rimini, Corvin*
+
+### Link(s) to Media
+* [Roll 20 Marketplace](https://marketplace.roll20.net/browse/publisher/98/pierluigi-rimini)
+* [Patreon](https://www.patreon.com/rpgassets)
+
+![https://i.imgur.com/jdH4iMx.png](https://i.imgur.com/jdH4iMx.png)
 
 ---
 
