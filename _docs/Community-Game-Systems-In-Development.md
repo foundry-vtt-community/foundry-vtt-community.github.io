@@ -30,6 +30,7 @@ The list below is an unofficial list of game systems that are still a work in pr
    * [Splittermond](#splittermond)
    * [Strike!](#strike)
    * [Mutant Year Zero](#mutant-year-zero)
+   * [Dusk City Outlaws](#dusk-city-outlaws)
    * [Appendix](#appendix)	
       * [Appendix A: Adding a Game System](#appendix-a-adding-a-game-system)	
       * [Appendix B: Best Editing Practices](#appendix-b-best-editing-practices)
@@ -417,6 +418,23 @@ You can find sheets for mutants, animals, robots and humans as well as the sheet
 Abilities and talents should remap themselves to appropriate types when added to characters, so for example if an ability is added to a mutant it becomes 'mutation' but if you add it to a robot it becomes a module
 
 ---
+
+## Dusk City Outlaws
+* **Author**: Mark D (Mark#2072 on Discord)
+* **Version**: 0.0.1 (ish)	
+* **Foundry VTT Compatibility**: 0.6.6	
+* **Translation Support**: EN	
+### Link(s) to Game System	
+* URL TBC	
+* Manifest TBC
+### Description
+Unofficial implementation for Dusk City Outlaws, including character sheets, Influence & Heat Trackers, Segment Trackers & Planning Timer. 
+
+No extra modules required. 
+
+Note - Initial release is nearly complete. Just working with creators of Dusk City Outlaws to get approval on a few things! Once done, will make everything public.		
+
+---	
 
 ```		
 
