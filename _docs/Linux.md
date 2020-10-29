@@ -28,6 +28,7 @@ After=network.target
 [Service]
 User=%i
 ExecStart=node /path/to/foundryvtt/resources/app/main.js
+Environment=FOUNDRY_VTT_DATA_PATH=/path/to/foundry/data/directory/
 Restart=on-failure
 
 [Install]
