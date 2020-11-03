@@ -29,7 +29,6 @@ The list below is an unofficial list of game systems that are still a work in pr
    * [Pokemon Tabletop United (PTU)](#pokemon-tabletop-united)
    * [Splittermond](#splittermond)
    * [Strike!](#strike)
-   * [Mutant Year Zero](#mutant-year-zero)
    * [Dusk City Outlaws](#dusk-city-outlaws)
    * [Chronicle System] (#chroniclesystem)
    * [Appendix](#appendix)	
@@ -402,21 +401,6 @@ An implementation of the German RPG "Splittermond" (Uhrwerk Verlag) as a game sy
 ### Description	
 
 https://www.strikerpg.com/
-
----
-
-## Mutant Year Zero
-* **Author**: Stevan Radojevic (Discord:shteff#8724)
-* **Version**: 0.0.2	
-* **Foundry VTT Compatibility**: 0.6.6
-* **Translation Support**: English
-### Link(s) to Game System    
-* https://github.com/superseva/mutant-year-zero
-* https://raw.githubusercontent.com/superseva/mutant-year-zero/master/system.json
-### Description    
-Unofficial sheets for playing Mutant Year Zero. Still waiting for the reply from Free League. They are playable but not largely tested yet.
-You can find sheets for mutants, animals, robots and humans as well as the sheets for items like weapons, armor, abilities, talents, gear, artifacts.
-Abilities and talents should remap themselves to appropriate types when added to characters, so for example if an ability is added to a mutant it becomes 'mutation' but if you add it to a robot it becomes a module
 
 ---
 
