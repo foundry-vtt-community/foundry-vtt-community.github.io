@@ -10,6 +10,7 @@ The list below is an unofficial list of game systems that are still a work in pr
       * [Monster of the Week](#monster-of-the-week)
    * [Blades in the Dark](#blades-in-the-dark)
    * [Chronicles of Darkness](#chronicles-of-darkness)
+   * [Mage the Awakening 2e](#mage-the-awakening-2e)
    * [Kryx RPG](#kryx-rpg)
    * [Star Trek Adventures (2d20)](#star-trek-adventures-(2d20))
    * [CyberpunkRED](#cyberpunkred)
@@ -102,6 +103,22 @@ A system for playing for Chronicles of Darkness, 2nd edition within Foundry Virt
 
 ---
 
+## Mage the Awakening 2e
+* **Author**: SoulCake#7804 (Discord), happily accepting donations on [https://ko-fi.com/soulcake](https://ko-fi.com/soulcake) :)
+* **Version**: 0.3.2
+* **Foundry VTT Compatibility**: 0.6.2+
+* **Translation Support**: EN
+
+### Link(s) to Game System	
+* [https://gitlab.com/MarlQ/mta](https://gitlab.com/MarlQ/mta)	
+* [https://gitlab.com/MarlQ/mta/-/raw/master/system.json](https://gitlab.com/MarlQ/mta/-/raw/master/system.json)	
+
+### Description	
+Update: Because of its popularity, I added support for Vampire: The Requiem. The other game systems will eventually be supported as well.
+For now purely a system for Mage the Awakening 2e, supporting Mages, Sleepwalkers, and normal Mortals. People can think of this as an alternative for the Chronicles of Darkness system by Burzghash, though some of my code has already found its way into Burzghash's system. It will be developed for at least another year, though development might continue afterwards if people are interested. The system is currently stable, and supports all necessary features to get started. The character sheet design is vastly different from the original with many QoL features.
+
+---
+
 ## Kryx RPG
 * **Author**: shem / shemetz / itamarcu, shem#0226 on Discord
 * **Version**: 25.15.0-3
@@ -115,23 +132,7 @@ A system for playing for Chronicles of Darkness, 2nd edition within Foundry Virt
 ### Description	
 An implementation of the [Kryx RPG](https://www.kryxrpg.com/) system. It's based on the D&D 5e system (with major changes). Playable, a bit untested, currently lacks compatibility with 5e modules (which is a planned feature) and lacks most content from the website (also a planned feature).
 
----
-
-## Mage the Awakening 2e
-* **Author**: SoulCake#7804 (Discord), happily accepting donations on [https://ko-fi.com/soulcake](https://ko-fi.com/soulcake) :)
-* **Version**: 0.2.3
-* **Foundry VTT Compatibility**: 0.6.2+
-* **Translation Support**: EN
-
-### Link(s) to Game System	
-* [https://gitlab.com/MarlQ/mta](https://gitlab.com/MarlQ/mta)	
-* [https://gitlab.com/MarlQ/mta/-/raw/master/system.json](https://gitlab.com/MarlQ/mta/-/raw/master/system.json)	
-
-### Description	
-For now purely a system for Mage the Awakening 2e, supporting Mages, Sleepwalkers, and normal Mortals. People can think of this as an alternative for the Chronicles of Darkness system by Burzghash, though some of my code has already found its way into Burzghash's system. It will be developed for at least another year, though development might continue afterwards if people are interested. The system is currently stable, and supports all necessary features to get started. The character sheet design is vastly different from the original with many QoL features.
-
 ---	
-
 
 ## Star Trek Adventures (2d20)
 * **Author**: NickEast#1311
