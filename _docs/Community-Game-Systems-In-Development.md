@@ -31,7 +31,8 @@ The list below is an unofficial list of game systems that are still a work in pr
    * [Splittermond](#splittermond)
    * [Strike!](#strike)
    * [Dusk City Outlaws](#dusk-city-outlaws)
-   * [Chronicle System] (#chroniclesystem)
+   * [Chronicle System] (#chronicle-system)
+   * [Talisman Adventures] (#talisman-adventures)
    * [Appendix](#appendix)	
       * [Appendix A: Adding a Game System](#appendix-a-adding-a-game-system)	
       * [Appendix B: Best Editing Practices](#appendix-b-best-editing-practices)
@@ -434,6 +435,19 @@ Note - Initial release is nearly complete. Just working with creators of Dusk Ci
 Unofficial implementation for Green Ronin's Chronicle System, including character, npc, house, equipments, abilities and qualities sheets. 	
 
 Note: It is still incomplete and unusable, but you can follow the development.
+---
+
+## Talisman Adventures	
+* **Author**: HappySteve (shteff#8724)
+* **Version**: 0.1	
+* **Foundry VTT Compatibility**: 0.7.5
+* **Translation Support**: en
+### Link(s) to Game System	
+* https://github.com/superseva/talisman
+* https://raw.githubusercontent.com/superseva/talisman/main/system.json
+### Description	
+Unofficial sheets with roller for Talisman Adventures. Roller handless bonus die, modifiers, Attributes/Aspects, Focus, Wounds, Encumbrance and Armor Agility Penalty. You can find a preview here [https://www.youtube.com/watch?v=-gWW9iUVl78](https://www.youtube.com/watch?v=-gWW9iUVl78)
+---	
 
 ```	
 ```		
