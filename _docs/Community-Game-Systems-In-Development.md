@@ -432,10 +432,10 @@ Note - Initial release is nearly complete. Just working with creators of Dusk Ci
 * https://github.com/3darkman/foundryvtt-chroniclesystem
 * https://raw.githubusercontent.com/3darkman/foundryvtt-chroniclesystem/develop/system.json	
 ### Description	
-Unofficial implementation for Green Ronin's Chronicle System, including character, npc, house, equipments, abilities and qualities sheets. 	
-
+Unofficial implementation for Green Ronin's Chronicle System, including character, npc, house, equipments, abilities and qualities sheets.
 Note: It is still incomplete and unusable, but you can follow the development.
----
+
+---	
 
 ## Talisman Adventures	
 * **Author**: HappySteve (shteff#8724)
