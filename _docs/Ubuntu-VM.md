@@ -128,6 +128,8 @@ Foundry VTT | 2019-07-08 10:26:51 | [info] Server started and listening on port 
 ```
 
 Great! Let's kill the process with `CTRL-C`.
+If you encounter an error message that the default data directory doesn't exist, create it:
+`mkdir -p /home/ubuntu/.local/share/FoundryVTT` and try again.
 
 ## Run Foundry Using the Process Manager pm2
 
